@@ -9,7 +9,8 @@
       "meaning": "어디에나 있는, 편재하는",
       "example": "Machine learning has become ubiquitous in modern biomedical research.",
       "exampleKo": "머신러닝은 현대 생의학 연구에서 어디에나 존재하게 되었다.",
-      "added": "2026-08-02"
+      "added": "2026-08-02",
+      "audioUrl": "audio/ubiquitous.mp3"
     },
     {
       "id": "salient",
@@ -19,7 +20,8 @@
       "meaning": "두드러진, 가장 중요한",
       "example": "The authors highlight several salient features of the proposed model.",
       "exampleKo": "저자들은 제안한 모델의 몇 가지 두드러진 특징을 강조한다.",
-      "added": "2026-08-02"
+      "added": "2026-08-02",
+      "audioUrl": "audio/salient.mp3"
     },
     {
       "id": "corroborate",
@@ -29,7 +31,8 @@
       "meaning": "(증거로) 입증하다, 뒷받침하다",
       "example": "These findings corroborate earlier results from independent cohorts.",
       "exampleKo": "이 결과들은 독립된 코호트에서 나온 이전 결과들을 뒷받침한다.",
-      "added": "2026-08-02"
+      "added": "2026-08-02",
+      "audioUrl": "audio/corroborate.mp3"
     },
     {
       "word": "heuristic",
@@ -39,7 +42,8 @@
       "example": "They used a greedy heuristic to approximate the solution.",
       "exampleKo": "그들은 해를 근사하기 위해 탐욕적 휴리스틱을 사용했다.",
       "id": "heuristic",
-      "added": "2026-08-02"
+      "added": "2026-08-02",
+      "audioUrl": "audio/heuristic.mp3"
     }
   ]
 }

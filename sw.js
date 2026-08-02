@@ -1,5 +1,5 @@
 /* 오프라인 지원: 앱 셸은 캐시 우선, words.json은 네트워크 우선 */
-const CACHE = 'vocab-v2';
+const CACHE = 'vocab-v3';
 const SHELL = [
   './',
   './index.html',
@@ -31,6 +31,17 @@ self.addEventListener('fetch', e => {
         caches.open(CACHE).then(c => c.put('./words.json', clone));
         return res;
       }).catch(() => caches.match('./words.json'))
+    );
+    return;
+  }
+  // 발음 mp3(같은 출처 audio/*): 캐시 우선 + 최초 재생 시 캐시에 저장 → 오프라인 재생
+  if (url.origin === self.location.origin && url.pathname.includes('/audio/')) {
+    e.respondWith(
+      caches.match(e.request).then(r => r || fetch(e.request).then(res => {
+        const clone = res.clone();
+        caches.open(CACHE).then(c => c.put(e.request, clone));
+        return res;
+      }))
     );
     return;
   }

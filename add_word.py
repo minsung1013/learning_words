@@ -14,20 +14,25 @@ DB = pathlib.Path(__file__).parent / "words.json"
 def slug(w):
     return "".join(c for c in w.lower().strip() if c.isalnum() or c in " -").replace(" ", "-")
 
-def fetch_audio(word):
-    """사전 API에서 녹음된 발음 mp3 URL을 찾는다(실패 시 빈 문자열)."""
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
+AUDIO_DIR = DB.parent / "audio"
+
+def fetch_audio(word, wid):
+    """Google TTS로 발음 mp3를 받아 audio/<id>.mp3에 저장하고 상대경로 반환(실패 시 '').
+    재생 시점엔 저장소 내부 파일만 쓰므로 외부 의존이 없다(안정적·오프라인 캐시 가능)."""
+    q = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "en", "q": word})
+    url = "https://translate.google.com/translate_tts?" + q
     try:
-        url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + urllib.parse.quote(word)
-        with urllib.request.urlopen(url, timeout=8) as r:
-            data = json.loads(r.read())
-        for entry in data:
-            for p in entry.get("phonetics", []):
-                a = (p.get("audio") or "").strip()
-                if a:
-                    return a if a.startswith("http") else "https:" + a
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=10) as r:
+            blob = r.read()
+        if len(blob) < 500:
+            return ""
+        AUDIO_DIR.mkdir(exist_ok=True)
+        (AUDIO_DIR / f"{wid}.mp3").write_bytes(blob)
+        return f"audio/{wid}.mp3"
     except Exception:
-        pass
-    return ""
+        return ""
 
 def load():
     return json.loads(DB.read_text(encoding="utf-8")) if DB.exists() else {"version": 1, "words": []}
@@ -38,7 +43,7 @@ def add(db, entry):
     entry["id"] = wid
     entry.setdefault("added", datetime.date.today().isoformat())
     if not entry.get("audioUrl"):            # 발음 mp3 미리 확보(있으면)
-        au = fetch_audio(entry["word"])
+        au = fetch_audio(entry["word"], wid)
         if au:
             entry["audioUrl"] = au
     words = db["words"]
