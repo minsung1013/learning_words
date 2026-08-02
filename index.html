@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>단어장 · Flashcards</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="단어장" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>📖 단어장</h1>
+    <nav class="tabs">
+      <button class="tab active" data-view="study">학습</button>
+      <button class="tab" data-view="list">목록</button>
+      <button class="tab" data-view="stats">통계</button>
+    </nav>
+  </header>
+
+  <main id="app">
+    <!-- STUDY VIEW -->
+    <section id="view-study" class="view active">
+      <div id="study-empty" class="empty hidden">
+        <p>오늘 복습할 카드가 없어요 🎉</p>
+        <button id="study-all" class="btn ghost">전체 단어 다시 보기</button>
+      </div>
+
+      <div id="study-area">
+        <div class="progress-row">
+          <span id="due-count" class="pill">–</span>
+          <span id="deck-label" class="deck-label">복습</span>
+        </div>
+
+        <div id="card" class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="word" id="c-word">–</div>
+              <div class="meta">
+                <span id="c-pos" class="pos"></span>
+                <span id="c-ipa" class="ipa"></span>
+              </div>
+              <button id="speak-btn" class="speak" title="발음 듣기">🔊</button>
+              <div class="hint">탭하면 뜻이 보여요</div>
+            </div>
+            <div class="card-back">
+              <div class="meaning" id="c-meaning">–</div>
+              <div class="example" id="c-example"></div>
+              <div class="example-ko" id="c-example-ko"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="grade-bar" class="grade-bar hidden">
+          <button class="grade again" data-grade="0"><b>다시</b><small>&lt;1분</small></button>
+          <button class="grade hard"  data-grade="1"><b>어려움</b><small id="g-hard">–</small></button>
+          <button class="grade good"  data-grade="2"><b>알맞음</b><small id="g-good">–</small></button>
+          <button class="grade easy"  data-grade="3"><b>쉬움</b><small id="g-easy">–</small></button>
+        </div>
+        <div id="flip-hint" class="flip-hint">카드를 탭해 뒤집으세요</div>
+      </div>
+    </section>
+
+    <!-- LIST VIEW -->
+    <section id="view-list" class="view">
+      <input id="search" class="search" type="search" placeholder="단어 검색…" />
+      <div id="list" class="list"></div>
+    </section>
+
+    <!-- STATS VIEW -->
+    <section id="view-stats" class="view">
+      <div class="stat-grid">
+        <div class="stat"><div class="stat-num" id="s-total">–</div><div class="stat-lbl">전체 단어</div></div>
+        <div class="stat"><div class="stat-num" id="s-due">–</div><div class="stat-lbl">오늘 복습</div></div>
+        <div class="stat"><div class="stat-num" id="s-new">–</div><div class="stat-lbl">새 단어</div></div>
+        <div class="stat"><div class="stat-num" id="s-learned">–</div><div class="stat-lbl">학습 중</div></div>
+      </div>
+      <div class="stats-actions">
+        <button id="sync-btn" class="btn">🔄 단어 동기화</button>
+        <button id="reset-btn" class="btn danger ghost">학습 진도 초기화</button>
+      </div>
+      <p class="muted" id="last-sync"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
