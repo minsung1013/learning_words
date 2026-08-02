@@ -1,5 +1,5 @@
 /* 오프라인 지원: 앱 셸은 캐시 우선, words.json은 네트워크 우선 */
-const CACHE = 'vocab-v1';
+const CACHE = 'vocab-v2';
 const SHELL = [
   './',
   './index.html',

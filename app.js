@@ -184,12 +184,62 @@ function doGrade(g) {
   showNext();
 }
 
-function speak() {
-  if (!current || !window.speechSynthesis) return;
-  const u = new SpeechSynthesisUtterance(current.word);
-  u.lang = 'en-US';
+/* 발음: ① 실제 녹음된 사전 오디오(mp3) 우선 → ② 없으면 좋은 음성으로 TTS */
+const LS_AUDIO = 'vocab_audio_cache'; // { [word]: url | "" }  ("" = 오디오 없음 확인됨)
+let AUDIO_CACHE = load(LS_AUDIO, {});
+let VOICES = [];
+
+function loadVoices() { VOICES = window.speechSynthesis ? speechSynthesis.getVoices() : []; }
+if (window.speechSynthesis) {
+  loadVoices();
+  speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+function bestVoice() {
+  if (!VOICES.length) loadVoices();
+  const en = VOICES.filter(v => /en([-_]US|[-_]GB)?/i.test(v.lang));
+  const prefer = [/google/i, /natural/i, /neural/i, /samantha/i, /aaron/i, /daniel/i, /siri/i];
+  for (const re of prefer) { const v = en.find(v => re.test(v.name)); if (v) return v; }
+  return en.find(v => !v.localService) || en[0] || null;
+}
+
+function ttsFallback(word) {
+  if (!window.speechSynthesis) return;
+  const u = new SpeechSynthesisUtterance(word);
+  const v = bestVoice();
+  if (v) u.voice = v;
+  u.lang = (v && v.lang) || 'en-US';
+  u.rate = 0.92;
   speechSynthesis.cancel();
   speechSynthesis.speak(u);
+}
+
+async function fetchAudioUrl(word) {
+  if (word in AUDIO_CACHE) return AUDIO_CACHE[word];
+  try {
+    const res = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(word));
+    if (!res.ok) throw 0;
+    const data = await res.json();
+    let url = '';
+    for (const entry of data) {
+      const ph = (entry.phonetics || []).find(p => p.audio && p.audio.trim());
+      if (ph) { url = ph.audio.startsWith('http') ? ph.audio : 'https:' + ph.audio; break; }
+    }
+    AUDIO_CACHE[word] = url; save(LS_AUDIO, AUDIO_CACHE);
+    return url;
+  } catch { return null; } // 네트워크 실패는 캐시하지 않음(다음에 재시도)
+}
+
+async function speak() {
+  if (!current) return;
+  const word = current.word;
+  const url = await fetchAudioUrl(word);
+  if (url) {
+    const a = new Audio(url);
+    a.play().catch(() => ttsFallback(word));
+  } else {
+    ttsFallback(word); // 오디오 없음 또는 오프라인
+  }
 }
 
 /* ---------- 렌더링: 목록 / 통계 ---------- */
