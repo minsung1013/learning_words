@@ -233,7 +233,8 @@ async function fetchAudioUrl(word) {
 async function speak() {
   if (!current) return;
   const word = current.word;
-  const url = await fetchAudioUrl(word);
+  // ① words.json에 미리 저장된 발음 URL 우선 (안정적·오프라인 캐시 가능)
+  const url = current.audioUrl || await fetchAudioUrl(word);
   if (url) {
     const a = new Audio(url);
     a.play().catch(() => ttsFallback(word));

@@ -7,12 +7,27 @@
 또는 여러 개:
   python3 add_word.py words='[ {...}, {...} ]'
 """
-import json, sys, datetime, pathlib
+import json, sys, datetime, pathlib, urllib.request, urllib.parse
 
 DB = pathlib.Path(__file__).parent / "words.json"
 
 def slug(w):
     return "".join(c for c in w.lower().strip() if c.isalnum() or c in " -").replace(" ", "-")
+
+def fetch_audio(word):
+    """사전 API에서 녹음된 발음 mp3 URL을 찾는다(실패 시 빈 문자열)."""
+    try:
+        url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + urllib.parse.quote(word)
+        with urllib.request.urlopen(url, timeout=8) as r:
+            data = json.loads(r.read())
+        for entry in data:
+            for p in entry.get("phonetics", []):
+                a = (p.get("audio") or "").strip()
+                if a:
+                    return a if a.startswith("http") else "https:" + a
+    except Exception:
+        pass
+    return ""
 
 def load():
     return json.loads(DB.read_text(encoding="utf-8")) if DB.exists() else {"version": 1, "words": []}
@@ -22,6 +37,10 @@ def add(db, entry):
     wid = entry.get("id") or slug(entry["word"])
     entry["id"] = wid
     entry.setdefault("added", datetime.date.today().isoformat())
+    if not entry.get("audioUrl"):            # 발음 mp3 미리 확보(있으면)
+        au = fetch_audio(entry["word"])
+        if au:
+            entry["audioUrl"] = au
     words = db["words"]
     for i, w in enumerate(words):
         if w["id"] == wid:            # 중복 → 갱신
