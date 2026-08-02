@@ -10,7 +10,7 @@
    python3 add_word.py '{"word":"…","pos":"adj./n./v.","ipa":"/…/","meaning":"한국어 뜻","example":"논문 문맥 예문","exampleKo":"예문 번역"}'
    ```
    여러 개면 `python3 add_word.py 'words=[ {...}, {...} ]'`
-   → 스크립트가 Google TTS로 발음 mp3를 `audio/<id>.mp3`에 자동 저장하고 `audioUrl`을 채운다(네트워크 필요). 재생은 저장소 내부 파일만 쓰므로 앱 런타임은 외부 의존이 없다.
+   → 스크립트가 **edge-tts 뉴럴 음성**(en-US-AriaNeural, 무료·API키 불필요, 실패 시 Google TTS 폴백)으로 발음 mp3를 `audio/<id>.mp3`에 자동 저장하고 `audioUrl`을 채운다(네트워크 필요). 재생은 저장소 내부 파일만 쓰므로 앱 런타임은 외부 의존이 없다. 커밋 시 `audio/`도 함께 push할 것.
 3. 커밋 & 푸시하면 폰 앱에 동기화된다:
    ```bash
    git add words.json && git commit -m "vocab: add <word>" && git push

@@ -67,68 +67,63 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; padding-bottom: 48px; }
 }
 .deck-label { color: var(--muted); font-size: 13px; }
 
-.card {
+/* 퀴즈 단어 카드 */
+.quiz-word {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 20px;
-  min-height: 320px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 28px 22px;
-  cursor: pointer;
-  user-select: none;
-  position: relative;
-  transition: transform 0.12s ease;
+  padding: 28px 22px 22px;
+  text-align: center;
+  margin-bottom: 16px;
 }
-.card:active { transform: scale(0.99); }
-.card-inner { width: 100%; text-align: center; }
-.card-back { display: none; }
-.card.flipped .card-front { display: none; }
-.card.flipped .card-back { display: block; }
-
 .word { font-size: 38px; font-weight: 800; letter-spacing: -0.5px; word-break: break-word; }
 .meta { margin-top: 10px; display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap; }
 .pos { color: var(--accent); font-style: italic; font-size: 15px; }
 .ipa { color: var(--muted); font-size: 15px; }
-.speak {
-  margin-top: 18px;
+.speak-inline {
   background: var(--surface-2);
   border: 1px solid var(--border);
   color: var(--text);
-  font-size: 20px;
-  width: 52px; height: 52px;
+  font-size: 16px;
+  width: 40px; height: 40px;
   border-radius: 50%;
   cursor: pointer;
 }
-.hint { margin-top: 20px; color: var(--muted); font-size: 13px; }
 
-.meaning { font-size: 26px; font-weight: 700; margin-bottom: 18px; }
+.quiz-prompt { color: var(--muted); font-size: 13px; margin: 0 4px 8px; }
+
+/* 객관식 보기 */
+.options { display: flex; flex-direction: column; gap: 8px; }
+.option {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 14px 16px;
+  color: var(--text); font-size: 16px; text-align: left;
+  cursor: pointer; font-family: inherit; width: 100%;
+  transition: background 0.1s, border-color 0.1s;
+}
+.option:active { background: var(--surface-2); }
+.option:disabled { cursor: default; }
+.opt-num {
+  flex: none; width: 24px; height: 24px; border-radius: 6px;
+  background: var(--surface-2); color: var(--muted);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 700;
+}
+.option.correct { background: rgba(34,197,94,0.18); border-color: var(--good); color: #bbf7d0; }
+.option.correct .opt-num { background: var(--good); color: #052e16; }
+.option.wrong { background: rgba(239,68,68,0.18); border-color: var(--again); color: #fecaca; }
+.option.wrong .opt-num { background: var(--again); color: #450a0a; }
+
+/* 답 확인 후 피드백 */
+.feedback { margin-top: 18px; }
+.feedback.hidden { display: none; }
 .example {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--text);
-  background: var(--surface-2);
-  border-radius: 12px;
-  padding: 12px 14px;
+  font-size: 16px; line-height: 1.5; color: var(--text);
+  background: var(--surface-2); border-radius: 12px; padding: 12px 14px;
 }
 .example-ko { font-size: 14px; color: var(--muted); margin-top: 8px; line-height: 1.5; }
-
-.grade-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 16px; }
-.grade {
-  border: none; border-radius: 12px; padding: 12px 4px; color: #fff;
-  display: flex; flex-direction: column; align-items: center; gap: 3px;
-  cursor: pointer; font-family: inherit;
-}
-.grade b { font-size: 15px; }
-.grade small { font-size: 11px; opacity: 0.85; }
-.grade.again { background: var(--again); }
-.grade.hard  { background: var(--hard); }
-.grade.good  { background: var(--good); }
-.grade.easy  { background: var(--easy); color: #082f49; }
-
-.flip-hint { text-align: center; color: var(--muted); font-size: 13px; margin-top: 16px; }
-.flip-hint.hidden { display: none; }
+.feedback .btn { width: 100%; margin-top: 14px; }
 
 .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
 .empty p { font-size: 18px; margin-bottom: 20px; }

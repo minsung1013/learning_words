@@ -30,20 +30,6 @@ function dailyState() {
 /* ---------- SRS (SM-2 lite) ---------- */
 function stateOf(id) { return SRS[id] || null; }
 
-// 각 등급이 만들 다음 간격(일 단위, 표시용). again은 별도 처리.
-function previewIntervals(id) {
-  const s = stateOf(id);
-  if (!s || s.reps === 0) { // 새 카드 / 재학습
-    return { hard: 10 * MIN / DAY, good: 1, easy: 4 };
-  }
-  const ease = s.ease;
-  return {
-    hard: Math.max(s.interval * 1.2, s.interval + 1),
-    good: Math.max(s.interval * ease, s.interval + 1),
-    easy: Math.max(s.interval * ease * 1.3, s.interval + 2),
-  };
-}
-
 function grade(id, g) {
   const now = Date.now();
   let s = stateOf(id) || { reps: 0, interval: 0, ease: 2.5, due: now, lapses: 0 };
@@ -103,7 +89,6 @@ function dueCount() {
 
 /* ---------- 렌더링: 학습 ---------- */
 const $ = sel => document.querySelector(sel);
-const cardEl = () => $('#card');
 
 function fmtDays(d) {
   if (d < 1) return `${Math.max(1, Math.round(d * 24 * 60))}분`;
@@ -112,76 +97,99 @@ function fmtDays(d) {
   return `${(d / 365).toFixed(1)}년`;
 }
 
-function showNext() {
-  const now = Date.now();
-  // 큐에서 아직 due인 것만 (again으로 1분 뒤 재등장하는 것 반영)
-  while (queue.length) {
-    const id = queue[0];
-    const s = stateOf(id);
-    if (s && s.due > now && s.due <= now + 2 * MIN) {
-      // 곧 다시 볼 카드는 큐 뒤로
-      queue.push(queue.shift());
-      // 무한 루프 방지: 전부 미래면 그냥 첫 카드 진행
-      if (queue.every(qid => { const st = stateOf(qid); return st && st.due > now; })) break;
-      continue;
-    }
-    break;
+const N_OPTIONS = 8;   // 객관식 보기 개수(단어가 적으면 그만큼만)
+let answered = false;  // 현재 문제에 답했는지
+
+function shuffle(a) {
+  const arr = a.slice();
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
+  return arr;
+}
 
+// 정답 뜻 + 다른 단어들의 뜻(오답) 최대 N-1개 → 섞어서 반환
+function buildOptions(word) {
+  const seen = new Set([word.meaning]);
+  const distractors = [];
+  for (const w of shuffle(WORDS)) {
+    if (distractors.length >= N_OPTIONS - 1) break;
+    if (!seen.has(w.meaning)) { seen.add(w.meaning); distractors.push(w.meaning); }
+  }
+  return shuffle([word.meaning, ...distractors]);
+}
+
+function showNext() {
   if (!queue.length) return renderEmpty();
-
   const id = queue[0];
   current = WORDS.find(w => w.id === id);
   if (!current) { queue.shift(); return showNext(); }
 
+  answered = false;
   const isNew = !stateOf(id);
   $('#study-empty').classList.add('hidden');
-  $('#study-area').classList.remove('hidden');
+  $('#quiz-area').classList.remove('hidden');
   $('#due-count').textContent = queue.length;
   $('#deck-label').textContent = isNew ? '새 단어' : '복습';
 
-  $('#c-word').textContent = current.word;
-  $('#c-pos').textContent = current.pos || '';
-  $('#c-ipa').textContent = current.ipa || '';
-  $('#c-meaning').textContent = current.meaning || '';
-  $('#c-example').textContent = current.example || '';
-  $('#c-example-ko').textContent = current.exampleKo || '';
+  $('#q-word').textContent = current.word;
+  $('#q-pos').textContent = current.pos || '';
+  $('#q-ipa').textContent = current.ipa || '';
 
-  const iv = previewIntervals(id);
-  $('#g-hard').textContent = fmtDays(iv.hard);
-  $('#g-good').textContent = fmtDays(iv.good);
-  $('#g-easy').textContent = fmtDays(iv.easy);
+  const opts = buildOptions(current);
+  const box = $('#q-options');
+  box.innerHTML = '';
+  opts.forEach((meaning, i) => {
+    const b = document.createElement('button');
+    b.className = 'option';
+    b.innerHTML = `<span class="opt-num">${i + 1}</span><span>${esc(meaning)}</span>`;
+    b.addEventListener('click', () => answer(meaning, b));
+    box.appendChild(b);
+  });
 
-  cardEl().classList.remove('flipped');
-  $('#grade-bar').classList.add('hidden');
-  $('#flip-hint').classList.remove('hidden');
+  $('#q-feedback').classList.add('hidden');
 }
 
 function renderEmpty() {
   current = null;
-  $('#study-area').classList.add('hidden');
+  $('#quiz-area').classList.add('hidden');
   $('#study-empty').classList.remove('hidden');
 }
 
-function flip() {
-  if (!current) return;
-  cardEl().classList.add('flipped');
-  $('#grade-bar').classList.remove('hidden');
-  $('#flip-hint').classList.add('hidden');
-}
-
-function doGrade(g) {
-  if (!current) return;
+// 맞으면 빈도↓(간격 늘림=good), 틀리면 빈도↑(다시 자주=again)
+function answer(chosen, btn) {
+  if (answered || !current) return;
+  answered = true;
   const id = current.id;
   const wasNew = !stateOf(id);
-  grade(id, g);
-  if (wasNew && g !== 0) {
-    const d = dailyState(); d.newCount += 1; save(LS_DAILY, d);
-  }
-  // again(0)이면 큐에 남겨 세션 내 재등장, 아니면 제거
-  if (g === 0) { queue.push(queue.shift()); }
-  else { queue.shift(); }
-  showNext();
+  const correct = chosen === current.meaning;
+
+  grade(id, correct ? 2 : 0);
+  if (wasNew && correct) { const d = dailyState(); d.newCount += 1; save(LS_DAILY, d); }
+
+  // 보기 채색: 정답은 항상 초록, 틀리게 고른 건 빨강
+  const buttons = [...$('#q-options').querySelectorAll('.option')];
+  buttons.forEach(b => {
+    b.disabled = true;
+    const txt = b.querySelector('span:last-child').textContent;
+    if (txt === current.meaning) b.classList.add('correct');
+    else if (b === btn) b.classList.add('wrong');
+  });
+
+  // 큐 갱신: 맞으면 제거, 틀리면 뒤로 보내 세션 내 재등장
+  if (correct) queue.shift();
+  else queue.push(queue.shift());
+
+  // 피드백(예문) 표시
+  const s = stateOf(id);
+  $('#q-example').textContent = current.example || '';
+  $('#q-example-ko').textContent = current.exampleKo || '';
+  const nextBtn = $('#q-next');
+  nextBtn.textContent = correct
+    ? `정답! 다음 복습: ${fmtDays(s.interval || (s.due - Date.now()) / DAY)} 뒤 →`
+    : '오답 · 곧 다시 나와요 →';
+  $('#q-feedback').classList.remove('hidden');
 }
 
 /* 발음: ① 실제 녹음된 사전 오디오(mp3) 우선 → ② 없으면 좋은 음성으로 TTS */
@@ -309,12 +317,8 @@ function bind() {
   document.querySelectorAll('.tab').forEach(t =>
     t.addEventListener('click', () => switchView(t.dataset.view)));
 
-  cardEl().addEventListener('click', () => {
-    if (!cardEl().classList.contains('flipped')) flip();
-  });
   $('#speak-btn').addEventListener('click', e => { e.stopPropagation(); speak(); });
-  document.querySelectorAll('.grade').forEach(b =>
-    b.addEventListener('click', () => doGrade(+b.dataset.grade)));
+  $('#q-next').addEventListener('click', () => showNext());
 
   $('#study-all').addEventListener('click', () => { queue = buildQueue({ all: true }); showNext(); });
   $('#search').addEventListener('input', e => renderList(e.target.value));
@@ -330,11 +334,15 @@ function bind() {
     }
   });
 
-  // 키보드(데스크톱): Space=뒤집기, 1~4=채점
+  // 키보드(데스크톱): 1~8=보기 선택, Enter/Space=다음
   document.addEventListener('keydown', e => {
-    if ($('#view-study').classList.contains('active') === false) return;
-    if (e.code === 'Space') { e.preventDefault(); cardEl().classList.contains('flipped') ? null : flip(); }
-    if (cardEl().classList.contains('flipped') && ['1','2','3','4'].includes(e.key)) doGrade(+e.key - 1);
+    if (!$('#view-study').classList.contains('active')) return;
+    if (!answered && /^[1-8]$/.test(e.key)) {
+      const b = $('#q-options').querySelectorAll('.option')[+e.key - 1];
+      if (b) b.click();
+    } else if (answered && (e.key === 'Enter' || e.code === 'Space')) {
+      e.preventDefault(); showNext();
+    }
   });
 }
 

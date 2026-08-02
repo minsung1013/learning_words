@@ -7,9 +7,10 @@
 또는 여러 개:
   python3 add_word.py words='[ {...}, {...} ]'
 """
-import json, sys, datetime, pathlib, urllib.request, urllib.parse
+import json, sys, datetime, pathlib, urllib.request, urllib.parse, subprocess, shutil
 
 DB = pathlib.Path(__file__).parent / "words.json"
+VOICE = "en-US-AriaNeural"   # edge-tts 뉴럴 영어 음성
 
 def slug(w):
     return "".join(c for c in w.lower().strip() if c.isalnum() or c in " -").replace(" ", "-")
@@ -17,22 +18,41 @@ def slug(w):
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
 AUDIO_DIR = DB.parent / "audio"
 
-def fetch_audio(word, wid):
-    """Google TTS로 발음 mp3를 받아 audio/<id>.mp3에 저장하고 상대경로 반환(실패 시 '').
-    재생 시점엔 저장소 내부 파일만 쓰므로 외부 의존이 없다(안정적·오프라인 캐시 가능)."""
-    q = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "en", "q": word})
-    url = "https://translate.google.com/translate_tts?" + q
+def _edge_tts(word, dest):
+    """edge-tts(Microsoft 뉴럴, 무료) 음성 생성. 성공 시 True."""
+    if not shutil.which("edge-tts"):
+        return False
     try:
-        req = urllib.request.Request(url, headers=UA)
+        subprocess.run(
+            ["edge-tts", "--voice", VOICE, "--text", word, "--write-media", str(dest)],
+            check=True, capture_output=True, timeout=30)
+        return dest.exists() and dest.stat().st_size > 500
+    except Exception:
+        return False
+
+def _google_tts(word, dest):
+    """폴백: Google translate TTS."""
+    q = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "en", "q": word})
+    try:
+        req = urllib.request.Request("https://translate.google.com/translate_tts?" + q, headers=UA)
         with urllib.request.urlopen(req, timeout=10) as r:
             blob = r.read()
         if len(blob) < 500:
-            return ""
-        AUDIO_DIR.mkdir(exist_ok=True)
-        (AUDIO_DIR / f"{wid}.mp3").write_bytes(blob)
-        return f"audio/{wid}.mp3"
+            return False
+        dest.write_bytes(blob)
+        return True
     except Exception:
-        return ""
+        return False
+
+def fetch_audio(word, wid):
+    """발음 mp3를 audio/<id>.mp3에 저장하고 상대경로 반환(실패 시 '').
+    ① edge-tts 뉴럴 음성 우선 → ② 실패 시 Google TTS.
+    재생 시점엔 저장소 내부 파일만 쓰므로 외부 의존이 없다(안정적·오프라인 캐시 가능)."""
+    AUDIO_DIR.mkdir(exist_ok=True)
+    dest = AUDIO_DIR / f"{wid}.mp3"
+    if _edge_tts(word, dest) or _google_tts(word, dest):
+        return f"audio/{wid}.mp3"
+    return ""
 
 def load():
     return json.loads(DB.read_text(encoding="utf-8")) if DB.exists() else {"version": 1, "words": []}

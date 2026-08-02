@@ -30,38 +30,29 @@
         <button id="study-all" class="btn ghost">전체 단어 다시 보기</button>
       </div>
 
-      <div id="study-area">
+      <div id="quiz-area">
         <div class="progress-row">
           <span id="due-count" class="pill">–</span>
           <span id="deck-label" class="deck-label">복습</span>
         </div>
 
-        <div id="card" class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <div class="word" id="c-word">–</div>
-              <div class="meta">
-                <span id="c-pos" class="pos"></span>
-                <span id="c-ipa" class="ipa"></span>
-              </div>
-              <button id="speak-btn" class="speak" title="발음 듣기">🔊</button>
-              <div class="hint">탭하면 뜻이 보여요</div>
-            </div>
-            <div class="card-back">
-              <div class="meaning" id="c-meaning">–</div>
-              <div class="example" id="c-example"></div>
-              <div class="example-ko" id="c-example-ko"></div>
-            </div>
+        <div class="quiz-word">
+          <div class="word" id="q-word">–</div>
+          <div class="meta">
+            <span id="q-pos" class="pos"></span>
+            <span id="q-ipa" class="ipa"></span>
+            <button id="speak-btn" class="speak-inline" title="발음 듣기">🔊</button>
           </div>
         </div>
 
-        <div id="grade-bar" class="grade-bar hidden">
-          <button class="grade again" data-grade="0"><b>다시</b><small>&lt;1분</small></button>
-          <button class="grade hard"  data-grade="1"><b>어려움</b><small id="g-hard">–</small></button>
-          <button class="grade good"  data-grade="2"><b>알맞음</b><small id="g-good">–</small></button>
-          <button class="grade easy"  data-grade="3"><b>쉬움</b><small id="g-easy">–</small></button>
+        <div class="quiz-prompt">뜻을 고르세요</div>
+        <div id="q-options" class="options"></div>
+
+        <div id="q-feedback" class="feedback hidden">
+          <div class="example" id="q-example"></div>
+          <div class="example-ko" id="q-example-ko"></div>
+          <button id="q-next" class="btn">다음 →</button>
         </div>
-        <div id="flip-hint" class="flip-hint">카드를 탭해 뒤집으세요</div>
       </div>
     </section>
 
