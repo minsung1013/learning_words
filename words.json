@@ -575,6 +575,31 @@
       "id": "adequately",
       "added": "2026-08-04",
       "audioUrl": "audio/adequately.mp3"
+    },
+    {
+      "word": "agnostic",
+      "pos": "adj.",
+      "ipa": "/æɡˈnɒstɪk/",
+      "meaning": "(기술) ~에 구애받지 않는, 무관하게 동작하는 (예: model-agnostic); (원뜻) 불가지론의",
+      "example": "local interpretable model-agnostic explanations (LIME)",
+      "exampleKo": "국소적·해석 가능·모델에 구애받지 않는 설명 (LIME)",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "independent of / regardless of (~에 독립적인). 기술에서 X-agnostic은 X 종류가 무엇이든 상관없이 동작함을 뜻함(platform-/hardware-/model-agnostic). 원래는 신의 존재를 알 수 없다는 불가지론(agnosticism) 입장."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 agnōstos=unknown/unknowable(a- not + gnōsis knowledge 앎). prognostic·diagnosis의 gnosis와 한 뿌리. 1869년 생물학자 T.H. Huxley가 종교적 의미로 만든 말."
+        },
+        {
+          "h": "활용",
+          "t": "model-agnostic(모델 불문), platform/hardware/technology-agnostic, data-agnostic; (원뜻 명사) an agnostic 불가지론자."
+        }
+      ],
+      "id": "agnostic",
+      "added": "2026-08-04",
+      "audioUrl": "audio/agnostic.mp3"
     }
   ]
 }
