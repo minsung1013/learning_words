@@ -50,11 +50,143 @@
       "pos": "adj.",
       "ipa": "/ˈpjuːtətɪv/",
       "meaning": "추정되는, ~로 여겨지는",
-      "example": "They identified several putative target genes of the transcription factor.",
-      "exampleKo": "그들은 그 전사인자의 추정 표적 유전자 몇 개를 확인했다.",
+      "example": "grouping spatial spots or coarse cellular aggregates into putative tissue domains based on their molecular profiles",
+      "exampleKo": "공간적 spot들이나 대략적인 세포 집합체들을, 그것들의 분자 프로파일에 근거해 추정 조직 도메인으로 묶는 것",
       "id": "putative",
       "added": "2026-08-03",
       "audioUrl": "audio/putative.mp3"
+    },
+    {
+      "word": "augment",
+      "pos": "v.",
+      "ipa": "/ɔːɡˈment/",
+      "meaning": "보강하다, 늘리다, 증대하다",
+      "example": "Probabilistic approaches can be augmented with spatial priors.",
+      "exampleKo": "확률적 접근법은 공간적 사전분포로 보강될 수 있다.",
+      "id": "augment",
+      "added": "2026-08-03",
+      "audioUrl": "audio/augment.mp3"
+    },
+    {
+      "word": "prior",
+      "pos": "n.",
+      "ipa": "/ˈpraɪər/",
+      "meaning": "① (prior to ~) ~에 앞서, ~ 이전에  ② (명사) 사전분포·사전확률 (베이즈)",
+      "example": "a preprocessing step prior to clustering or predictive modeling",
+      "exampleKo": "클러스터링이나 예측 모델링에 앞서 수행하는 전처리 단계",
+      "id": "prior",
+      "added": "2026-08-03",
+      "audioUrl": "audio/prior.mp3"
+    },
+    {
+      "word": "mitigate",
+      "pos": "v.",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "meaning": "완화하다, 경감하다 (나쁜 정도를 줄이다)",
+      "example": "These spatially aware likelihood models mitigate the salt-and-pepper effect.",
+      "exampleKo": "이러한 공간 인지 우도 모델들은 소금-후추 잡음 효과를 완화한다.",
+      "id": "mitigate",
+      "added": "2026-08-03",
+      "audioUrl": "audio/mitigate.mp3"
+    },
+    {
+      "word": "delineation",
+      "pos": "n.",
+      "ipa": "/dɪˌlɪniˈeɪʃən/",
+      "meaning": "경계 구획, 윤곽 구분; 명확히 나눔 (동사 delineate: 윤곽을 그리다·명확히 구분하다)",
+      "example": "This approach improves the delineation of tissue domains.",
+      "exampleKo": "이 접근법은 조직 도메인의 경계 구분을 개선한다.",
+      "id": "delineation",
+      "added": "2026-08-03",
+      "audioUrl": "audio/delineation.mp3"
+    },
+    {
+      "word": "prognostic",
+      "pos": "adj.",
+      "ipa": "/prɒɡˈnɒstɪk/",
+      "meaning": "예후의, 예후를 예측하는 (병의 경과·결과를 가늠하는)",
+      "example": "They aim to identify prognostic signatures linked to patient survival.",
+      "exampleKo": "그들은 환자 생존과 연관된 예후 시그니처를 찾아내는 것을 목표로 한다.",
+      "id": "prognostic",
+      "added": "2026-08-03",
+      "audioUrl": "audio/prognostic.mp3"
+    },
+    {
+      "word": "explicit",
+      "pos": "adj.",
+      "ipa": "/ɪkˈsplɪsɪt/",
+      "meaning": "명시적인, 분명히 드러낸 (↔ implicit 암묵적인)",
+      "example": "Deep learning models avoid relying on explicit feature engineering.",
+      "exampleKo": "딥러닝 모델은 명시적 특징 공학에 의존하는 것을 피한다.",
+      "id": "explicit",
+      "added": "2026-08-03",
+      "audioUrl": "audio/explicit.mp3"
+    },
+    {
+      "word": "multiplexed",
+      "pos": "adj.",
+      "ipa": "/ˈmʌltɪplekst/",
+      "meaning": "다중화된 (여러 마커·채널을 동시에 측정·처리한)",
+      "example": "Segmentation of multiplexed tissue images relied on thresholding, edge-based methods, and watershed algorithms.",
+      "exampleKo": "다중화 조직 이미지의 분할은 임계값 설정, 엣지 기반 방법, 워터셰드 알고리즘에 의존해 왔다.",
+      "id": "multiplexed",
+      "added": "2026-08-03",
+      "audioUrl": "audio/multiplexed.mp3"
+    },
+    {
+      "word": "proximity",
+      "pos": "n.",
+      "ipa": "/prɒkˈsɪmɪti/",
+      "meaning": "근접(성), 가까움",
+      "example": "Cells are grouped typically from spatial proximity or molecular similarity.",
+      "exampleKo": "세포들은 보통 공간적 근접성이나 분자적 유사성에 따라 묶인다.",
+      "id": "proximity",
+      "added": "2026-08-03",
+      "audioUrl": "audio/proximity.mp3"
+    },
+    {
+      "word": "scarcity",
+      "pos": "n.",
+      "ipa": "/ˈskɛrsɪti/",
+      "meaning": "부족, 결핍, 희소성",
+      "example": "Annotation scarcity limits the use of supervised learning.",
+      "exampleKo": "주석(라벨) 부족은 지도학습의 활용을 제약한다.",
+      "id": "scarcity",
+      "added": "2026-08-03",
+      "audioUrl": "audio/scarcity.mp3"
+    },
+    {
+      "word": "invariant",
+      "pos": "adj.",
+      "ipa": "/ɪnˈvɛriənt/",
+      "meaning": "불변의, 변하지 않는; (invariant to X) X에 영향받지 않는",
+      "example": "By learning latent representations invariant to slide-specific artifacts.",
+      "exampleKo": "슬라이드마다 생기는 인공적 왜곡에 영향받지 않는 잠재 표현을 학습함으로써.",
+      "id": "invariant",
+      "added": "2026-08-03",
+      "audioUrl": "audio/invariant.mp3"
+    },
+    {
+      "word": "implausible",
+      "pos": "adj.",
+      "ipa": "/ɪmˈplɔːzəbl/",
+      "meaning": "그럴듯하지 않은, 믿기 어려운, 타당해 보이지 않는 (↔ plausible)",
+      "example": "The model may produce biologically implausible patterns.",
+      "exampleKo": "그 모델은 생물학적으로 그럴듯하지 않은 패턴을 만들어낼 수 있다.",
+      "id": "implausible",
+      "added": "2026-08-03",
+      "audioUrl": "audio/implausible.mp3"
+    },
+    {
+      "word": "exploit",
+      "pos": "v.",
+      "ipa": "/ɪkˈsplɔɪt/",
+      "meaning": "(자원·정보를) 활용하다, 이용하다; (부정적) 착취하다",
+      "example": "to exploit large unlabeled datasets",
+      "exampleKo": "대량의 라벨 없는(unlabeled) 데이터셋을 활용하기 위해",
+      "id": "exploit",
+      "added": "2026-08-03",
+      "audioUrl": "audio/exploit.mp3"
     }
   ]
 }
