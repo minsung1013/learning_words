@@ -96,7 +96,7 @@ function fmtDays(d) {
   return `${(d / 365).toFixed(1)}년`;
 }
 
-const N_OPTIONS = 8;   // 객관식 보기 개수(단어가 적으면 그만큼만)
+const N_OPTIONS = 4;   // 객관식 보기 개수(단어가 적으면 그만큼만)
 let answered = false;  // 현재 문제에 답했는지
 
 function shuffle(a) {
@@ -334,10 +334,10 @@ function bind() {
     }
   });
 
-  // 키보드(데스크톱): 1~8=보기 선택, Enter/Space=다음
+  // 키보드(데스크톱): 1~4=보기 선택, Enter/Space=다음
   document.addEventListener('keydown', e => {
     if (!$('#view-study').classList.contains('active')) return;
-    if (!answered && /^[1-8]$/.test(e.key)) {
+    if (!answered && /^[1-4]$/.test(e.key)) {
       const b = $('#q-options').querySelectorAll('.option')[+e.key - 1];
       if (b) b.click();
     } else if (answered && (e.key === 'Enter' || e.code === 'Space')) {
