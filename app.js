@@ -58,21 +58,20 @@ function grade(id, g) {
 /* ---------- 큐 구성 ---------- */
 function buildQueue({ all = false } = {}) {
   const now = Date.now();
-  if (all) return WORDS.map(w => w.id);
+  if (all) return shuffle(WORDS.map(w => w.id));
 
   const due = [];
   const fresh = [];
   for (const w of WORDS) {
     const s = stateOf(w.id);
     if (!s) fresh.push(w.id);
-    else if (s.due <= now) due.push({ id: w.id, due: s.due });
+    else if (s.due <= now) due.push(w.id);
   }
-  due.sort((a, b) => a.due - b.due);
 
   const daily = dailyState();
   const room = Math.max(0, NEW_PER_DAY - daily.newCount);
-  const newOnes = fresh.slice(0, room);
-  return [...due.map(d => d.id), ...newOnes];
+  const newOnes = shuffle(fresh).slice(0, room);
+  return shuffle([...due, ...newOnes]);  // 등록 순서 대신 랜덤 출제
 }
 
 function dueCount() {
@@ -168,13 +167,14 @@ function answer(chosen, btn) {
   grade(id, correct ? 2 : 0);
   if (wasNew && correct) { const d = dailyState(); d.newCount += 1; save(LS_DAILY, d); }
 
-  // 보기 채색: 정답은 항상 초록, 틀리게 고른 건 빨강
+  // 채점 후: 정답(초록)·내가 고른 오답(빨강)만 남기고 나머지 보기는 숨겨 공간 확보
   const buttons = [...$('#q-options').querySelectorAll('.option')];
   buttons.forEach(b => {
     b.disabled = true;
     const txt = b.querySelector('span:last-child').textContent;
     if (txt === current.meaning) b.classList.add('correct');
     else if (b === btn) b.classList.add('wrong');
+    else b.classList.add('hide');
   });
 
   // 큐 갱신: 맞으면 제거, 틀리면 뒤로 보내 세션 내 재등장
