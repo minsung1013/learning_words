@@ -550,6 +550,31 @@
       "id": "alleviate",
       "added": "2026-08-04",
       "audioUrl": "audio/alleviate.mp3"
+    },
+    {
+      "word": "adequately",
+      "pos": "adv.",
+      "ipa": "/ˈædɪkwətli/",
+      "meaning": "충분히, 적절히 (요구되는 만큼 부족하지 않게)",
+      "example": "fail to adequately capture the underlying biological complexity of real tissue",
+      "exampleKo": "실제 조직의 근저에 깔린 생물학적 복잡성을 충분히 담아내지 못하다",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "sufficiently(충분히—양적 충족), properly(제대로), satisfactorily(만족스럽게). adequately는 요구되는 최소 수준을 만족할 만큼—뛰어남이 아니라 부족하지 않음의 뉘앙스. 논문에선 fail to adequately ~ (충분히 ~하지 못하다) 형태로 한계를 지적할 때 자주."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 adaequare=~에 맞먹게 하다(ad- ~로 + aequus equal 동등한). equal, adequate, equate, equity와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "adequately capture/describe/address, not adequately explained(충분히 설명되지 않은). 형용사형은 adequate."
+        }
+      ],
+      "id": "adequately",
+      "added": "2026-08-04",
+      "audioUrl": "audio/adequately.mp3"
     }
   ]
 }
