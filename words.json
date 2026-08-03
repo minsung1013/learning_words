@@ -625,6 +625,31 @@
       "id": "surrogate",
       "added": "2026-08-04",
       "audioUrl": "audio/surrogate.mp3"
+    },
+    {
+      "word": "compound",
+      "pos": "v./n.",
+      "ipa": "/kəmˈpaʊnd/ (동사), /ˈkɒmpaʊnd/ (명사)",
+      "meaning": "① (동사) 악화시키다·가중시키다, 누적되다  ② (명사) 화합물, 복합체  ③ (형용사) 합성의",
+      "example": "Small errors can compound over many layers of the model.",
+      "exampleKo": "작은 오차가 모델의 여러 층을 거치며 누적·증폭될 수 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "(동사 악화) aggravate/exacerbate/worsen(악화시키다), intensify(심화). compound는 이미 나쁜 것을 더 키우거나(compound the problem) 복리처럼 누적(compound interest). (명사) mixture(단순히 섞인 혼합물) vs compound(화학적으로 결합한 화합물)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 componere=함께 놓다(com- 함께 + ponere to put 놓다). component, compose, position, deposit과 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "(동사) errors compound(오차가 누적·증폭), compound the difficulty(어려움을 가중); (명사) chemical compound(화합물), compound interest(복리), compound word(합성어)."
+        }
+      ],
+      "id": "compound",
+      "added": "2026-08-04",
+      "audioUrl": "audio/compound.mp3"
     }
   ]
 }
