@@ -10,7 +10,21 @@
       "example": "Machine learning has become ubiquitous in modern biomedical research.",
       "exampleKo": "머신러닝은 현대 생의학 연구에서 어디에나 존재하게 되었다.",
       "added": "2026-08-02",
-      "audioUrl": "audio/ubiquitous.mp3"
+      "audioUrl": "audio/ubiquitous.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "omnipresent(모든 곳에 동시에 존재—종교·격식), pervasive(스며들듯 퍼진—부정적일 수 있음), widespread(널리 퍼진—중립), prevalent(만연한). ubiquitous는 '어디서나 흔히 볼 수 있다'는 흔함을 강조하며 기술·현상에 자주 씀."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 ubique='everywhere'(ubi 'where' + -que). '어디에나'가 그대로 뜻이 됨."
+        },
+        {
+          "h": "활용",
+          "t": "ubiquitous computing(어디에나 있는 컴퓨팅), become ubiquitous(보편화되다)."
+        }
+      ]
     },
     {
       "id": "salient",
@@ -21,7 +35,21 @@
       "example": "The authors highlight several salient features of the proposed model.",
       "exampleKo": "저자들은 제안한 모델의 몇 가지 두드러진 특징을 강조한다.",
       "added": "2026-08-02",
-      "audioUrl": "audio/salient.mp3"
+      "audioUrl": "audio/salient.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "prominent(눈에 띄는), conspicuous(확 눈에 띄는), notable(주목할 만한), striking(인상적). salient는 '가장 중요해서 튀어나온' 핵심이라는 뉘앙스—salient point/feature."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 salire='to leap(뛰다)' → '튀어나온'. 같은 어근: resilient(다시 튀어오르다), assault, salmon(뛰어오르는 연어)."
+        },
+        {
+          "h": "활용",
+          "t": "the salient point(핵심 논점), salient features(두드러진 특징)."
+        }
+      ]
     },
     {
       "id": "corroborate",
@@ -32,7 +60,21 @@
       "example": "These findings corroborate earlier results from independent cohorts.",
       "exampleKo": "이 결과들은 독립된 코호트에서 나온 이전 결과들을 뒷받침한다.",
       "added": "2026-08-02",
-      "audioUrl": "audio/corroborate.mp3"
+      "audioUrl": "audio/corroborate.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "confirm(확인하다—일반), verify(검증하다—사실 확인), substantiate(실증하다), support(뒷받침). corroborate는 특히 '독립적인 다른 증거로 기존 주장·증언을 강화'(법률·과학)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 corroborare='강하게 하다'(com- 강조 + robur 'oak/strength'). robust(튼튼한)와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "corroborate the findings/testimony, be corroborated by evidence."
+        }
+      ]
     },
     {
       "word": "heuristic",
@@ -43,7 +85,21 @@
       "exampleKo": "그들은 해를 근사하기 위해 탐욕적 휴리스틱을 사용했다.",
       "id": "heuristic",
       "added": "2026-08-02",
-      "audioUrl": "audio/heuristic.mp3"
+      "audioUrl": "audio/heuristic.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "rule of thumb(경험칙), approximation(근사). heuristic은 '완벽한 최적해는 아니지만 실용적으로 빠르게 답을 주는 방법/규칙'."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 heuriskein='to find(찾다)'. 아르키메데스의 'Eureka!(찾았다!)'와 같은 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "heuristic method/search, a useful heuristic. (형용사·명사 모두)"
+        }
+      ]
     },
     {
       "word": "putative",
@@ -54,7 +110,21 @@
       "exampleKo": "공간적 spot들이나 대략적인 세포 집합체들을, 그것들의 분자 프로파일에 근거해 추정 조직 도메인으로 묶는 것",
       "id": "putative",
       "added": "2026-08-03",
-      "audioUrl": "audio/putative.mp3"
+      "audioUrl": "audio/putative.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "supposed/presumed(추정되는—일반), alleged(주장된—법률·부정적 함의), reputed(~라고 알려진). putative는 '증명 전이지만 일반적으로 그렇다고 여겨지는'—과학·법률에서 중립적."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 putare='생각하다, 셈하다'. compute(계산), dispute(논쟁), reputation(평판)과 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "putative target(추정 표적), putative mechanism, putative father(법률: 추정 부)."
+        }
+      ]
     },
     {
       "word": "augment",
@@ -65,7 +135,21 @@
       "exampleKo": "확률적 접근법은 공간적 사전분포로 보강될 수 있다.",
       "id": "augment",
       "added": "2026-08-03",
-      "audioUrl": "audio/augment.mp3"
+      "audioUrl": "audio/augment.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "increase(늘리다—일반), enhance(질을 높이다), supplement(부족분을 보충), boost(구어—확 끌어올리다). augment는 '이미 있는 것에 더해 크기·양·효과를 키우다'."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 augere='to increase'. author, auction(값을 올리다), auxiliary(보조)와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "data augmentation(데이터 증강), augmented reality(AR: 증강현실), augment X with Y."
+        }
+      ]
     },
     {
       "word": "prior",
@@ -76,7 +160,21 @@
       "exampleKo": "클러스터링이나 예측 모델링에 앞서 수행하는 전처리 단계",
       "id": "prior",
       "added": "2026-08-03",
-      "audioUrl": "audio/prior.mp3"
+      "audioUrl": "audio/prior.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "(형) previous/preceding/earlier(이전의); prior to = before(격식체). (명, 베이즈 통계) prior distribution=사전분포. 문맥이 통계면 '사전확률', 아니면 '~에 앞선'."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 prior='former, earlier'. priority(우선), primary(첫째), prime과 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "prior to clustering(~에 앞서), a prior probability, no prior knowledge(사전지식)."
+        }
+      ]
     },
     {
       "word": "mitigate",
@@ -87,7 +185,21 @@
       "exampleKo": "이러한 공간 인지 우도 모델들은 소금-후추 잡음 효과를 완화한다.",
       "id": "mitigate",
       "added": "2026-08-03",
-      "audioUrl": "audio/mitigate.mp3"
+      "audioUrl": "audio/mitigate.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "alleviate(고통을 덜다), lessen/reduce(줄이다), ease(누그러뜨리다), dampen(약화). mitigate는 '나쁜 것의 심각성·영향을 완화'(위험·손해·부작용). ⚠️ militate(against=~에 불리하게 작용)와 혼동 주의."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 mitigare='부드럽게 하다'(mitis 'gentle/soft' + agere 'to do')."
+        },
+        {
+          "h": "활용",
+          "t": "mitigate the risk/effect/damage, mitigating factors(정상참작 사유)."
+        }
+      ]
     },
     {
       "word": "delineation",
@@ -98,7 +210,21 @@
       "exampleKo": "이 접근법은 조직 도메인의 경계 구분을 개선한다.",
       "id": "delineation",
       "added": "2026-08-03",
-      "audioUrl": "audio/delineation.mp3"
+      "audioUrl": "audio/delineation.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "(동 delineate) outline(개요를 그리다), demarcate(경계를 긋다), define(규정), depict(묘사). delineate는 '경계·윤곽을 또렷이 그리거나 상세히 기술'."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 delineare='선으로 그리다'(de- + linea 'line'). line과 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "delineate boundaries, clear delineation of tissue domains."
+        }
+      ]
     },
     {
       "word": "prognostic",
@@ -109,7 +235,21 @@
       "exampleKo": "그들은 환자 생존과 연관된 예후 시그니처를 찾아내는 것을 목표로 한다.",
       "id": "prognostic",
       "added": "2026-08-03",
-      "audioUrl": "audio/prognostic.mp3"
+      "audioUrl": "audio/prognostic.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "predictive(예측하는—일반). 의학 핵심 대비: prognostic(예후=병의 앞날·결과 예측) vs diagnostic(진단=현재 무슨 병인지 규명)."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 prognōstikos='미리 앎'(pro- 'before' + gnōsis 'knowledge'). diagnosis, prognosis와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "prognostic marker/signature/factor, prognostic value(예후 예측력)."
+        }
+      ]
     },
     {
       "word": "explicit",
@@ -120,7 +260,21 @@
       "exampleKo": "딥러닝 모델은 명시적 특징 공학에 의존하는 것을 피한다.",
       "id": "explicit",
       "added": "2026-08-03",
-      "audioUrl": "audio/explicit.mp3"
+      "audioUrl": "audio/explicit.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "express(명백히 표명된), overt(공공연한), unambiguous(모호하지 않은), stated. ↔ implicit(암묵적·내포된). explicit은 '직접 드러내 분명히 밝힌'."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 explicare='펼치다, 풀다'(ex- 'out' + plicare 'to fold' 접다). complicate, apply, plywood와 한 뿌리. exploit과도 어근 공유."
+        },
+        {
+          "h": "활용",
+          "t": "explicit instructions, explicit feature engineering(명시적 특징 설계)."
+        }
+      ]
     },
     {
       "word": "multiplexed",
@@ -131,7 +285,21 @@
       "exampleKo": "다중화 조직 이미지의 분할은 임계값 설정, 엣지 기반 방법, 워터셰드 알고리즘에 의존해 왔다.",
       "id": "multiplexed",
       "added": "2026-08-03",
-      "audioUrl": "audio/multiplexed.mp3"
+      "audioUrl": "audio/multiplexed.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "multiple/simultaneous/parallel(동시 병렬). multiplex는 통신·영상에서 '여러 신호(채널)를 한 번에 실어 동시 전송·측정'. 영화관 멀티플렉스=여러 상영관과 같은 발상."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 multi- 'many' + -plex 'fold/twist(겹·꼬임)'. duplex(2겹), complex(함께 얽힌)와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "multiplexed imaging(다중 이미징), multiplexed assay(다중 분석)."
+        }
+      ]
     },
     {
       "word": "proximity",
@@ -142,7 +310,21 @@
       "exampleKo": "세포들은 보통 공간적 근접성이나 분자적 유사성에 따라 묶인다.",
       "id": "proximity",
       "added": "2026-08-03",
-      "audioUrl": "audio/proximity.mp3"
+      "audioUrl": "audio/proximity.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "nearness/closeness(가까움), vicinity(인근 지역), adjacency(맞닿은 인접). proximity는 격식체로 물리적·추상적 '가까움'."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 proximus='nearest'(prope 'near'의 최상급). approximate(근사하다), approach(다가가다)와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "in close proximity to(~에 아주 가까이), spatial proximity, proximity sensor."
+        }
+      ]
     },
     {
       "word": "scarcity",
@@ -153,7 +335,21 @@
       "exampleKo": "주석(라벨) 부족은 지도학습의 활용을 제약한다.",
       "id": "scarcity",
       "added": "2026-08-03",
-      "audioUrl": "audio/scarcity.mp3"
+      "audioUrl": "audio/scarcity.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "shortage(특정 물자의 일시적 부족), dearth(격식—결핍), paucity(격식—수적으로 적음), lack(없음). ↔ abundance(풍부). 경제학의 '희소성'도 이 단어."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 excerpere(뽑아내다)→고대 프랑스어 escars '부족한'→scarce. '뽑혀나가 모자라다'는 발상."
+        },
+        {
+          "h": "활용",
+          "t": "water/food scarcity, annotation scarcity(라벨 부족), scarcity of data."
+        }
+      ]
     },
     {
       "word": "invariant",
@@ -164,7 +360,21 @@
       "exampleKo": "슬라이드마다 생기는 인공적 왜곡에 영향받지 않는 잠재 표현을 학습함으로써.",
       "id": "invariant",
       "added": "2026-08-03",
-      "audioUrl": "audio/invariant.mp3"
+      "audioUrl": "audio/invariant.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "unchanging/constant/fixed/stable(변하지 않는). 수학·ML에서 'invariant to/under(~에 대해 값이 안 변하는)'. cf. invariable(항상 일정한—일반어)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 in-(not) + variare='to vary(변하다)'. various, variable, variety와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "translation-invariant(평행이동 불변), invariant to rotation, scale-invariant."
+        }
+      ]
     },
     {
       "word": "implausible",
@@ -175,7 +385,21 @@
       "exampleKo": "그 모델은 생물학적으로 그럴듯하지 않은 패턴을 만들어낼 수 있다.",
       "id": "implausible",
       "added": "2026-08-03",
-      "audioUrl": "audio/implausible.mp3"
+      "audioUrl": "audio/implausible.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "unlikely(가능성 낮은), improbable(확률적으로 낮은), far-fetched(억지스러운), incredible(믿기 힘든). ↔ plausible(겉보기에 그럴듯한). implausible은 '말이 안 될 만큼 그럴듯하지 않은'."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 plaudere='to applaud(박수치다)' → plausible '박수받을 만한→그럴듯한', im-(not). explode(원래 '박수쳐 무대에서 쫓아내다'), applause와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "biologically implausible(생물학적으로 말이 안 되는), an implausible explanation."
+        }
+      ]
     },
     {
       "word": "exploit",
@@ -186,7 +410,21 @@
       "exampleKo": "대량의 라벨 없는(unlabeled) 데이터셋을 활용하기 위해",
       "id": "exploit",
       "added": "2026-08-03",
-      "audioUrl": "audio/exploit.mp3"
+      "audioUrl": "audio/exploit.mp3",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "use(가장 일반—그냥 쓰다), utilize(격식—'유용하게 활용'), employ(격식—'수단·방법을 동원'), leverage(지렛대처럼 효과를 극대화), harness(에너지·힘을 끌어다 쓰다). exploit은 '가진 것을 최대한 이용해 이득을 뽑아내다'—긍정(자원·기회)·부정(착취) 양쪽."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 explicare(펼치다)→고대 프랑스어 exploit '성취/위업'. explicit과 어근(ex-+plicare) 공유."
+        },
+        {
+          "h": "활용",
+          "t": "exploit an opportunity/weakness, exploit unlabeled data; (명) a daring exploit(위업), a security exploit(취약점 공격)."
+        }
+      ]
     }
   ]
 }

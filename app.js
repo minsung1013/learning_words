@@ -181,10 +181,19 @@ function answer(chosen, btn) {
   if (correct) queue.shift();
   else queue.push(queue.shift());
 
-  // 피드백(예문) 표시
+  // 피드백(예문 + 상세 해설) 표시
   const s = stateOf(id);
   $('#q-example').textContent = current.example || '';
   $('#q-example-ko').textContent = current.exampleKo || '';
+
+  const detailBox = $('#q-detail');
+  detailBox.innerHTML = '';
+  (Array.isArray(current.detail) ? current.detail : []).forEach(sec => {
+    const d = document.createElement('div');
+    d.className = 'detail-sec';
+    d.innerHTML = `<div class="detail-h">${esc(sec.h)}</div><div class="detail-t">${esc(sec.t)}</div>`;
+    detailBox.appendChild(d);
+  });
   const nextBtn = $('#q-next');
   nextBtn.textContent = correct
     ? `정답! 다음 복습: ${fmtDays(s.interval || (s.due - Date.now()) / DAY)} 뒤 →`

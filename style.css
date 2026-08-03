@@ -124,6 +124,16 @@ main { padding: 12px 16px 20px; max-width: 640px; margin: 0 auto; }
   background: var(--surface-2); border-radius: 10px; padding: 10px 12px;
 }
 .example-ko { font-size: 13px; color: var(--muted); margin-top: 6px; line-height: 1.45; }
+
+/* 상세 해설 (유의어·뉘앙스 / 어원 / 활용) */
+.detail-box { margin-top: 12px; display: flex; flex-direction: column; gap: 10px; }
+.detail-sec {
+  background: var(--surface); border: 1px solid var(--border);
+  border-left: 3px solid var(--accent); border-radius: 10px; padding: 10px 12px;
+}
+.detail-h { font-size: 12px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+.detail-t { font-size: 14px; line-height: 1.55; color: var(--text); }
+
 .feedback .btn { width: 100%; margin-top: 12px; }
 
 .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
