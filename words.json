@@ -525,6 +525,31 @@
       "id": "interplay",
       "added": "2026-08-04",
       "audioUrl": "audio/interplay.mp3"
+    },
+    {
+      "word": "alleviate",
+      "pos": "v.",
+      "ipa": "/əˈliːvieɪt/",
+      "meaning": "(고통·문제를) 덜다, 완화하다",
+      "example": "This approach can alleviate the burden of manual annotation.",
+      "exampleKo": "이 접근법은 수작업 주석의 부담을 덜어줄 수 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "mitigate(나쁜 것의 심각성·영향을 완화—위험·손해), ease(누그러뜨리다), relieve(고통·긴장을 풀어주다), lessen/reduce(줄이다). alleviate는 특히 고통·증상·부담을 덜어 편하게 해준다는 뉘앙스. 원인 자체를 없애기보다 정도를 낮추는 것(↔ cure)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 alleviare=가볍게 하다(ad- ~로 + levis 가벼운). elevate(들어올리다), levity(가벼움), lever(지렛대), relieve와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "alleviate pain/symptoms/poverty/burden, help alleviate the problem."
+        }
+      ],
+      "id": "alleviate",
+      "added": "2026-08-04",
+      "audioUrl": "audio/alleviate.mp3"
     }
   ]
 }
