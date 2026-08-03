@@ -44,6 +44,17 @@
       "id": "heuristic",
       "added": "2026-08-02",
       "audioUrl": "audio/heuristic.mp3"
+    },
+    {
+      "word": "putative",
+      "pos": "adj.",
+      "ipa": "/ˈpjuːtətɪv/",
+      "meaning": "추정되는, ~로 여겨지는",
+      "example": "They identified several putative target genes of the transcription factor.",
+      "exampleKo": "그들은 그 전사인자의 추정 표적 유전자 몇 개를 확인했다.",
+      "id": "putative",
+      "added": "2026-08-03",
+      "audioUrl": "audio/putative.mp3"
     }
   ]
 }
