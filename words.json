@@ -600,6 +600,31 @@
       "id": "agnostic",
       "added": "2026-08-04",
       "audioUrl": "audio/agnostic.mp3"
+    },
+    {
+      "word": "surrogate",
+      "pos": "n.",
+      "ipa": "/ˈsʌrəɡət/",
+      "meaning": "대리(의), 대용(물); (ML) 직접 다루기 어려운 대상을 대신 근사하는 것",
+      "example": "a surrogate model that locally approximates the black-box classifier",
+      "exampleKo": "블랙박스 분류기를 국소적으로 근사하는 대리 모델",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "substitute(대체물—일반), proxy(대리 지표·대용), stand-in, replacement. surrogate는 진짜 대신 쓰는 대리물이라는 격식체. 통계·ML에선 직접 최적화·측정하기 어려운 것을 대신하는 근사물(surrogate model/loss/marker)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 surrogare/subrogare=대신 세우다(sub- 대신 + rogare to ask/propose 청하다·내세우다). interrogate(심문), prerogative(특권)와 rogare 뿌리 공유."
+        },
+        {
+          "h": "활용",
+          "t": "surrogate model(대리 모델), surrogate loss(대리 손실함수), surrogate marker/endpoint(대리 지표—의학), surrogate mother(대리모)."
+        }
+      ],
+      "id": "surrogate",
+      "added": "2026-08-04",
+      "audioUrl": "audio/surrogate.mp3"
     }
   ]
 }
