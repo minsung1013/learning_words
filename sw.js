@@ -1,5 +1,5 @@
 /* 오프라인 지원: 앱 셸은 캐시 우선, words.json은 네트워크 우선 */
-const CACHE = 'vocab-v6';
+const CACHE = 'vocab-v7';
 const SHELL = [
   './',
   './index.html',
@@ -15,10 +15,14 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('activate', e => {
-  e.waitUntil(
-    caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
-      .then(() => self.clients.claim())
-  );
+  e.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)));
+    await self.clients.claim();
+    // 새 버전 활성화 시 열려있는 창을 자동 새로고침 → 즉시 최신 반영
+    const clients = await self.clients.matchAll({ type: 'window' });
+    for (const c of clients) { try { await c.navigate(c.url); } catch (_) {} }
+  })());
 });
 
 self.addEventListener('fetch', e => {

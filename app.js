@@ -355,6 +355,9 @@ function bind() {
   switchView('study');
 
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    // updateViaCache:'none' → SW 스크립트를 HTTP 캐시하지 않고 매번 최신 확인
+    navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' })
+      .then(reg => reg.update().catch(() => {}))
+      .catch(() => {});
   }
 })();
