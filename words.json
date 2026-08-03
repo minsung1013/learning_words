@@ -425,6 +425,106 @@
           "t": "exploit an opportunity/weakness, exploit unlabeled data; (명) a daring exploit(위업), a security exploit(취약점 공격)."
         }
       ]
+    },
+    {
+      "word": "latent",
+      "pos": "adj.",
+      "ipa": "/ˈleɪtənt/",
+      "meaning": "잠재된, 겉으로 드러나지 않은; (ML) 관측되지 않는 내재적인",
+      "example": "to infer latent cellular states",
+      "exampleKo": "잠재된(직접 관측되지 않는) 세포 상태를 추론하기 위해",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "hidden(숨겨진—일반), dormant(휴면 중인—활동을 멈춘), potential(가능성으로서의 잠재), underlying(기저에 깔린). latent은 존재하지만 아직 겉으로 드러나지·활성화되지 않은 상태. ML에선 관측되지 않는 내재 변수를 뜻함."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 latere=to lie hidden(숨어 있다). 그리스 신화의 망각의 강 Lethe와도 연결."
+        },
+        {
+          "h": "활용",
+          "t": "latent variable/space/representation(잠재 변수·공간·표현), latent heat(잠열), latent infection(잠복 감염)."
+        }
+      ],
+      "id": "latent",
+      "added": "2026-08-04",
+      "audioUrl": "audio/latent.mp3"
+    },
+    {
+      "word": "receptive",
+      "pos": "adj.",
+      "ipa": "/rɪˈsɛptɪv/",
+      "meaning": "수용적인, 잘 받아들이는; (CNN) receptive field=수용 영역",
+      "example": "beyond the receptive field of CNNs",
+      "exampleKo": "CNN의 수용 영역(receptive field)을 넘어서",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "open/responsive(잘 반응하는), amenable(순응적인), susceptible(영향을 잘 받는—부정적일 수 있음). receptive는 새 정보·자극을 열린 태도로 받아들이는 것. CNN의 receptive field는 굳어진 전문 용어."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 recipere=to receive(받다)(re- 다시 + capere take 잡다). receive, reception, capture, susceptible과 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "receptive to new ideas(새 아이디어에 열린), (CNN) receptive field=한 뉴런이 입력에서 보는 범위."
+        }
+      ],
+      "id": "receptive",
+      "added": "2026-08-04",
+      "audioUrl": "audio/receptive.mp3"
+    },
+    {
+      "word": "continuum",
+      "pos": "n.",
+      "ipa": "/kənˈtɪnjuəm/",
+      "meaning": "연속체, 연속선 (경계 없이 단계적으로 이어지는 것; 복수형 continua)",
+      "example": "Cells lie along a continuum of states rather than in discrete types.",
+      "exampleKo": "세포들은 이산적인 유형이 아니라 상태의 연속체 위에 놓인다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "spectrum(양극 사이의 연속 분포), gradient(점진적 변화), range(범위). continuum은 끊김 없이 하나로 이어진 전체를 강조하며 중간에 뚜렷한 경계가 없음. ↔ discrete(이산적·뚝뚝 끊긴)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 continuus=이어진(continere hold together 함께 붙들다). continue, contain, content와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "a continuum of states, space-time continuum(시공간 연속체), differentiation continuum(분화 연속체). 복수형은 continua."
+        }
+      ],
+      "id": "continuum",
+      "added": "2026-08-04",
+      "audioUrl": "audio/continuum.mp3"
+    },
+    {
+      "word": "interplay",
+      "pos": "n.",
+      "ipa": "/ˈɪntərpleɪ/",
+      "meaning": "상호작용, 상호영향 (서로 영향을 주고받음)",
+      "example": "the interplay between cells and their microenvironment",
+      "exampleKo": "세포와 그 미세환경 사이의 상호작용",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "interaction(상호작용—일반·중립), interdependence(상호의존), dynamics(역학). interplay는 두 요소가 서로 영향을 주고받으며 만들어내는 역동적·미묘한 관계를 강조하는 문어체 표현."
+        },
+        {
+          "h": "어원",
+          "t": "inter-(between, ~사이) + play(움직임·작용). 글자 그대로 사이에서 일어나는 작용."
+        },
+        {
+          "h": "활용",
+          "t": "the interplay between X and Y, a complex interplay of factors(여러 요인의 복잡한 상호작용)."
+        }
+      ],
+      "id": "interplay",
+      "added": "2026-08-04",
+      "audioUrl": "audio/interplay.mp3"
     }
   ]
 }
