@@ -650,6 +650,31 @@
       "id": "compound",
       "added": "2026-08-04",
       "audioUrl": "audio/compound.mp3"
+    },
+    {
+      "word": "minutes",
+      "pos": "n. (pl.)",
+      "ipa": "/ˈmɪnɪts/ (회의록·분), /maɪˈnjuːt/ (형용사 minute: 미세한)",
+      "meaning": "① 회의록 (the minutes)  ② (형용사 minute) 미세한·극히 작은  ③ (단수 minute) 분(시간)",
+      "example": "The minutes of the meeting were circulated to all members.",
+      "exampleKo": "회의록이 전 구성원에게 회람되었다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "(회의록) meeting notes, record, proceedings. (형용사 minute /maɪˈnjuːt/) tiny·minuscule·microscopic·infinitesimal(극히 작은). 같은 철자지만 형용사 minute은 발음이 마이뉴트로 완전히 다르고 아주 작은/세밀한 뜻—in minute detail(아주 세세하게)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 minutus=small(작은, minuere 줄이다). 시간 분은 pars minuta prima(시간을 60으로 나눈 첫 번째 작은 부분)에서. 회의록 minutes도 간략히 작게 적은 것에서. minor·minimum·diminish·minus와 한 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "take the minutes(회의록을 작성하다), the minutes of the meeting; (형용사) a minute amount(극미량), in minute detail(세세히)."
+        }
+      ],
+      "id": "minutes",
+      "added": "2026-08-04",
+      "audioUrl": "audio/minutes.mp3"
     }
   ]
 }
