@@ -652,29 +652,29 @@
       "audioUrl": "audio/compound.mp3"
     },
     {
-      "word": "minutes",
-      "pos": "n. (pl.)",
-      "ipa": "/ˈmɪnɪts/ (회의록·분), /maɪˈnjuːt/ (형용사 minute: 미세한)",
-      "meaning": "① 회의록 (the minutes)  ② (형용사 minute) 미세한·극히 작은  ③ (단수 minute) 분(시간)",
-      "example": "The minutes of the meeting were circulated to all members.",
-      "exampleKo": "회의록이 전 구성원에게 회람되었다.",
+      "word": "miscellaneous",
+      "pos": "adj.",
+      "ipa": "/ˌmɪsəˈleɪniəs/",
+      "meaning": "여러 가지 종류의, 잡다한, 기타의",
+      "example": "Remaining items were grouped into a miscellaneous category.",
+      "exampleKo": "나머지 항목들은 기타 범주로 묶였다.",
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "(회의록) meeting notes, record, proceedings. (형용사 minute /maɪˈnjuːt/) tiny·minuscule·microscopic·infinitesimal(극히 작은). 같은 철자지만 형용사 minute은 발음이 마이뉴트로 완전히 다르고 아주 작은/세밀한 뜻—in minute detail(아주 세세하게)."
+          "t": "various(여러 가지), assorted(갖가지로 섞인), sundry(잡다한—격식), diverse(다양한). miscellaneous는 하나의 범주로 깔끔히 묶기 어려운 잡다한 여러 가지를 가리키며, 목록 맨 끝 기타 항목(misc.)에 자주 씀."
         },
         {
           "h": "어원",
-          "t": "라틴어 minutus=small(작은, minuere 줄이다). 시간 분은 pars minuta prima(시간을 60으로 나눈 첫 번째 작은 부분)에서. 회의록 minutes도 간략히 작게 적은 것에서. minor·minimum·diminish·minus와 한 뿌리."
+          "t": "라틴어 miscere=to mix(섞다). mix, mixture, miscellany(잡록), promiscuous(뒤섞인·문란한), meddle과 한 뿌리."
         },
         {
           "h": "활용",
-          "t": "take the minutes(회의록을 작성하다), the minutes of the meeting; (형용사) a minute amount(극미량), in minute detail(세세히)."
+          "t": "miscellaneous items/expenses(기타 비용), a miscellaneous category, 약어 misc."
         }
       ],
-      "id": "minutes",
+      "id": "miscellaneous",
       "added": "2026-08-04",
-      "audioUrl": "audio/minutes.mp3"
+      "audioUrl": "audio/miscellaneous.mp3"
     }
   ]
 }
