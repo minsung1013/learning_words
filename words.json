@@ -14,15 +14,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "omnipresent(모든 곳에 동시에 존재—종교·격식), pervasive(스며들듯 퍼진—부정적일 수 있음), widespread(널리 퍼진—중립), prevalent(만연한). ubiquitous는 '어디서나 흔히 볼 수 있다'는 흔함을 강조하며 기술·현상에 자주 씀."
+          "t": "omnipresent는 신·감시처럼 '모든 곳에 동시에 존재'하는 초월적·종교적 뉘앙스. pervasive는 '스며들 듯 구석구석 퍼진'으로 종종 부정적(pervasive corruption 만연한 부패). widespread는 가장 중립적인 '넓게 퍼진'. prevalent는 '(특정 시기·집단에) 만연한'으로 통계·질병에서 자주. ubiquitous는 '어디서나 흔히 마주친다'는 흔함·친숙함을 강조하며 기술·제품·현상에 잘 어울리고 약간 감탄 섞인 과장 어조가 있다(Smartphones are ubiquitous)."
         },
         {
           "h": "어원",
-          "t": "라틴어 ubique='everywhere'(ubi 'where' + -que). '어디에나'가 그대로 뜻이 됨."
+          "t": "라틴어 ubique 'everywhere'(ubi 'where 어디' + -que '~든지'). 원래 신학에서 신의 편재(ubiquity)를 논하며 영어에 들어왔고, 현대에는 세속적 '흔함'으로 뜻이 확장됐다. 명사형은 ubiquity(편재·도처에 있음)."
         },
         {
           "h": "활용",
-          "t": "ubiquitous computing(어디에나 있는 컴퓨팅), become ubiquitous(보편화되다)."
+          "t": "ubiquitous computing(유비쿼터스 컴퓨팅), become ubiquitous(보편화되다), a ubiquitous presence(도처에 있는 존재), ubiquitous in modern research."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "'실제로 모든 개별 장소에 다 있다'는 논리적 주장이 아니라 '너무 흔해서 어디서든 보인다'는 과장 섞인 강조다. widespread보다 어조가 강하고 감탄이 배어 있다."
         }
       ]
     },
@@ -39,15 +43,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "prominent(눈에 띄는), conspicuous(확 눈에 띄는), notable(주목할 만한), striking(인상적). salient는 '가장 중요해서 튀어나온' 핵심이라는 뉘앙스—salient point/feature."
+          "t": "prominent는 물리적·비유적으로 '도드라져 눈에 띄는'. conspicuous는 '확 눈에 띄는'으로 때로 부정적(conspicuous absence 두드러진 부재). notable/noteworthy는 '주목할 만한'이라는 가치판단. striking은 '강한 인상을 주는'. salient는 '여럿 중 가장 중요해서 저절로 눈에 들어오는 핵심'이라는 뉘앙스로, salient point(요점)·salient feature(핵심 특징)처럼 쓴다."
         },
         {
           "h": "어원",
-          "t": "라틴어 salire='to leap(뛰다)' → '튀어나온'. 같은 어근: resilient(다시 튀어오르다), assault, salmon(뛰어오르는 연어)."
+          "t": "라틴어 salire 'to leap(뛰다)'의 현재분사 saliens('튀어오르는'). 물리적으로 '튀어나온'에서 비유적으로 '두드러진'이 됐다. 동원어: resilient(다시 튀어오르다=회복력), assault(덤벼들다), somersault(공중제비), salmon(뛰어오르는 물고기)."
         },
         {
           "h": "활용",
-          "t": "the salient point(핵심 논점), salient features(두드러진 특징)."
+          "t": "the salient point(핵심 논점), salient features/characteristics(두드러진 특징), the most salient finding. 군사에서는 명사 a salient(전선의 돌출부·돌출 진지)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "단순히 '중요한(important)'이 아니라 '한눈에 도드라지는 핵심'이라는 시각적 뉘앙스가 들어 있다. 중요성과 눈에 띔을 함께 담는다."
         }
       ]
     },
@@ -64,15 +72,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "confirm(확인하다—일반), verify(검증하다—사실 확인), substantiate(실증하다), support(뒷받침). corroborate는 특히 '독립적인 다른 증거로 기존 주장·증언을 강화'(법률·과학)."
+          "t": "confirm은 사실임을 '확인'(일반). verify는 절차·검증으로 '진위를 확인'. substantiate는 구체적 근거로 '실증'. validate는 '타당성을 인정'. support/back up은 '뒷받침'(광범위·구어). corroborate는 특히 '독립적인 별개의 증거·증언이 기존 주장과 일치해 신빙성을 높임'이라는 뉘앙스로, 법정 증언이나 과학적 재현에서 두 출처가 서로 맞아떨어질 때 쓴다."
         },
         {
           "h": "어원",
-          "t": "라틴어 corroborare='강하게 하다'(com- 강조 + robur 'oak/strength'). robust(튼튼한)와 한 뿌리."
+          "t": "라틴어 corroborare '강화하다'(com- 강조 + roborare 'strengthen' ← robur 'oak 참나무, 힘'). '참나무처럼 단단하게 만들다'가 원뜻. 동원어: robust(튼튼한), corroborant(강장의)."
         },
         {
           "h": "활용",
-          "t": "corroborate the findings/testimony, be corroborated by evidence."
+          "t": "corroborate the findings/hypothesis/testimony, be corroborated by independent data(독립 데이터로 뒷받침되다), corroborating evidence(뒷받침 증거)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "주장을 새로 '만드는' 게 아니라 이미 있는 주장을 별도 증거로 '보강'하는 것. 흔히 수동형(are corroborated by ...)으로 쓴다."
         }
       ]
     },
@@ -89,15 +101,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "rule of thumb(경험칙), approximation(근사). heuristic은 '완벽한 최적해는 아니지만 실용적으로 빠르게 답을 주는 방법/규칙'."
+          "t": "rule of thumb은 '경험칙'(일상어). approximation은 '근사'. shortcut은 '지름길 사고'. educated guess는 '근거 있는 어림짐작'. heuristic은 '최적해를 보장하진 않지만 빠르고 실용적으로 충분히 좋은 답을 주는 방법·규칙'이라는 뉘앙스. 심리학에서는 '어림짐작 사고전략'(availability heuristic 가용성 휴리스틱)."
         },
         {
           "h": "어원",
-          "t": "그리스어 heuriskein='to find(찾다)'. 아르키메데스의 'Eureka!(찾았다!)'와 같은 뿌리."
+          "t": "그리스어 heuriskein 'to find, discover(찾아내다)'. 아르키메데스의 감탄 'Eureka!(찾았다!)'가 같은 뿌리. '발견을 돕는' 방법에서 '경험적 탐색법'으로."
         },
         {
           "h": "활용",
-          "t": "heuristic method/search, a useful heuristic. (형용사·명사 모두)"
+          "t": "heuristic method/search/function, a useful heuristic(유용한 어림법), heuristic evaluation(휴리스틱 평가·UX). 형용사·명사 모두로 쓴다."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "핵심은 '정확·최적'이 아니라 '실용·근사'. 완벽함을 속도·단순함과 맞바꾼 것이 heuristic이다. 반대 개념은 exhaustive/optimal search(전수·최적 탐색)."
         }
       ]
     },
@@ -114,15 +130,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "supposed/presumed(추정되는—일반), alleged(주장된—법률·부정적 함의), reputed(~라고 알려진). putative는 '증명 전이지만 일반적으로 그렇다고 여겨지는'—과학·법률에서 중립적."
+          "t": "supposed/presumed는 '일반적으로 그렇다고 여겨지는'. alleged는 '주장된'으로 증명 안 됨 + 법적·부정적 함의(the alleged criminal). reputed는 '~라고 소문난'. ostensible은 '표면상의(실제와 다를 수 있는)'. putative는 '아직 확증 전이지만 학계·통념상 그렇다고 널리 상정되는'이라는 중립적 격식어로, 과학·법률에서 putative gene(추정 유전자), putative father(추정 부)처럼 쓴다."
         },
         {
           "h": "어원",
-          "t": "라틴어 putare='생각하다, 셈하다'. compute(계산), dispute(논쟁), reputation(평판)과 한 뿌리."
+          "t": "라틴어 putare '생각하다, 셈하다, 가지를 치다'. 원뜻은 '(가지를 쳐) 정리해 헤아리다'. 동원어: compute(계산), dispute(논쟁), reputation(평판), impute(전가하다), amputate(잘라내다)."
         },
         {
           "h": "활용",
-          "t": "putative target(추정 표적), putative mechanism, putative father(법률: 추정 부)."
+          "t": "putative target/mechanism/role/regulator, a putative binding site(추정 결합 부위). 법률에서는 putative marriage/father."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "'확정'이 아니라 '잠정적 가정'이라 후속 검증의 여지를 남긴다. alleged와 달리 부정적 함의 없이 중립적이다."
         }
       ]
     },
@@ -139,15 +159,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "increase(늘리다—일반), enhance(질을 높이다), supplement(부족분을 보충), boost(구어—확 끌어올리다). augment는 '이미 있는 것에 더해 크기·양·효과를 키우다'."
+          "t": "increase는 양을 '늘리다'(일반). enhance는 '질을 높이다'(개선). supplement는 '부족분을 보충'(추가분). boost는 '확 끌어올리다'(구어·급증). amplify는 '증폭'(신호·효과). expand는 '확장'. augment는 '이미 있는 것에 더해 크기·양·능력을 키움'(격식)으로, 원래 것에 무언가를 덧붙여 더 커진 전체를 만든다."
         },
         {
           "h": "어원",
-          "t": "라틴어 augere='to increase'. author, auction(값을 올리다), auxiliary(보조)와 한 뿌리."
+          "t": "라틴어 augere 'to increase, make grow(키우다)'. 동원어: author(창시자←키우는 자), authority(권위), auction(값을 올려 부르는 경매), auxiliary(보조의), august(존엄한)."
         },
         {
           "h": "활용",
-          "t": "data augmentation(데이터 증강), augmented reality(AR: 증강현실), augment X with Y."
+          "t": "data augmentation(데이터 증강), augmented reality(AR·증강현실), augment X with Y, an augmented dataset, augment the training set."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "enhance는 '질', augment는 '양·규모·능력'에 초점. 보통 기존 것에 '덧붙여' 키운다는 점에서 처음부터 새로 만드는 create와 다르다."
         }
       ]
     },
@@ -164,15 +188,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "(형) previous/preceding/earlier(이전의); prior to = before(격식체). (명, 베이즈 통계) prior distribution=사전분포. 문맥이 통계면 '사전확률', 아니면 '~에 앞선'."
+          "t": "형용사로는 previous/preceding/earlier(이전의), former와 비슷하고, prior to는 before의 격식체(prior to the experiment). 명사로는 베이즈 통계의 prior=prior distribution(사전분포·사전확률)로 posterior(사후분포)와 짝을 이룬다. 문맥이 통계·ML이면 '사전확률', 그 밖에는 '~에 앞선'으로 읽는다. 법에서 prior는 '전과'."
         },
         {
           "h": "어원",
-          "t": "라틴어 prior='former, earlier'. priority(우선), primary(첫째), prime과 한 뿌리."
+          "t": "라틴어 prior 'former, earlier(앞선 쪽)'(비교급). 동원어: priority(우선순위), primary/prime(첫째), premier(최고의), primitive(원시의). 수도원 부원장 'prior'도 '윗자리'에서 왔다."
         },
         {
           "h": "활용",
-          "t": "prior to clustering(~에 앞서), a prior probability, no prior knowledge(사전지식)."
+          "t": "prior to X(~에 앞서), a prior probability, prior knowledge/experience, no prior work; 베이즈에서 informative/uninformative prior(정보적/무정보 사전분포)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "통계의 prior는 '데이터를 보기 전의 믿음'이라 posterior와 반드시 짝. 일상어 '이전의'와 문맥으로 구분해야 한다."
         }
       ]
     },
@@ -189,15 +217,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "alleviate(고통을 덜다), lessen/reduce(줄이다), ease(누그러뜨리다), dampen(약화). mitigate는 '나쁜 것의 심각성·영향을 완화'(위험·손해·부작용). ⚠️ militate(against=~에 불리하게 작용)와 혼동 주의."
+          "t": "alleviate는 '고통·부담을 덜어 편하게'(피해자 관점). lessen/reduce는 '줄이다'(일반). ease는 '누그러뜨리다'. dampen은 '기세를 꺾다'. temper는 '강도를 누그러뜨리다'. curb는 '억제'. mitigate는 '이미 존재하는 나쁜 것(위험·손해·부작용·형벌)의 심각성·영향을 낮춤'으로, 원인 제거가 아니라 결과 완화에 초점이 있다."
         },
         {
           "h": "어원",
-          "t": "라틴어 mitigare='부드럽게 하다'(mitis 'gentle/soft' + agere 'to do')."
+          "t": "라틴어 mitigare '부드럽게·순하게 하다'(mitis 'soft, gentle 순한' + agere 'to do/drive 하다'). 의미상 mild(순한)와 통한다."
         },
         {
           "h": "활용",
-          "t": "mitigate the risk/effect/damage, mitigating factors(정상참작 사유)."
+          "t": "mitigate the risk/impact/damage/effect, mitigating factors/circumstances(정상참작 사유), risk mitigation(위험 완화)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "militate(against)와 절대 혼동 금지 — militate against는 '~에 불리하게 작용하다'(military와 한 뿌리, 전혀 다른 뜻). mitigate는 목적어(위험·피해)를 직접 완화한다."
         }
       ]
     },
@@ -214,15 +246,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "(동 delineate) outline(개요를 그리다), demarcate(경계를 긋다), define(규정), depict(묘사). delineate는 '경계·윤곽을 또렷이 그리거나 상세히 기술'."
+          "t": "동사 delineate 기준으로: outline은 '개요·윤곽을 대략 잡다'. demarcate는 '경계를 명확히 긋다'(구분선). define은 '정의·규정'. depict/portray는 '묘사'. sketch는 '스케치'. delineate는 '경계·윤곽을 또렷이 그리거나 세부를 상세히 기술함'으로, (1) 경계 짓기와 (2) 자세히 서술하기 두 갈래로 쓴다."
         },
         {
           "h": "어원",
-          "t": "라틴어 delineare='선으로 그리다'(de- + linea 'line'). line과 한 뿌리."
+          "t": "라틴어 delineare '선으로 그리다'(de- 완전히 + linea 'line/thread 선·실'). 동원어: line, linear, lineage(혈통), lineament(이목구비·윤곽)."
         },
         {
           "h": "활용",
-          "t": "delineate boundaries, clear delineation of tissue domains."
+          "t": "delineate boundaries/regions/roles, clear delineation of tissue domains(조직 도메인의 명확한 구획), delineate the differences between X and Y."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "'경계를 나눔'과 '상세히 규명함'을 둘 다 의미하므로 문맥으로 어느 쪽인지 판단한다. tissue domains와 함께면 '구획'."
         }
       ]
     },
@@ -239,15 +275,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "predictive(예측하는—일반). 의학 핵심 대비: prognostic(예후=병의 앞날·결과 예측) vs diagnostic(진단=현재 무슨 병인지 규명)."
+          "t": "predictive는 '예측하는'(일반). prophetic은 '예언적'(문학). 의학의 핵심 대비: prognostic(예후=치료 여부와 무관한 병의 경과·생존 등 '앞날 예측') vs diagnostic(진단=현재 '무슨 병인지 규명') vs predictive(특정 치료 반응 예측). 바이오마커 분야에서는 prognostic과 predictive를 엄밀히 구분한다."
         },
         {
           "h": "어원",
-          "t": "그리스어 prognōstikos='미리 앎'(pro- 'before' + gnōsis 'knowledge'). diagnosis, prognosis와 한 뿌리."
+          "t": "그리스어 prognōstikos '미리 아는'(pro- 'before 미리' + gignōskein 'to know' → gnōsis 'knowledge 앎'). 히포크라테스의 의학서 'Prognostics'에서. 동원어: diagnosis, prognosis(예후), agnostic(불가지론), gnostic."
         },
         {
           "h": "활용",
-          "t": "prognostic marker/signature/factor, prognostic value(예후 예측력)."
+          "t": "prognostic marker/factor/signature/model, prognostic value(예후 예측력), poor/good prognosis(나쁜/좋은 예후)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "prognostic(앞날)과 diagnostic(현재 진단)을 헷갈리지 말 것. 명사형은 prognosis(복수 prognoses)."
         }
       ]
     },
@@ -264,15 +304,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "express(명백히 표명된), overt(공공연한), unambiguous(모호하지 않은), stated. ↔ implicit(암묵적·내포된). explicit은 '직접 드러내 분명히 밝힌'."
+          "t": "express는 '명백히 표명된'(격식, express consent 명시적 동의). overt는 '공공연한, 겉으로 드러난'(↔covert 은밀한). unambiguous는 '모호하지 않은'. clear-cut/stated도 유사. 반의어는 implicit(암묵적·내포된), tacit(무언의). explicit은 '숨김없이 직접 분명하게 밝힌'으로 추측·암시가 필요 없다. (별도 뜻: 성적으로 노골적인 explicit content)"
         },
         {
           "h": "어원",
-          "t": "라틴어 explicare='펼치다, 풀다'(ex- 'out' + plicare 'to fold' 접다). complicate, apply, plywood와 한 뿌리. exploit과도 어근 공유."
+          "t": "라틴어 explicare '펼치다, 풀어내다'(ex- 'out 밖으로' + plicare 'to fold 접다'). '접힌 것을 펼쳐 드러냄'이 원뜻. 동원어: complicate(함께 접힘), apply/employ, deploy, ply, plywood, 그리고 exploit(같은 뿌리!)."
         },
         {
           "h": "활용",
-          "t": "explicit instructions, explicit feature engineering(명시적 특징 설계)."
+          "t": "explicit instructions/consent/mention, make X explicit(X를 명시하다), explicit feature engineering(명시적 특징 설계), explicitly stated."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "implicit(안에 접혀 숨은)과 정확히 반대. 어근 '접다(plicare)'를 떠올리면 explicit=펼침, implicit=접힘으로 기억하기 쉽다."
         }
       ]
     },
@@ -289,15 +333,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "multiple/simultaneous/parallel(동시 병렬). multiplex는 통신·영상에서 '여러 신호(채널)를 한 번에 실어 동시 전송·측정'. 영화관 멀티플렉스=여러 상영관과 같은 발상."
+          "t": "개념상 simultaneous/parallel(동시·병렬), multi-channel, combined와 통한다. multiplex는 통신·영상·생물학에서 '여러 신호·표적·채널을 하나의 매체·실험에 함께 실어 동시에 전송·측정'하는 것. 영화관 멀티플렉스(한 건물에 여러 상영관)도 같은 발상. 반대는 singleplex(단일)."
         },
         {
           "h": "어원",
-          "t": "라틴어 multi- 'many' + -plex 'fold/twist(겹·꼬임)'. duplex(2겹), complex(함께 얽힌)와 한 뿌리."
+          "t": "라틴어 multi- 'many 많은' + -plex 'fold, -겹'(plicare '접다'에서). 동원어: duplex(2겹), triplex, complex(함께 얽힌), simplex(단일)."
         },
         {
           "h": "활용",
-          "t": "multiplexed imaging(다중 이미징), multiplexed assay(다중 분석)."
+          "t": "multiplexed imaging/assay/sequencing, multiplexed tissue images(여러 마커를 한 번에 찍은 조직 이미지), multiplexing(다중화)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "핵심은 '여러 개를 한꺼번에' 처리·측정한다는 것. -plex는 explicit·complex의 '접다(plicare)' 뿌리와 통한다."
         }
       ]
     },
@@ -314,15 +362,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "nearness/closeness(가까움), vicinity(인근 지역), adjacency(맞닿은 인접). proximity는 격식체로 물리적·추상적 '가까움'."
+          "t": "nearness/closeness는 '가까움'(일반). vicinity는 '인근 지역'(장소, in the vicinity of). adjacency는 '맞닿은 인접'(경계가 접함). immediacy는 '(시공간적) 근접·즉시성'. proximity는 격식체로 물리적·시간적·추상적 '가까운 정도'를 폭넓게 가리킨다."
         },
         {
           "h": "어원",
-          "t": "라틴어 proximus='nearest'(prope 'near'의 최상급). approximate(근사하다), approach(다가가다)와 한 뿌리."
+          "t": "라틴어 proximus 'nearest(가장 가까운)'(prope 'near 가까운'의 최상급). 동원어: approximate(근사하다←가까이 가다), approach(다가가다), proximal(근위의, ↔distal 원위의), rapprochement(화해·관계 회복)."
         },
         {
           "h": "활용",
-          "t": "in close proximity to(~에 아주 가까이), spatial proximity, proximity sensor."
+          "t": "in close proximity to(~에 아주 가까이), spatial/physical proximity(공간적·물리적 근접), proximity sensor, proximity to markets."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "해부학의 proximal(몸통에 가까운)과 어근을 공유한다. 일상어 nearness보다 격식·전문적 느낌이다."
         }
       ]
     },
@@ -339,15 +391,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "shortage(특정 물자의 일시적 부족), dearth(격식—결핍), paucity(격식—수적으로 적음), lack(없음). ↔ abundance(풍부). 경제학의 '희소성'도 이 단어."
+          "t": "shortage는 '특정 물자의 일시적 부족'(구체·상황적, a water shortage). dearth는 '~의 결핍'(격식, a dearth of talent). paucity는 '수·양이 적음'(격식, a paucity of data). lack은 '없음·결여'. deficiency는 '결핍'. 반의어는 abundance/surplus(풍부·잉여). scarcity는 '수요에 비해 공급이 모자란 희소 상태'로 경제학의 기본 개념(자원의 희소성)이기도 하다."
         },
         {
           "h": "어원",
-          "t": "라틴어 excerpere(뽑아내다)→고대 프랑스어 escars '부족한'→scarce. '뽑혀나가 모자라다'는 발상."
+          "t": "라틴어 excerpere '뽑아내다'→속라틴어 excarpsus→고대 프랑스어 escars '부족한'→영어 scarce. '뽑혀나가 모자라다'는 발상."
         },
         {
           "h": "활용",
-          "t": "water/food scarcity, annotation scarcity(라벨 부족), scarcity of data."
+          "t": "water/food/resource scarcity, annotation/data scarcity(라벨·데이터 부족), scarcity of X, artificial scarcity(인위적 희소성)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "shortage는 일시적·특정 물자의 부족, scarcity는 더 구조적·일반적인 부족이며 '희소가치'라는 함의도 갖는다."
         }
       ]
     },
@@ -364,15 +420,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "unchanging/constant/fixed/stable(변하지 않는). 수학·ML에서 'invariant to/under(~에 대해 값이 안 변하는)'. cf. invariable(항상 일정한—일반어)."
+          "t": "형용사로 unchanging/constant/fixed/stable(변하지 않는, 일반), immutable(불변의, 강함)과 통한다. 수학·ML 전문어로 'invariant to/under X'는 'X 변환을 가해도 값·성질이 그대로'라는 뜻. invariable은 '항상 일정한'(일반어)로 결이 약간 다르고, 명사형 invariance는 '불변성'."
         },
         {
           "h": "어원",
-          "t": "라틴어 in-(not) + variare='to vary(변하다)'. various, variable, variety와 한 뿌리."
+          "t": "라틴어 in- 'not' + variare 'to change/vary(변하다)'(varius 'diverse 갖가지의'). 동원어: various, variable, variety, variance, vary."
         },
         {
           "h": "활용",
-          "t": "translation-invariant(평행이동 불변), invariant to rotation, scale-invariant."
+          "t": "translation-/rotation-/scale-invariant(평행이동·회전·스케일 불변), invariant under transformation, invariant features/representation(불변 특징·표현)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "'invariant to X'는 'X가 바뀌어도 안 변함'이라는 뜻이므로 전치사 to/under를 눈여겨봐야 한다. 명사는 invariance(불변성)."
         }
       ]
     },
@@ -389,15 +449,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "unlikely(가능성 낮은), improbable(확률적으로 낮은), far-fetched(억지스러운), incredible(믿기 힘든). ↔ plausible(겉보기에 그럴듯한). implausible은 '말이 안 될 만큼 그럴듯하지 않은'."
+          "t": "unlikely는 '가능성 낮은'(일반). improbable은 '확률적으로 낮은'. far-fetched는 '억지스러운, 앞뒤가 안 맞는'. dubious는 '미심쩍은'. incredible은 '믿기 힘든'. 반의어 plausible은 '겉보기에 그럴듯한, 일리 있어 보이는'. implausible은 '겉보기에도 납득하기 어려울 만큼 설득력이 없는'이라는 뉘앙스다."
         },
         {
           "h": "어원",
-          "t": "라틴어 plaudere='to applaud(박수치다)' → plausible '박수받을 만한→그럴듯한', im-(not). explode(원래 '박수쳐 무대에서 쫓아내다'), applause와 한 뿌리."
+          "t": "라틴어 plaudere 'to clap, applaud(박수치다)'→plausibilis '박수받을 만한'→'그럴듯한'에 im- 'not'이 붙었다. 동원어: applaud, plaudit(칭찬), 그리고 explode(원래는 '박수·야유로 배우를 무대에서 쫓아내다'!)."
         },
         {
           "h": "활용",
-          "t": "biologically implausible(생물학적으로 말이 안 되는), an implausible explanation."
+          "t": "biologically/physically implausible(생물학적·물리적으로 말이 안 되는), an implausible explanation/scenario, highly implausible."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "plausible은 '겉보기 설득력'일 뿐 반드시 참은 아니다. implausible은 그 반대로 겉보기에도 미덥지 않은 것. explode와 어근(박수)을 공유한다는 점이 재미있다."
         }
       ]
     },
@@ -414,15 +478,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "use(가장 일반—그냥 쓰다), utilize(격식—'유용하게 활용'), employ(격식—'수단·방법을 동원'), leverage(지렛대처럼 효과를 극대화), harness(에너지·힘을 끌어다 쓰다). exploit은 '가진 것을 최대한 이용해 이득을 뽑아내다'—긍정(자원·기회)·부정(착취) 양쪽."
+          "t": "use는 '그냥 쓰다'(가장 일반·중립). utilize는 '유용하게 활용'(격식, 종종 과장). employ는 '(수단·방법을) 동원하다'(격식). leverage는 '지렛대처럼 가진 것을 발판 삼아 효과를 극대화'. harness는 '(에너지·힘을) 끌어모아 유용하게 쓰다'. capitalize on/tap into는 '~을 기회로 이득을 얻다'. exploit은 '가진 자원·기회·약점을 최대한 이용해 이득을 뽑아냄'으로, 긍정(exploit an opportunity)과 부정(착취 exploit workers) 양쪽에 쓴다."
         },
         {
           "h": "어원",
-          "t": "라틴어 explicare(펼치다)→고대 프랑스어 exploit '성취/위업'. explicit과 어근(ex-+plicare) 공유."
+          "t": "라틴어 explicare '펼치다(→성취해내다)'→고대 프랑스어 esploit '성취·위업'. explicit과 어근(ex- + plicare '접다')을 공유한다. '이용하다'라는 동사 뜻은 후대에 확장됐다."
         },
         {
           "h": "활용",
-          "t": "exploit an opportunity/weakness, exploit unlabeled data; (명) a daring exploit(위업), a security exploit(취약점 공격)."
+          "t": "동사: exploit an opportunity/weakness/resource, exploit unlabeled data(비라벨 데이터를 활용), exploit spatial structure. 명사: a daring exploit(대담한 위업), a security/zero-day exploit(보안 취약점 공격)."
+        },
+        {
+          "h": "헷갈림·발음",
+          "t": "동사는 /ɪkˈsplɔɪt/(강세 뒤), 명사는 /ˈɛksplɔɪt/(강세 앞)로 강세가 이동한다. 문맥에 따라 '활용'인지 '착취'인지 어조가 갈린다."
         }
       ]
     },
@@ -436,15 +504,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "hidden(숨겨진—일반), dormant(휴면 중인—활동을 멈춘), potential(가능성으로서의 잠재), underlying(기저에 깔린). latent은 존재하지만 아직 겉으로 드러나지·활성화되지 않은 상태. ML에선 관측되지 않는 내재 변수를 뜻함."
+          "t": "hidden은 '숨겨진'(일반). dormant는 '휴면·활동 정지 상태'(화산·씨앗). potential은 '가능성으로 있는'. underlying은 '기저에 깔린'. latent은 '존재하지만 아직 겉으로 드러나거나 활성화되지 않은'(잠복·잠재). ML에서는 '직접 관측되지 않는 내재 변수'(latent variable)로, 측정값 뒤에 숨은 요인을 가리킨다. 반의어는 manifest(뚜렷이 드러난), observed."
         },
         {
           "h": "어원",
-          "t": "라틴어 latere=to lie hidden(숨어 있다). 그리스 신화의 망각의 강 Lethe와도 연결."
+          "t": "라틴어 latere 'to lie hidden(숨어 있다)'의 현재분사 latens. 동원어: latency(지연·잠복기), 그리스 신화의 망각의 강 Lethe(숨겨져 잊힘)."
         },
         {
           "h": "활용",
-          "t": "latent variable/space/representation(잠재 변수·공간·표현), latent heat(잠열), latent infection(잠복 감염)."
+          "t": "latent variable/space/representation(잠재 변수·공간·표현), latent heat(잠열), latent infection/TB(잠복 감염), latent demand(잠재 수요)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "ML의 latent은 '데이터에 안 보이지만 그 배후에 있는' 것으로 표현학습의 핵심 개념. dormant(활동을 멈춘 상태)와는 뉘앙스가 다르다."
         }
       ],
       "id": "latent",
@@ -461,15 +533,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "open/responsive(잘 반응하는), amenable(순응적인), susceptible(영향을 잘 받는—부정적일 수 있음). receptive는 새 정보·자극을 열린 태도로 받아들이는 것. CNN의 receptive field는 굳어진 전문 용어."
+          "t": "open은 '열린 태도의'. responsive는 '잘 반응하는'. amenable은 '순순히 따르는'(amenable to). susceptible은 '영향을 잘 받는'으로 부정적일 수 있다(susceptible to disease). receptive는 '새 생각·자극·제안을 기꺼이 받아들이는' 긍정적 태도. 신경과학·CNN에서 receptive field는 '한 뉴런이 반응하는 입력 영역'으로 굳어진 전문 용어다."
         },
         {
           "h": "어원",
-          "t": "라틴어 recipere=to receive(받다)(re- 다시 + capere take 잡다). receive, reception, capture, susceptible과 한 뿌리."
+          "t": "라틴어 recipere 'to receive, take back(받아들이다)'(re- 'back' + capere 'to take/seize 잡다'). 동원어: receive, reception, receipt, capture, accept, concept, susceptible — 모두 capere(잡다) 뿌리의 대가족."
         },
         {
           "h": "활용",
-          "t": "receptive to new ideas(새 아이디어에 열린), (CNN) receptive field=한 뉴런이 입력에서 보는 범위."
+          "t": "receptive to new ideas/feedback/change(새 생각·피드백·변화에 열린), a receptive audience(호응하는 청중), (신경/CNN) receptive field(수용 영역)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "capere(잡다) 계열이라 accept·capture·conceive와 뿌리를 공유한다. CNN 용어일 때는 반드시 field와 함께 쓰인다."
         }
       ],
       "id": "receptive",
@@ -486,15 +562,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "spectrum(양극 사이의 연속 분포), gradient(점진적 변화), range(범위). continuum은 끊김 없이 하나로 이어진 전체를 강조하며 중간에 뚜렷한 경계가 없음. ↔ discrete(이산적·뚝뚝 끊긴)."
+          "t": "spectrum은 '양극 사이의 연속 분포'로 대비 축이 있다(political spectrum). gradient는 '점진적 변화·기울기'. range는 '범위'. scale은 '척도'. continuum은 '뚜렷한 경계·단절 없이 하나로 죽 이어진 전체'로, 중간에 무수한 중간 단계가 있다. 반의어는 discrete(이산적·뚝뚝 끊긴), dichotomy(이분)."
         },
         {
           "h": "어원",
-          "t": "라틴어 continuus=이어진(continere hold together 함께 붙들다). continue, contain, content와 한 뿌리."
+          "t": "라틴어 continuus '이어진, 끊이지 않는'(continere 'hold together' ← com- '함께' + tenere 'to hold 잡다·유지'). 동원어: continue, continuous, contain, content, tenacious, tenure. 복수형은 continua."
         },
         {
           "h": "활용",
-          "t": "a continuum of states, space-time continuum(시공간 연속체), differentiation continuum(분화 연속체). 복수형은 continua."
+          "t": "a continuum of states/values(상태·값의 연속체), space-time continuum(시공간 연속체), on a continuum(연속선 위에), differentiation continuum(세포 분화 연속체)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "discrete(범주형·이산)와 정확히 대비되는 개념. '연속 대 이산'은 데이터·현상을 기술하는 핵심 축이다."
         }
       ],
       "id": "continuum",
@@ -511,15 +591,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "interaction(상호작용—일반·중립), interdependence(상호의존), dynamics(역학). interplay는 두 요소가 서로 영향을 주고받으며 만들어내는 역동적·미묘한 관계를 강조하는 문어체 표현."
+          "t": "interaction은 '상호작용'(가장 일반·중립). interdependence는 '상호의존'. dynamics는 '역학·상호 힘'. interrelation은 '상호 관계'. interplay는 '둘 이상이 서로 영향을 주고받으며 만들어내는 역동적이고 미묘한 상호작용'으로, 단순 접촉보다 '어우러짐·상호 조율'의 뉘앙스가 강한 문어체 표현이다."
         },
         {
           "h": "어원",
-          "t": "inter-(between, ~사이) + play(움직임·작용). 글자 그대로 사이에서 일어나는 작용."
+          "t": "inter- 'between, among(~사이)' + play 'action, movement, free scope(작용·움직임·여지)'. 글자 그대로 '사이에서 일어나는 놀이·작용'. play는 고대영어 plegian '움직이다·활동하다'에서 왔다."
         },
         {
           "h": "활용",
-          "t": "the interplay between X and Y, a complex interplay of factors(여러 요인의 복잡한 상호작용)."
+          "t": "the interplay between X and Y(X와 Y의 상호작용), a complex/dynamic interplay of factors(여러 요인의 복잡한 상호작용), the interplay of genetics and environment."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "interaction보다 문학적·유려하며, 서로 '주고받으며 빚어낸 결과'를 부각한다."
         }
       ],
       "id": "interplay",
@@ -536,15 +620,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "mitigate(나쁜 것의 심각성·영향을 완화—위험·손해), ease(누그러뜨리다), relieve(고통·긴장을 풀어주다), lessen/reduce(줄이다). alleviate는 특히 고통·증상·부담을 덜어 편하게 해준다는 뉘앙스. 원인 자체를 없애기보다 정도를 낮추는 것(↔ cure)."
+          "t": "mitigate는 '위험·손해의 심각성·영향을 완화'(결과 관리). ease는 '긴장·고통을 누그러뜨리다'. relieve는 '고통·부담을 덜어 안도시키다'(relieve pain). lessen/reduce는 '줄이다'(일반). soothe는 '달래다'(감각·감정). assuage는 '격한 감정·욕구를 가라앉히다'. alleviate는 특히 '고통·증상·부담·빈곤을 덜어 한결 견딜 만하게'로, 원인 제거(cure)가 아니라 정도를 낮추는 것이다."
         },
         {
           "h": "어원",
-          "t": "라틴어 alleviare=가볍게 하다(ad- ~로 + levis 가벼운). elevate(들어올리다), levity(가벼움), lever(지렛대), relieve와 한 뿌리."
+          "t": "라틴어 alleviare '가볍게 하다'(ad- '~쪽으로' + levis 'light 가벼운'). 동원어: elevate(들어올리다), lever(지렛대), levity(경솔·가벼움), relieve, relevant."
         },
         {
           "h": "활용",
-          "t": "alleviate pain/symptoms/poverty/burden, help alleviate the problem."
+          "t": "alleviate pain/suffering/symptoms/poverty/burden/pressure, help (to) alleviate the problem(문제 완화에 도움)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "cure(완치)와 달리 증상·정도만 낮춘다. mitigate가 '위험·악영향'에 어울린다면, alleviate는 '고통·부담'에 더 자연스럽다."
         }
       ],
       "id": "alleviate",
@@ -561,15 +649,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "sufficiently(충분히—양적 충족), properly(제대로), satisfactorily(만족스럽게). adequately는 요구되는 최소 수준을 만족할 만큼—뛰어남이 아니라 부족하지 않음의 뉘앙스. 논문에선 fail to adequately ~ (충분히 ~하지 못하다) 형태로 한계를 지적할 때 자주."
+          "t": "sufficiently는 '충분히'(양적 충족). properly는 '제대로·올바르게'. satisfactorily는 '만족스럽게'(기준 충족). suitably는 '알맞게'. adequately는 '요구되는 최소 수준을 만족할 만큼'으로, 탁월함이 아니라 '부족하지 않을 정도'라는 중립적 충분함을 뜻한다. 논문에서는 'fail to adequately ~'(충분히 ~하지 못하다)로 한계를 완곡히 지적할 때 자주 쓴다."
         },
         {
           "h": "어원",
-          "t": "라틴어 adaequare=~에 맞먹게 하다(ad- ~로 + aequus equal 동등한). equal, adequate, equate, equity와 한 뿌리."
+          "t": "라틴어 adaequare '~에 맞먹게 하다, 동등하게 하다'(ad- '~로' + aequus 'equal, level 평평한·공평한'). 동원어: equal, equate, equity, equator, equanimity — 모두 aequus(같은) 뿌리."
         },
         {
           "h": "활용",
-          "t": "adequately capture/describe/address, not adequately explained(충분히 설명되지 않은). 형용사형은 adequate."
+          "t": "adequately capture/describe/address/explain/account for, not adequately tested, an adequately powered study(검정력이 충분한 연구)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "adequate는 '딱 충분'(가끔 '그저 그런' 함의)이라 excellent가 아니다. 형용사는 adequate, 명사는 adequacy(적절성)."
         }
       ],
       "id": "adequately",
@@ -586,15 +678,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "independent of / regardless of (~에 독립적인). 기술에서 X-agnostic은 X 종류가 무엇이든 상관없이 동작함을 뜻함(platform-/hardware-/model-agnostic). 원래는 신의 존재를 알 수 없다는 불가지론(agnosticism) 입장."
+          "t": "기술 문맥에서는 independent of / neutral to / regardless of(~와 무관한)와 통한다. X-agnostic은 'X 종류가 무엇이든 상관없이 동작'(platform-/hardware-/vendor-/model-agnostic). 본래 뜻은 '신의 존재는 알 수 없다'는 불가지론 입장으로, 단정하지 않고 판단을 보류한다. 반의어는 (기술) X-specific(~전용), (신앙) theist/atheist."
         },
         {
           "h": "어원",
-          "t": "그리스어 agnōstos=unknown/unknowable(a- not + gnōsis knowledge 앎). prognostic·diagnosis의 gnosis와 한 뿌리. 1869년 생물학자 T.H. Huxley가 종교적 의미로 만든 말."
+          "t": "그리스어 agnōstos 'unknown, unknowable(알 수 없는)'(a- 'not' + gnōsis 'knowledge 앎'). 1869년 생물학자 T.H. Huxley가 자기 입장을 부르려 만든 신조어. 동원어: prognostic, diagnosis, gnostic, 그리고 (약하게) ignore, notion — gnō-(알다) 뿌리."
         },
         {
           "h": "활용",
-          "t": "model-agnostic(모델 불문), platform/hardware/technology-agnostic, data-agnostic; (원뜻 명사) an agnostic 불가지론자."
+          "t": "model-agnostic(모델 불문), platform/hardware/technology/data-agnostic, agnostic to implementation(구현 방식과 무관); 명사 an agnostic(불가지론자)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "기술 용어일 때는 종교와 무관하게 '무엇이든 상관없음'을 뜻한다. gnosis(앎) 어근으로 prognostic과 이어진다."
         }
       ],
       "id": "agnostic",
@@ -611,15 +707,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "substitute(대체물—일반), proxy(대리 지표·대용), stand-in, replacement. surrogate는 진짜 대신 쓰는 대리물이라는 격식체. 통계·ML에선 직접 최적화·측정하기 어려운 것을 대신하는 근사물(surrogate model/loss/marker)."
+          "t": "substitute는 'A 대신 B'(대체물, 일반). proxy는 '대리·대용 지표'(측정·권한 대행, proxy variable). stand-in은 '임시 대역'. replacement는 '교체물'. ersatz는 '(품질 낮은) 대용품'(부정적). surrogate는 '진짜 대신 세워 그 역할을 대신하게 하는 대리물'로, 직접 다루기 어려운 대상을 대신한다(통계·ML의 surrogate model/loss, 임상의 surrogate endpoint, 생명윤리의 대리모)."
         },
         {
           "h": "어원",
-          "t": "라틴어 surrogare/subrogare=대신 세우다(sub- 대신 + rogare to ask/propose 청하다·내세우다). interrogate(심문), prerogative(특권)와 rogare 뿌리 공유."
+          "t": "라틴어 surrogare/subrogare '(투표로) 대신 세우다, 후임을 앉히다'(sub- '아래·대신' + rogare 'to ask, propose 청하다·법안을 내다'). 동원어: interrogate(심문←물어대다), prerogative(특권), abrogate(폐지), derogatory(경멸적) — rogare(묻다·청하다) 뿌리."
         },
         {
           "h": "활용",
-          "t": "surrogate model(대리 모델), surrogate loss(대리 손실함수), surrogate marker/endpoint(대리 지표—의학), surrogate mother(대리모)."
+          "t": "surrogate model(대리 모델), surrogate loss(대리 손실함수), surrogate marker/endpoint(대리 지표·평가변수 — 임상), surrogate mother/pregnancy(대리모)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "proxy와 비슷하나, surrogate는 '역할을 대신 수행', proxy는 '대신 나타내는 지표·대행'에 가깝다. 최적화하기 어려운 목표를 대신하는 것이 surrogate다."
         }
       ],
       "id": "surrogate",
@@ -636,15 +736,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "(동사 악화) aggravate/exacerbate/worsen(악화시키다), intensify(심화). compound는 이미 나쁜 것을 더 키우거나(compound the problem) 복리처럼 누적(compound interest). (명사) mixture(단순히 섞인 혼합물) vs compound(화학적으로 결합한 화합물)."
+          "t": "동사 '악화·가중' 뜻으로는 aggravate/exacerbate/worsen(나쁜 상태를 더 나쁘게), intensify(심화), add to와 통한다. compound는 '이미 있는 문제·어려움에 더해 더 키움'(compound the problem)이거나 '누적·복리로 불어남'(interest compounds)이다. 동사 '합성' 뜻으로는 combine/mix. 명사는 chemical compound(화합물)로 element(원소)·mixture(단순 혼합물)와 구분되며, mixture(그냥 섞임)와 달리 compound는 화학적으로 결합한 것이다."
         },
         {
           "h": "어원",
-          "t": "라틴어 componere=함께 놓다(com- 함께 + ponere to put 놓다). component, compose, position, deposit과 한 뿌리."
+          "t": "라틴어 componere '함께 놓다, 조립하다'(com- '함께' + ponere 'to put/place 놓다'). 동원어: component, compose, composite, position, deposit, opponent, postpone — ponere(놓다) 대가족. '여러 요소를 함께 놓음'에서 명사 '복합체', 동사 '가중(더 얹다)'이 나왔다."
         },
         {
           "h": "활용",
-          "t": "(동사) errors compound(오차가 누적·증폭), compound the difficulty(어려움을 가중); (명사) chemical compound(화합물), compound interest(복리), compound word(합성어)."
+          "t": "동사: errors/problems compound(오차·문제가 누적), compound the difficulty(어려움을 가중), be compounded by(~로 더 악화되다). 명사: chemical/organic compound(화합물), compound interest(복리). 형용사: compound word(합성어), compound eye(겹눈), compound fracture(복합 골절)."
+        },
+        {
+          "h": "헷갈림·발음",
+          "t": "동사('가중·합성')는 /kəmˈpaʊnd/, 명사·형용사는 /ˈkɒmpaʊnd/로 강세가 다르다. 논문 빈출 형태는 수동형 'are compounded by ...'(~때문에 더 심해진다)."
         }
       ],
       "id": "compound",
@@ -661,15 +765,19 @@
       "detail": [
         {
           "h": "유의어·뉘앙스",
-          "t": "various(여러 가지), assorted(갖가지로 섞인), sundry(잡다한—격식), diverse(다양한). miscellaneous는 하나의 범주로 깔끔히 묶기 어려운 잡다한 여러 가지를 가리키며, 목록 맨 끝 기타 항목(misc.)에 자주 씀."
+          "t": "various는 '여러 가지의'(일반). assorted는 '갖가지로 섞인'(assorted chocolates). sundry는 '잡다한'(격식, sundry items). diverse는 '다양한'(질적 다양성 강조). heterogeneous는 '이질적인 것들이 섞인'(전문·기술어). miscellaneous는 '하나의 범주로 깔끔히 묶기 어려운, 종류가 뒤섞인 잡다한 것들'로, 목록 맨 끝 '기타(misc.)' 항목에 전형적으로 쓴다."
         },
         {
           "h": "어원",
-          "t": "라틴어 miscere=to mix(섞다). mix, mixture, miscellany(잡록), promiscuous(뒤섞인·문란한), meddle과 한 뿌리."
+          "t": "라틴어 miscere 'to mix(섞다)'→miscellaneus '뒤섞인'. 동원어: mix, mixture, miscellany(잡문·잡록), promiscuous(뒤섞인→문란한), medley(뒤섞은 모음) — miscere(섞다) 뿌리."
         },
         {
           "h": "활용",
-          "t": "miscellaneous items/expenses(기타 비용), a miscellaneous category, 약어 misc."
+          "t": "miscellaneous items/expenses/fees(기타 항목·비용), a miscellaneous category/collection, 약어 misc."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "heterogeneous('성질이 다른 것들이 섞임', 전문·기술)와 결이 다르다. miscellaneous는 '분류하기 애매한 잡동사니'라는 일상·행정 어감이 강하다."
         }
       ],
       "id": "miscellaneous",
