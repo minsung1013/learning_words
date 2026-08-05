@@ -1168,6 +1168,39 @@
       "id": "vertex",
       "added": "2026-08-05",
       "audioUrl": "audio/vertex.mp3"
+    },
+    {
+      "word": "topological",
+      "pos": "adj.",
+      "ipa": "/ˌtɒpəˈlɒdʒɪkəl/",
+      "meaning": "위상(位相)의, 위상적인 — 늘리거나 구부려도 변하지 않는 연결·배치의 구조적 성질에 관한",
+      "example": "Cells with similar topological positions in the interaction network tend to share functions.",
+      "exampleKo": "상호작용 네트워크에서 비슷한 위상적(연결 구조상의) 위치를 가진 세포들은 기능을 공유하는 경향이 있다.",
+      "detail": [
+        {
+          "h": "개념(핵심)",
+          "t": "위상(topology)은 \"거리·각도·크기\"가 아니라 \"어떻게 연결·배치되어 있는가\"를 다룸 — 커피잔과 도넛이 위상적으로 같다는 유명한 예처럼, 늘이고 구부려도(찢지 않으면) 보존되는 성질. 그래프에서 topological structure/property = 정점들의 연결 패턴(누가 누구와 이어졌나), 좌표나 실제 거리와 무관. \"topological position\"=연결망 속 상대적 위치."
+        },
+        {
+          "h": "유의어·뉘앙스",
+          "t": "structural=구조적인(더 일반적) / relational=관계적인(연결 관계) / geometric(기하학적)과는 대비됨 — geometric은 거리·각도·좌표를 따지지만 topological은 그것을 무시하고 연결만 봄. connectivity(연결성)와 밀접. \"topological\"은 \"모양이 좀 달라도 연결 구조가 같으면 같다\"는 추상적·불변적 관점을 강조."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 topos(장소·위치) + logos(학문·이론) → topology(위상수학, \"장소의 학문\"). 접미사 -ical(형용사화). topos 동원어: topic(주제, 원래 \"논의의 자리\"), utopia(u-없는+topos → 어디에도 없는 곳), topography(지형), isotope(iso-같은+topos → 같은 자리 = 동위원소), ectopic(제자리를 벗어난)."
+        },
+        {
+          "h": "활용",
+          "t": "수학·전산: \"topological space\"(위상공간), \"topological sort\"(위상 정렬 — 방향그래프의 순서화), \"topological property/invariant\"(위상 불변량). 네트워크: \"network topology\"(망 구성 — 성형/링형 등), \"topological features of a graph\". 생물: \"topologically associating domains (TADs)\"(염색체 위상 도메인), 단백질·세포망의 위상 분석."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "topology(위상수학) vs topography(지형·지세)를 혼동 주의 — 둘 다 topos(장소)에서 왔지만, topology는 \"연결 구조(불변성)\", topography는 \"지표면의 생김새(고도·지형)\". 발음 강세는 /ˌtɒpə-ˈlɒ-dʒɪkəl/ (토포-로-지컬)로 세 번째 음절."
+        }
+      ],
+      "id": "topological",
+      "added": "2026-08-05",
+      "audioUrl": "audio/topological.mp3"
     }
   ]
 }
