@@ -812,6 +812,35 @@
       "id": "dysregulation",
       "added": "2026-08-05",
       "audioUrl": "audio/dysregulation.mp3"
+    },
+    {
+      "word": "mediate",
+      "pos": "v.",
+      "ipa": "/ˈmiːdieɪt/",
+      "meaning": "매개하다 (중간 매개체로 작용해 효과를 전달·유발하다); (분쟁을) 중재·조정하다",
+      "example": "Dysregulation of communication between cells mediates complex diseases such as cancer and diabetes.",
+      "exampleKo": "세포 간 신호전달의 조절 이상은 암과 당뇨 같은 복합 질환을 매개한다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "cause=직접적 원인이 됨(가장 강한 인과) / bring about=결과를 초래함(구어적) / facilitate=수월하게 함(촉진, 필수는 아님) / transmit=전달·전파함(신호·물질을 옮김) / arbitrate=(공식적으로) 판정·중재함. mediate의 핵심은 \"A와 결과 사이에서 중간 다리(매개) 역할\"이라는 점 — 생물학에선 \"receptor-mediated(수용체 매개)\"처럼 무엇을 통해 효과가 전달되는지를 강조."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 medius(가운데) → medi-(중간) + -ate(동사화). \"가운데에 서다\"가 핵심 이미지. 동원어: medium(매체·중간), median(중앙값), medieval(중세=고대와 근대의 중간), intermediate(중간의), immediate(im-=없이 + medi = 중간 없이 → 즉각적인)."
+        },
+        {
+          "h": "활용",
+          "t": "논문 필수 표현: \"receptor-mediated\"(수용체 매개), \"immune-mediated\"(면역 매개), \"cell-mediated immunity\"(세포성 면역), \"A mediates the effect of B on C\"(A가 B의 C에 대한 효과를 매개). 통계에서 mediation analysis(매개효과 분석)도 빈출. 일상: \"mediate a dispute/conflict\"(분쟁을 중재하다)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "품사·발음 주의: 동사 mediate는 /-eɪt/(메디에이트), 형용사 immediate는 /-ət/. mediate(매개·중재) ↔ meditate(명상하다, t 하나 더)와 철자 혼동 주의. 통계에서 mediator(매개변수, 인과 경로 중간)와 moderator(조절변수, 관계 세기를 바꿈)는 완전히 다른 개념이니 구분할 것."
+        }
+      ],
+      "id": "mediate",
+      "added": "2026-08-05",
+      "audioUrl": "audio/mediate.mp3"
     }
   ]
 }
