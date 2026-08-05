@@ -1077,6 +1077,35 @@
       "id": "paracrine",
       "added": "2026-08-05",
       "audioUrl": "audio/paracrine.mp3"
+    },
+    {
+      "word": "albeit",
+      "pos": "conj.",
+      "ipa": "/ɔːlˈbiːɪt/",
+      "meaning": "비록 ~일지라도, ~이긴 하지만 (앞말에 단서·양보를 다는 격식체 접속사)",
+      "example": "The method achieves high accuracy, albeit at a significant computational cost.",
+      "exampleKo": "그 방법은 높은 정확도를 달성한다, 비록 상당한 계산 비용을 치르긴 하지만.",
+      "detail": [
+        {
+          "h": "용법·구조(핵심)",
+          "t": "albeit 뒤에는 보통 완전한 절이 아니라 **형용사·부사·전치사구·명사구**가 간결하게 옴: \"effective, albeit slow\"(효과적이지만 느린), \"albeit briefly\"(짧게나마), \"albeit with limitations\"(한계가 있긴 하지만). although는 뒤에 절(주어+동사)이 오는 반면, albeit는 압축된 양보구를 붙일 때 씀. 앞에 쉼표를 두는 경우가 많음."
+        },
+        {
+          "h": "유의어·뉘앙스",
+          "t": "although/though=비록 ~지만(가장 일반적, 뒤에 절) / even though=~에도 불구하고(강조) / notwithstanding=~에도 불구하고(매우 격식, 전치사·부사) / while=~인 반면(대조). albeit는 이들 중 가장 문어적·격식적이며 \"방금 한 말에 단서를 압축해 덧붙인다\"는 뉘앙스. 구어에서는 거의 안 쓰고 논문·에세이·기사에 적합."
+        },
+        {
+          "h": "어원",
+          "t": "중세 영어 al be it = \"all (though) it be\"(설령 그것이 ~일지라도)가 한 단어로 굳어진 것. 즉 all + be + it의 축약. 같은 식의 화석화된 표현: howbeit(그렇긴 하나, 고어), whatever/howsoever류의 양보 구문."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음 주의: /ɔːl-ˈbiː-ɪt/ (올-비-잇), \"al-be-it\" 세 음절 — \"albayt\"가 아님. 스펠링을 \"all be it\"로 띄우지 말 것(한 단어). although와 달리 뒤에 완전한 절을 잘 쓰지 않음 — \"albeit it is slow\"는 어색, \"albeit slow\"가 자연스러움."
+        }
+      ],
+      "id": "albeit",
+      "added": "2026-08-05",
+      "audioUrl": "audio/albeit.mp3"
     }
   ]
 }
