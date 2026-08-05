@@ -1135,6 +1135,39 @@
       "id": "bolster",
       "added": "2026-08-05",
       "audioUrl": "audio/bolster.mp3"
+    },
+    {
+      "word": "vertex",
+      "pos": "n.",
+      "ipa": "/ˈvɜːrtɛks/",
+      "meaning": "꼭짓점; (그래프·네트워크의) 정점·노드 — 복수형 vertices",
+      "example": "In the graph, cells are represented as vertices and their interactions as edges.",
+      "exampleKo": "그 그래프에서 세포들은 정점(노드)으로, 그들의 상호작용은 간선(에지)으로 표현된다.",
+      "detail": [
+        {
+          "h": "복수형·발음(핵심)",
+          "t": "복수형이 불규칙: **vertex → vertices** /ˈvɜːr-tɪ-siːz/ (버-티-시즈). vertexes도 가능하나 학술 글에선 vertices가 표준. 라틴어 -ex → -ices 변화(cf. index→indices, matrix→matrices, apex→apices, appendix→appendices). 단수 발음은 /ˈvɜːr-tɛks/."
+        },
+        {
+          "h": "유의어·뉘앙스",
+          "t": "그래프 이론에서 vertex = node(노드)와 동의어 — 수학 논문은 vertex, 전산·네트워크 분야는 node를 선호하는 경향. edge(간선)와 짝을 이룸(G = (V, E), V=vertices, E=edges). 기하에서 vertex=꼭짓점(각이 만나는 점), 포물선·원뿔의 vertex=정점. 유의어 apex(정점·최고점)는 \"맨 꼭대기\" 강조, corner(모서리)는 일상어."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 vertex(소용돌이·정수리·꼭대기), vertere(돌다·회전하다)에서. \"회전의 중심점 → 맨 위 점\". 동원어: vertical(수직의), vertigo(현기증·어지럼), convert/revert/invert(돌려 바꾸다), vortex(소용돌이 — vertex와 사촌), versus/version."
+        },
+        {
+          "h": "활용",
+          "t": "그래프: \"a graph with n vertices and m edges\", \"adjacent vertices\"(인접 정점), \"vertex degree\"(정점 차수), \"the vertices of a triangle/polygon\"(삼각형·다각형의 꼭짓점). 기하: \"the vertex of a parabola/angle/cone\". 단일세포·시스템생물학에선 세포·유전자를 vertex로 놓고 상호작용 네트워크를 구성."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "vertex(꼭짓점/정점) vs vortex(소용돌이) vs vertigo(현기증) — 어원은 같지만 뜻이 다름. 복수형 vertices를 vertexes로 쓰면 학술적으로 어색. apex(정점)와 유의하나 apex는 계층의 최상단, vertex는 기하·그래프의 점."
+        }
+      ],
+      "id": "vertex",
+      "added": "2026-08-05",
+      "audioUrl": "audio/vertex.mp3"
     }
   ]
 }
