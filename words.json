@@ -870,6 +870,35 @@
       "id": "decipher",
       "added": "2026-08-05",
       "audioUrl": "audio/decipher.mp3"
+    },
+    {
+      "word": "accomplish",
+      "pos": "v.",
+      "ipa": "/əˈkʌmplɪʃ/",
+      "meaning": "해내다, 완수하다, (목표를) 이루다·달성하다",
+      "example": "This is accomplished by integrating multiple data modalities into a unified representation.",
+      "exampleKo": "이는 여러 데이터 양식을 하나의 통합된 표현으로 결합함으로써 이루어진다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "achieve=(노력 끝에) 목표·성과를 달성함(가장 일반적, 성취감 강조) / attain=(높은 수준·상태에) 도달해 얻음(격식, 지위·목표) / complete=시작한 일을 끝마침(완료 자체) / fulfill=(약속·요구·잠재력을) 충족·실현함 / carry out=(계획·임무를) 실행함(수행 과정). accomplish는 \"의도한 일을 성공적으로 끝까지 해냈다\"는 완수+성취의 뉘앙스가 함께 있음. 반의어: fail(실패하다)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 complere(가득 채우다) → 고대 프랑스어 acomplir → 영어 accomplish. ac-(=ad-, ~쪽으로) + complere(com-완전히 + plere-채우다). \"완전히 채워 끝내다\"가 핵심. 동원어: complete(완전한), complement(보완), supplement(보충), plenty/plenary(가득한), replete(가득 찬)."
+        },
+        {
+          "h": "활용",
+          "t": "논문·글 표현: \"This is accomplished by ~ing\"(이것은 ~함으로써 이루어진다 — 방법 설명 단골), \"accomplish a goal/task/mission/objective\"(목표·과제·임무·목적을 달성하다), \"a sense of accomplishment\"(성취감), \"an accomplished researcher\"(뛰어난·기량이 완숙한 연구자 — 형용사 용법)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "accomplish(과제·목표를 해냄) vs complete(단순히 끝마침): accomplish는 성취·성공의 뉘앙스가 더 강함. 형용사 accomplished는 \"(기량이) 뛰어난/능숙한\"이란 별도 의미도 있음(예: an accomplished pianist). 발음은 강세가 두 번째 음절 /əˈkʌm-/에 있고 c는 묵음 아님(/k/)."
+        }
+      ],
+      "id": "accomplish",
+      "added": "2026-08-05",
+      "audioUrl": "audio/accomplish.mp3"
     }
   ]
 }
