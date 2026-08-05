@@ -148,6 +148,7 @@ function showNext() {
   });
 
   $('#q-feedback').classList.add('hidden');
+  $('#q-dontknow').classList.remove('hidden');
 }
 
 function renderEmpty() {
@@ -156,10 +157,11 @@ function renderEmpty() {
   $('#study-empty').classList.remove('hidden');
 }
 
-// 맞으면 빈도↓(간격 늘림=good), 틀리면 빈도↑(다시 자주=again)
-function answer(chosen, btn) {
+// 맞으면 빈도↓(간격 늘림=good), 틀리면/모르겠음 빈도↑(다시 자주=again)
+function answer(chosen, btn, dunno = false) {
   if (answered || !current) return;
   answered = true;
+  $('#q-dontknow').classList.add('hidden');
   const id = current.id;
   const wasNew = !stateOf(id);
   const correct = chosen === current.meaning;
@@ -197,7 +199,7 @@ function answer(chosen, btn) {
   const nextBtn = $('#q-next');
   nextBtn.textContent = correct
     ? `정답! 다음 복습: ${fmtDays(s.interval || (s.due - Date.now()) / DAY)} 뒤 →`
-    : '오답 · 곧 다시 나와요 →';
+    : (dunno ? '모르겠음 · 곧 다시 나와요 →' : '오답 · 곧 다시 나와요 →');
   $('#q-feedback').classList.remove('hidden');
 }
 
@@ -327,6 +329,7 @@ function bind() {
     t.addEventListener('click', () => switchView(t.dataset.view)));
 
   $('#speak-btn').addEventListener('click', e => { e.stopPropagation(); speak(); });
+  $('#q-dontknow').addEventListener('click', () => answer(null, null, true));
   $('#q-next').addEventListener('click', () => showNext());
 
   $('#study-all').addEventListener('click', () => { queue = buildQueue({ all: true }); showNext(); });
@@ -349,6 +352,8 @@ function bind() {
     if (!answered && /^[1-4]$/.test(e.key)) {
       const b = $('#q-options').querySelectorAll('.option')[+e.key - 1];
       if (b) b.click();
+    } else if (!answered && (e.key === '0' || e.key === '?')) {
+      answer(null, null, true); // 0 또는 ? = 모르겠음
     } else if (answered && (e.key === 'Enter' || e.code === 'Space')) {
       e.preventDefault(); showNext();
     }
