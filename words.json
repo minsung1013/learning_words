@@ -1106,6 +1106,35 @@
       "id": "albeit",
       "added": "2026-08-05",
       "audioUrl": "audio/albeit.mp3"
+    },
+    {
+      "word": "bolster",
+      "pos": "v./n.",
+      "ipa": "/ˈboʊlstər/",
+      "meaning": "강화하다, 뒷받침하다, 북돋우다; (명사) 긴 베개·받침대",
+      "example": "These findings are bolstered by independent experimental validation.",
+      "exampleKo": "이 발견들은 독립적인 실험적 검증으로 뒷받침된다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "support=받치다·지지하다(가장 일반적, 중립) / reinforce=이미 있는 것을 더 튼튼히 보강함(구조·주장) / strengthen=세게 만듦(포괄적) / buttress=(논거를) 떠받쳐 보강함(격식, 건축의 부벽 이미지) / boost=끌어올림(수치·사기). bolster는 \"밑에서 받쳐 올려 더 강하고 든든하게 만든다\"는 뉘앙스 — 주장·증거·사기·경제 등을 대상으로. 반의어: undermine(약화시키다), weaken."
+        },
+        {
+          "h": "어원",
+          "t": "고대 영어 bolster(부풀린 베개·쿠션), 게르만어 뿌리 bolg-(부풀다). 원뜻 \"불룩한 받침(베개)\" → 비유적으로 \"밑에서 받쳐 강화하다\". 같은 부풀다(bhelgh-) 계열: bellows(풀무), belly(배), billow(큰 물결)."
+        },
+        {
+          "h": "활용",
+          "t": "논문·글: \"bolster the argument/claim/hypothesis\"(주장·가설을 뒷받침하다), \"bolstered by evidence/data\"(증거·데이터로 뒷받침되는), \"bolster confidence/morale\"(자신감·사기를 북돋우다), \"bolster the economy/defenses\"(경제·방어를 강화하다). 자주 수동태 \"be bolstered by ~\"로 근거 제시."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "reinforce/support와 바꿔 쓸 수 있으나 bolster는 다소 문어적이고 \"떠받쳐 든든하게\"라는 이미지가 강함. holster(권총집)와 철자·발음 혼동 주의 — 전혀 다른 단어. 발음 /ˈboʊl-stər/ (볼-스터), bol은 \"bowl\"과 비슷한 /oʊ/."
+        }
+      ],
+      "id": "bolster",
+      "added": "2026-08-05",
+      "audioUrl": "audio/bolster.mp3"
     }
   ]
 }
