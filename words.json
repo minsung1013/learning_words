@@ -783,6 +783,35 @@
       "id": "miscellaneous",
       "added": "2026-08-04",
       "audioUrl": "audio/miscellaneous.mp3"
+    },
+    {
+      "word": "dysregulation",
+      "pos": "n.",
+      "ipa": "/dɪsˌrɛɡjəˈleɪʃən/",
+      "meaning": "조절 장애, 조절 이상 (정상적으로 유지되어야 할 생물학적·생리적 조절 기능이 무너진 상태)",
+      "example": "Dysregulation of communication between cells mediates complex diseases such as cancer and diabetes.",
+      "exampleKo": "세포 간 신호전달의 조절 이상은 암과 당뇨 같은 복합 질환을 매개한다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "imbalance=균형이 깨진 상태(가장 일반적, 정량적 뉘앙스) / disruption=정상 흐름이 끊기거나 교란됨(과정 중단 강조) / malfunction=기계·시스템이 오작동함(고장 뉘앙스) / disorder=질서·기능이 흐트러진 상태(임상 진단명에 자주). dysregulation은 특히 \"조절(regulation) 자체가 비정상\"이라는 점을 콕 집어 생물학·의학에서 씀. 반의어는 homeostasis(항상성)·regulation(정상 조절)."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 접두사 dys-(나쁜·비정상·어려운) + 라틴어 regula(자·규칙)에서 온 regulate + 명사화 -ation. dys-는 dysfunction(기능장애)·dyslexia(난독증)·dyspnea(호흡곤란)·dystrophy(영양장애)에 공통으로 등장. regula 뿌리는 regular·rule·regime과 동원어."
+        },
+        {
+          "h": "활용",
+          "t": "immune dysregulation(면역 조절 이상), gene/transcriptional dysregulation(유전자 발현 조절 이상), emotional dysregulation(정서 조절 장애, 정신의학), metabolic dysregulation(대사 조절 이상). 흔한 패턴: \"dysregulation of X\", \"X is dysregulated in disease\". 논문에서는 정상 조절 대비 up/down 어느 쪽이든 조절 균형이 깨졌음을 폭넓게 지칭."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "deregulation과 혼동 주의: deregulation은 de-(제거)로 \"규제 철폐\"(주로 경제·정책 용어)라 의도적으로 규칙을 없앰을 뜻하고, dysregulation은 dys-(비정상)로 \"조절이 병적으로 잘못됨\"(생물·의학)을 뜻함. 철자·의미 모두 다르니 구분할 것."
+        }
+      ],
+      "id": "dysregulation",
+      "added": "2026-08-05",
+      "audioUrl": "audio/dysregulation.mp3"
     }
   ]
 }
