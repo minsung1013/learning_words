@@ -1019,6 +1019,64 @@
       "id": "cognate",
       "added": "2026-08-05",
       "audioUrl": "audio/cognate.mp3"
+    },
+    {
+      "word": "juxtacrine",
+      "pos": "adj.",
+      "ipa": "/ˌdʒʌkstəˈkraɪn/",
+      "meaning": "연접(접촉) 신호전달의 — 두 세포가 직접 맞닿아 막단백질끼리 접촉해 신호를 주고받는 방식",
+      "example": "Juxtacrine signaling requires cells to be in close proximity, as the ligand and receptor are membrane-bound.",
+      "exampleKo": "연접(juxtacrine) 신호전달은 리간드와 수용체가 막에 결합되어 있어 세포들이 아주 가까이 맞닿아 있어야 한다.",
+      "detail": [
+        {
+          "h": "-crine 신호전달 계열(핵심)",
+          "t": "세포 신호전달 방식을 거리·대상으로 분류: ① juxtacrine=직접 접촉(막↔막, 세포가 맞닿아야) ② paracrine=주변 이웃 세포로 국소 확산 ③ autocrine=자기 자신에게(분비한 세포가 스스로 반응) ④ endocrine=혈류 타고 먼 표적까지(호르몬). juxtacrine이 가장 짧은 거리(접촉), endocrine이 가장 먼 거리. \"-crine\"은 \"분비\"를 뜻하는 공통 어근."
+        },
+        {
+          "h": "유의어·뉘앙스",
+          "t": "contact-dependent signaling(접촉 의존 신호전달)이 juxtacrine과 사실상 동의어. cell-cell contact/adhesion(세포간 접촉·부착)과 밀접. 대표 예: Notch-Delta 신호(이웃 세포의 막 리간드 Delta가 막 수용체 Notch에 결합). \"membrane-bound ligand\"(막결합 리간드)가 juxtacrine의 필수 조건."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 juxta(옆에, 나란히, 바로 곁에) + 그리스어 krinein(분리하다·분비하다, -crine의 어근). \"바로 곁에서 분비/작용\". juxta- 동원어: juxtapose(나란히 놓다·병치하다), juxtaposition(병치). krinein 계열: endocrine, secrete, crisis(분리·결정의 순간)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "paracrine과의 결정적 차이: juxtacrine은 분자가 확산하지 않고 막에 붙은 채 직접 접촉으로 전달(거리 0), paracrine은 분비된 분자가 짧게 확산해 이웃에 도달. 발음 /ˌdʒʌkstə-ㅋ라인/. 어미 -crine은 /kraɪn/(크라인) 또는 /krɪn/(크린) 둘 다 쓰임."
+        }
+      ],
+      "id": "juxtacrine",
+      "added": "2026-08-05",
+      "audioUrl": "audio/juxtacrine.mp3"
+    },
+    {
+      "word": "paracrine",
+      "pos": "adj.",
+      "ipa": "/ˈpærəkraɪn/",
+      "meaning": "주변분비의, 국소분비의 — 신호분자를 분비해 가까운 이웃 세포에 작용하는 방식(짧은 거리 확산)",
+      "example": "Paracrine signaling requires cells to be in close proximity, since secreted factors diffuse only over short distances.",
+      "exampleKo": "주변분비(paracrine) 신호전달은 분비된 인자가 짧은 거리만 확산하므로 세포들이 서로 가까이 있어야 한다.",
+      "detail": [
+        {
+          "h": "-crine 신호전달 계열(핵심)",
+          "t": "거리·대상 기준 분류: juxtacrine=직접 접촉 / paracrine=이웃 세포로 국소 확산(가장 흔한 단거리 세포간 소통) / autocrine=자기 자신에게 / endocrine=혈류 타고 원거리(호르몬). paracrine은 \"분비한 뒤 가까운 이웃에 작용\"이라는 중간 거리 — 조직 내 국소 신호(성장인자·사이토카인)의 전형."
+        },
+        {
+          "h": "유의어·뉘앙스",
+          "t": "local signaling(국소 신호전달)과 통함. autocrine(자가분비)과 짝지어 자주 언급됨 — 같은 분자가 이웃에 작용하면 paracrine, 자기 자신에 작용하면 autocrine. 대표 예: 성장인자(FGF, VEGF), 사이토카인, 신경전달물질(넓게는 시냅스도 paracrine의 특수형). \"paracrine factor/signal\"(주변분비 인자)."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 para(옆·곁·주변) + krinein(분비하다). \"곁으로 분비\". para- 동원어: parallel(나란한), paramedic(주변 의료·준의료), parasite(곁에 붙은→기생), paradox. krinein 계열: endocrine, autocrine, secrete."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "endocrine(내분비)과 대비: endocrine은 혈류로 멀리, paracrine은 국소 확산(가까이). autocrine(자가)과 대비: 표적이 남이면 para, 자기면 auto. juxtacrine과 대비: 확산 있으면 para, 접촉만이면 juxta. 발음 /ˈpæ러-ㅋ라인/, 첫 음절 강세. para-는 \"주변\" 외에 \"준(準)\"·\"이상\"의 뜻도 있으니 문맥 주의."
+        }
+      ],
+      "id": "paracrine",
+      "added": "2026-08-05",
+      "audioUrl": "audio/paracrine.mp3"
     }
   ]
 }
