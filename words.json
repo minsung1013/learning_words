@@ -841,6 +841,35 @@
       "id": "mediate",
       "added": "2026-08-05",
       "audioUrl": "audio/mediate.mp3"
+    },
+    {
+      "word": "decipher",
+      "pos": "v.",
+      "ipa": "/dɪˈsaɪfər/",
+      "meaning": "(암호·난해한 것을) 해독하다; (복잡한 메커니즘·구조를) 규명하다·풀어내다",
+      "example": "New single-cell technologies allow researchers to decipher the mechanisms underlying cell-to-cell communication.",
+      "exampleKo": "새로운 단일세포 기술은 연구자들이 세포 간 신호전달의 기저 기전을 밝혀낼 수 있게 해준다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "decode=(암호·신호를) 해독함(decipher와 거의 동의, 다소 기술적) / unravel=엉킨 실을 풀듯 복잡한 것을 차근차근 풀어냄(과정 강조) / elucidate=명료하게 설명·해명함(격식, 논문 빈출) / interpret=의미를 해석함(주관적 판단 포함). decipher는 \"난해해서 바로 읽히지 않는 것을 애써 풀어낸다\"는 노력의 뉘앙스가 강함. 반의어: encipher/encode(암호화하다)."
+        },
+        {
+          "h": "어원",
+          "t": "de-(제거·역방향) + cipher(암호·숫자 0). cipher는 아랍어 sifr(비어 있음, 0)에서 유래 → 중세에 \"암호\"로 의미 확장. 즉 \"암호(cipher)를 벗겨내다(de-)\" = 해독하다. 동원어: cipher(암호), zero(0, 같은 아랍어 뿌리)."
+        },
+        {
+          "h": "활용",
+          "t": "논문 표현: \"decipher the mechanism/pathway/role of ~\"(~의 기전·경로·역할을 규명하다), \"decipher the genetic code\"(유전 암호를 해독하다), \"decipher handwriting\"(악필을 알아보다). 목적어로 mechanism·structure·signal·code·text가 자주 옴. 서론·목적 문장에서 연구 동기를 밝힐 때 단골."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "cipher(명사: 암호)와 헷갈리지 말 것 — decipher는 동사. decode와 거의 바꿔 쓸 수 있으나 decode는 컴퓨터·통신 신호 처리에, decipher는 \"난해함을 풀어내는\" 지적 노력에 더 어울림. 발음은 /dɪ-사이-fər/로 가운데 강세."
+        }
+      ],
+      "id": "decipher",
+      "added": "2026-08-05",
+      "audioUrl": "audio/decipher.mp3"
     }
   ]
 }
