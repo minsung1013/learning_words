@@ -899,6 +899,64 @@
       "id": "accomplish",
       "added": "2026-08-05",
       "audioUrl": "audio/accomplish.mp3"
+    },
+    {
+      "word": "aberrant",
+      "pos": "adj.",
+      "ipa": "/ˈæbərənt/",
+      "meaning": "정상에서 벗어난, 일탈된, 이상(異常)한 (기준·정상 궤도에서 벗어나 잘못된)",
+      "example": "Aberrant communication among cells can lead to and promote diseases such as cancer.",
+      "exampleKo": "세포 간의 비정상적인(어긋난) 신호전달은 암 같은 질병을 유발하고 촉진할 수 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "abnormal=정상이 아닌(가장 일반적) / atypical=전형적이지 않은(중립적, 표준과 다름) / anomalous=예외적·설명하기 어려운(데이터·현상) / deviant=(사회·도덕 규범에서) 일탈한(부정적 함의 강함) / erratic=불규칙·종잡을 수 없는. aberrant는 \"마땅히 따라야 할 정상 경로에서 벗어나 잘못됐다\"는 뉘앙스로, 의학·생물학에서 병적 상태를 가리킬 때 단골(aberrant expression, aberrant signaling). 반의어: normal·typical."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 aberrare(길을 잃고 헤매다) = ab-(~에서 떨어져) + errare(방황하다, 길을 잘못 들다). \"정상 경로에서 벗어나 헤매다\"가 핵심 이미지. 동원어: err(실수하다), error(오류), erratic(불규칙한), errant(길을 벗어난·방황하는)."
+        },
+        {
+          "h": "활용",
+          "t": "생물·의학 표현: \"aberrant expression\"(비정상적 발현), \"aberrant signaling/activation\"(이상 신호전달·활성화), \"aberrant methylation\"(비정상 메틸화), \"aberrant cell behavior\"(세포의 비정상적 거동). 대개 질병·병리와 연결되어 부정적 맥락에서 쓰임."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음 주의: 강세가 첫 음절 /ˈæb-/에 오고 흔히 /əˈbɛrənt/로도 발음됨. abhorrent(혐오스러운)와 철자·발음이 비슷해 혼동 주의 — 뜻은 전혀 다름. atypical/abnormal이 중립적으로 \"다르다\"에 가깝다면, aberrant는 \"벗어나 잘못됐다\"는 병적 뉘앙스가 더 강함."
+        }
+      ],
+      "id": "aberrant",
+      "added": "2026-08-05",
+      "audioUrl": "audio/aberrant.mp3"
+    },
+    {
+      "word": "atypical",
+      "pos": "adj.",
+      "ipa": "/eɪˈtɪpɪkəl/",
+      "meaning": "전형적이지 않은, 비정형의 (보통·표준과 다른)",
+      "example": "Atypical decoding of molecular messages can lead to and promote diseases such as cancer.",
+      "exampleKo": "분자 메시지의 비전형적(정상에서 벗어난) 해독은 암 같은 질병을 유발하고 촉진할 수 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "unusual=흔치 않은(가장 일반적) / abnormal=정상이 아닌(의학적·부정적) / aberrant=정상 궤도를 벗어난(병적 뉘앙스 강함) / unconventional=관습·통념과 다른(방식·스타일) / irregular=불규칙한(패턴·형태). atypical은 \"그 부류의 전형(typical)과는 다르다\"는 비교적 중립적 서술로, 반드시 나쁘다는 함의는 없음(예: atypical presentation=비전형적 임상 양상). 반의어: typical·standard."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 접두사 a-(=an-, ~이 없는·아닌) + typical(typos 자국·형틀 → type 유형). 즉 \"유형(전형)에 들어맞지 않는\". 같은 a-(부정) 접두사: asymptomatic(무증상의), atypical, apolitical(비정치적), amoral(도덕과 무관한). typ- 뿌리 동원어: type, typical, prototype, stereotype."
+        },
+        {
+          "h": "활용",
+          "t": "의학·과학 표현: \"atypical presentation/symptoms\"(비전형적 양상·증상), \"atypical cells\"(비정형 세포 — 종양학에서 악성 의심), \"atypical antipsychotic\"(비정형 항정신병약), \"an atypical case\"(이례적 사례). 논문에서 \"표준적 패턴에서 벗어난\" 관찰을 서술할 때 자주 씀."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음 주의: a-를 /eɪ/(에이-티피컬)로 읽음 — /ə/ 아님. atypical(전형과 다름, 중립적) vs aberrant(정상에서 벗어나 잘못됨, 병적) vs abnormal(정상이 아님): 세기순으로 abnormal·aberrant가 더 강한 \"비정상\", atypical은 상대적으로 완곡함. 종양병리에서 atypia(비정형성)는 악성 가능성을 시사하는 중요한 소견."
+        }
+      ],
+      "id": "atypical",
+      "added": "2026-08-05",
+      "audioUrl": "audio/atypical.mp3"
     }
   ]
 }
