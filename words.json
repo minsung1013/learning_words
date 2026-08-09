@@ -1259,6 +1259,35 @@
       "id": "sought",
       "added": "2026-08-05",
       "audioUrl": "audio/sought.mp3"
+    },
+    {
+      "word": "explicitly",
+      "pos": "adv.",
+      "ipa": "/ɪkˈsplɪsɪtli/",
+      "meaning": "명시적으로, 분명하게 (은연중이 아니라 대놓고 드러내어)",
+      "example": "The method is explicitly built on live-cell structural assessment.",
+      "exampleKo": "그 방법은 살아있는 세포의 구조 평가를 명시적으로 토대로 삼아 만들어졌다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "explicitly=말·글로 분명히 명시해 오해 여지가 없음 / clearly=이해하기 쉽게 명료함(명시성 강조는 약함) / expressly=특정 목적을 콕 집어 공식적으로(예: expressly forbidden) / directly=에두르지 않고 곧바로 / overtly=숨기지 않고 겉으로 드러나게. 반의어는 implicitly(암묵적으로), tacitly(말없이 함의로)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 explicare(펼치다, 풀어내다) = ex-(밖으로) + plicare(접다)에서 왔다. 접힌 것을 밖으로 펼쳐 다 보여준다는 이미지. 같은 뿌리: explicit, explicate, apply(ap-+plicare), complicate(com-+plicare), imply/implicit(안으로 접다)."
+        },
+        {
+          "h": "활용",
+          "t": "explicitly state/mention/say, explicitly designed to~, explicitly built on~, explicitly account for~ 처럼 '분명히 ~하다'로 쓴다. 논문·기술 문서에서는 'explicitly model/represent X'처럼 X를 암묵적으로가 아니라 수식·구조로 대놓고 다룬다는 뜻으로 매우 자주 등장한다."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "implicitly(암묵적으로)와 정확히 반대. 프로그래밍/수학에서도 explicit(명시적: 값·형을 직접 지정) vs implicit(암묵적: 추론에 맡김) 대비로 그대로 쓰인다. explicit에는 노골적인(성적) 뜻도 있으나 학술 문맥에선 거의 명시적."
+        }
+      ],
+      "id": "explicitly",
+      "added": "2026-08-10",
+      "audioUrl": "audio/explicitly.mp3"
     }
   ]
 }
