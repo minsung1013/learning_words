@@ -1346,6 +1346,35 @@
       "id": "modulate",
       "added": "2026-08-12",
       "audioUrl": "audio/modulate.mp3"
+    },
+    {
+      "word": "semantic",
+      "pos": "adj.",
+      "ipa": "/sɪˈmæntɪk/",
+      "meaning": "의미의·의미론적인 (단어·기호가 나타내는 뜻에 관한)",
+      "example": "The two definitions describe the same thing; the disagreement is purely semantic.",
+      "exampleKo": "두 정의는 같은 것을 가리킨다; 그 이견은 순전히 말·의미 해석상의 차이일 뿐이다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "semantic=단어·기호의 \"뜻\" 자체에 관한(의미론) / syntactic=문법·구조·배열에 관한(형태) → 이 둘의 대비가 핵심. lexical=어휘(개별 단어) 차원 / connotative=함축·뉘앙스 / linguistic=언어 전반. \"a semantic argument\"는 흔히 \"실질 차이 없이 말꼬리·용어 정의만 따지는 소모적 논쟁\"이라는 약간 비하적 뉘앙스로 쓰인다."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 sēmantikos(의미를 나타내는) ← sēma(기호·표시, sign). 즉 뿌리 뜻은 \"기호가 가리키는 것\". 같은 sēma 뿌리: semaphore(기호로 신호 보내기), semantics(의미론), sematic. 참고로 semi-(반, 라틴어)와는 무관 — 철자가 비슷할 뿐 어원이 다르다."
+        },
+        {
+          "h": "활용",
+          "t": "언어학: semantic meaning/field/shift(의미 변화). 웹·프로그래밍: semantic HTML(태그가 의미를 갖게 마크업), Semantic Web(기계가 뜻을 이해하는 웹), semantic versioning(SemVer). ML/NLP: semantic search(키워드가 아닌 의미 기반 검색), semantic similarity, semantic embedding(의미를 벡터로). 자주: semantic gap, semantic parsing."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "철자 주의: sem-A-ntic (semantic), sement/semantik 아님. semantic(형용사) vs semantics(명사, 의미론 — 항상 -s, 단수 취급). 발음: 강세는 둘째 음절 -MAN-, 첫 e는 약하게 /sɪ/. \"semantics를 따진다\"는 종종 \"본질 대신 말장난을 한다\"는 부정 뉘앙스임을 기억."
+        }
+      ],
+      "id": "semantic",
+      "added": "2026-08-12",
+      "audioUrl": "audio/semantic.mp3"
     }
   ]
 }
