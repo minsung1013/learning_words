@@ -1288,6 +1288,64 @@
       "id": "explicitly",
       "added": "2026-08-10",
       "audioUrl": "audio/explicitly.mp3"
+    },
+    {
+      "word": "orthogonal",
+      "pos": "adj.",
+      "ipa": "/ɔːrˈθɒɡənl/",
+      "meaning": "직교하는; (비유적으로) 서로 독립적인·상관없는·겹치지 않는",
+      "example": "These two design choices are orthogonal, so you can change one without affecting the other.",
+      "exampleKo": "이 두 설계 선택은 서로 독립적이라, 하나를 바꿔도 다른 하나에 영향을 주지 않는다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "independent=단순히 서로 의존하지 않음(가장 일반적) / orthogonal=독립을 넘어 \"차원·축이 다르다, 아예 겹치지 않는 별개 문제\"라는 뉘앙스(기술·수학 톤) / unrelated=그냥 관련 없음(감정적·구어적) / decoupled=원래 얽혀 있던 것을 떼어내 독립시킴(설계 용어). 반의어는 correlated(상관된)·parallel(평행한, 즉 같은 방향)·dependent."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 orthos(곧은·바른, 여기선 \"직각의\") + gonia(각, angle)에서 왔다. 즉 \"바른 각 = 직각\". 같은 뿌리: orthodox(orthos+doxa 의견 → 정통), orthodontics(치아 교정), orthography(바른 쓰기 → 철자법), diagonal·polygon처럼 gonia(-gon)를 공유하는 도형 용어들."
+        },
+        {
+          "h": "활용",
+          "t": "수학·통계: orthogonal vectors/axes(직교 벡터·축), orthogonal projection(정사영), orthonormal(정규직교). ML·엔지니어링에서 be orthogonal to ~ 는 ~와 무관한 별개 축의 문제라는 뜻으로 매우 흔하다: Performance and security are orthogonal concerns. 회의체에서 That's orthogonal to this discussion=지금 논의와 별개 얘기다."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "orthogonal = 반대로 오해하기 쉬운데, 반대(opposite)가 아니라 직각 = 상관 0 = 서로 방향을 공유하지 않음이다. 정반대는 오히려 완벽한 (음의) 상관이라 orthogonal이 아니다. 발음 함정: 첫 th는 무성음 /θ/, 강세는 둘째 음절 -tho- 에 있다(오-쏘-거널)."
+        }
+      ],
+      "id": "orthogonal",
+      "added": "2026-08-12",
+      "audioUrl": "audio/orthogonal.mp3"
+    },
+    {
+      "word": "modulate",
+      "pos": "v.",
+      "ipa": "/ˈmɒdʒʊleɪt/",
+      "meaning": "(강도·정도·성질을) 조절하다·조율하다; (신호를) 변조하다; (음악) 조를 바꾸다",
+      "example": "Regulatory T cells modulate the immune response, dampening it to prevent autoimmunity.",
+      "exampleKo": "조절 T세포는 면역 반응을 조율하여, 자가면역을 막기 위해 그 강도를 낮춘다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "regulate=규칙·기준에 맞춰 통제(가장 일반적, 시스템 단위) / modulate=완전히 켜고 끄는 게 아니라 세기·톤을 미세하게 위아래로 조율(연속적·정교함 강조) / adjust=목표값에 맞춰 한 번 맞춤 / tune=최적점을 찾아 미세조정 / temper=지나친 것을 누그러뜨림. 생물학에서 modulate는 up-regulate(증가)/down-regulate(감소) 양방향을 아우르는 중립적 표현이라 즐겨 쓴다."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 modulus(작은 척도·박자, modus \"척도·방식\"의 축소형)에서 나온 modulari(박자·리듬에 맞추다). 즉 뿌리 뜻은 \"기준 척도에 맞춰 가락을 조절하다\". 같은 modus 뿌리: mode(방식), model(본, 척도), moderate(적당한, 도를 넘지 않게), modest, modify, accommodate(맞춰 수용하다)."
+        },
+        {
+          "h": "활용",
+          "t": "연어: modulate the activity/expression/response/signal, immune-modulating(면역조절), neuromodulation(신경조절). 공학·통신: modulate a signal/carrier wave(반송파를 변조) → AM/FM의 M이 modulation. 음악: modulate from C major to G(전조). 목소리: modulate one's voice(억양·크기를 조절하다)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "명사형 주의: modulation(변조·조절)과 module(모듈)·modulus(계수)는 어원은 같지만 뜻이 다르다. modulate(조절하다) ↔ regulate(규제하다)는 겹치지만, 법·규정 맥락은 거의 regulate만 쓴다. 발음: 첫 음절 강세 MOD-, du는 /dʒʊ/(\"쥬\")로 나기 쉬움."
+        }
+      ],
+      "id": "modulate",
+      "added": "2026-08-12",
+      "audioUrl": "audio/modulate.mp3"
     }
   ]
 }
