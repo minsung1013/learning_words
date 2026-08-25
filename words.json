@@ -1636,6 +1636,35 @@
       "id": "retrospective",
       "added": "2026-08-26",
       "audioUrl": "audio/retrospective.mp3"
+    },
+    {
+      "word": "breadth",
+      "pos": "n.",
+      "ipa": "/brɛdθ/",
+      "meaning": "폭, 너비; (지식·범위·다양성의) 폭넓음, 광범위함",
+      "example": "The study is notable for the breadth of data it covers across many cancer types.",
+      "exampleKo": "그 연구는 여러 암종에 걸쳐 다루는 데이터의 폭넓음으로 주목할 만하다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "breadth=폭(가로 너비 / 다루는 범위의 넓음) / width=너비(주로 물리적 가로 길이, 중립적) / scope=(다루는) 범위·영역(무엇까지 포함하는가) / range=범위(값·종류의 폭) / extent=(미치는) 정도·범위. 비유적으로 breadth는 depth(깊이)와 짝을 이뤄 \"넓게 vs 깊게\"를 대비 — breadth of knowledge=박학다식."
+        },
+        {
+          "h": "어원",
+          "t": "broad(넓은) + -th(성질·상태를 나타내는 명사화 접미사, warm→warmth, long→length, wide→width처럼). 즉 \"넓음이라는 성질\". 동원어: broad, broadly, abroad(널리→해외로), broaden(넓히다)."
+        },
+        {
+          "h": "활용",
+          "t": "breadth and depth(폭과 깊이), the breadth of experience/knowledge/coverage(경험·지식·범위의 폭), a breadth of options(다양한 선택지), in breadth(폭으로는), breadth-first search(BFS, 너비 우선 탐색 — 전산). 리뷰·논문에서 \"광범위함\"을 칭찬할 때 자주."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음 함정: 끝이 -dth /dθ/로 \"브렛th\"에 가깝고, bread(빵)와 앞부분만 같다. 형용사 broad에서 왔지만 모음이 바뀜(broad /ɔː/ → breadth /ɛ/). length·width와 같은 -th 명사 패턴으로 기억."
+        }
+      ],
+      "id": "breadth",
+      "added": "2026-08-26",
+      "audioUrl": "audio/breadth.mp3"
     }
   ]
 }
