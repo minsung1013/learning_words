@@ -1549,6 +1549,35 @@
       "id": "lineage",
       "added": "2026-08-26",
       "audioUrl": "audio/lineage.mp3"
+    },
+    {
+      "word": "registrational",
+      "pos": "adj.",
+      "ipa": "/ˌrɛdʒɪˈstreɪʃənəl/",
+      "meaning": "(신약) 허가 등록용의, 규제기관 품목허가 신청을 위한(주로 registrational trial)",
+      "example": "The company launched a registrational Phase 3 trial to support FDA approval.",
+      "exampleKo": "그 회사는 FDA 승인을 뒷받침하기 위해 허가용 3상 임상시험에 착수했다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "registrational=허가 등록을 목적으로 한(규제 승인용 근거 데이터를 만드는) / pivotal=중추적인·결정적인(승인의 열쇠가 되는 핵심 임상, 흔히 registrational과 겹침) / confirmatory=확증적인(효능을 최종 확인하는) / exploratory=탐색적인(초기, 가설 생성용). registrational은 \"허가라는 목적\"을, pivotal은 \"결정적 중요도\"를 강조 — 실무에선 거의 동의어처럼 함께 쓰임."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 regestum/regerere(re- 다시 + gerere 나르다·기록하다 → 기록으로 옮기다) → register(등록부·등록하다) + -ation(명사화) + -al(형용사화). 동원어: register, registry(등록소·레지스트리), registration(등록), gesture/digest도 gerere(나르다) 뿌리."
+        },
+        {
+          "h": "활용",
+          "t": "registrational trial/study(허가용 임상), registrational path(way)(허가 전략 경로), registrational package/data(허가 신청 자료), potentially registrational(허가 근거가 될 수 있는). 제약·바이오 BD·임상개발·규제(regulatory) 문서에서 빈출."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "일상어라기보다 제약·규제 업계 전문 용어. registration(등록, 명사)의 형용사형이며, 여기서 registration은 특히 \"규제기관에의 품목 등록=허가\"를 뜻함(단순 회원가입 등록과 구분). approval(승인)은 결과, registrational은 그 승인을 겨냥한 성격."
+        }
+      ],
+      "id": "registrational",
+      "added": "2026-08-26",
+      "audioUrl": "audio/registrational.mp3"
     }
   ]
 }
