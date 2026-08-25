@@ -1433,6 +1433,35 @@
       "id": "rationale",
       "added": "2026-08-26",
       "audioUrl": "audio/rationale.mp3"
+    },
+    {
+      "word": "gastroesophageal junction",
+      "pos": "n.",
+      "ipa": "/ˌɡæstroʊɪˌsɒfəˈdʒiːəl ˈdʒʌŋkʃən/",
+      "meaning": "위-식도 접합부(식도가 위로 이어지는 경계 부위, 약어 GEJ/GOJ)",
+      "example": "Adenocarcinoma frequently arises at the gastroesophageal junction.",
+      "exampleKo": "선암은 위-식도 접합부에서 흔히 발생한다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "gastroesophageal junction(GEJ)=위와 식도가 만나는 해부학적 경계(가장 표준 용어) / cardia=위의 입구쪽 부위(접합부 바로 아래 위 부분) / Z-line(squamocolumnar junction)=식도 편평상피와 위 원주상피가 만나는 점막 경계선(내시경에서 보이는 지그재그 선) / esophagogastric junction=GEJ의 동의어(순서만 바꾼 표현). GEJ는 \"부위\", Z-line은 \"조직학적 경계선\"이라는 점이 다르다."
+        },
+        {
+          "h": "어원",
+          "t": "gastro-(그리스어 gastēr 위)+ esophageal(그리스어 oisophagos 식도, oisein 나르다 + phagein 먹다)+ junction(라틴어 jungere 잇다/연결하다, → join, conjunction, adjacent과 동원). 즉 \"위-식도를 잇는 지점\"."
+        },
+        {
+          "h": "활용",
+          "t": "tumor/cancer of the gastroesophageal junction, GEJ adenocarcinoma, Barretts esophagus at the GEJ, Siewert classification(GEJ 선암 위치 분류). 소화기 병리·내시경·종양학 논문에서 GEJ로 약어 표기가 일반적."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "철자 함정: gastro-esopha-GEAL (gastroesopha\"feal\"이 아님). 발음에서 -geal은 /ˈdʒiːəl/(\"지얼\"). 영국식은 oesophageal(o 추가)로 쓰고 GOJ로 약칭."
+        }
+      ],
+      "id": "gastroesophageal-junction",
+      "added": "2026-08-26",
+      "audioUrl": "audio/gastroesophageal-junction.mp3"
     }
   ]
 }
