@@ -1607,6 +1607,35 @@
       "id": "jurisdiction",
       "added": "2026-08-26",
       "audioUrl": "audio/jurisdiction.mp3"
+    },
+    {
+      "word": "retrospective",
+      "pos": "adj./n.",
+      "ipa": "/ˌrɛtrəˈspɛktɪv/",
+      "meaning": "후향적인, 과거를 돌아보는; (연구) 후향적 연구; (미술) 회고전",
+      "example": "This was a retrospective study analyzing records of patients treated over the past decade.",
+      "exampleKo": "이것은 지난 10년간 치료받은 환자들의 기록을 분석한 후향적 연구였다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "retrospective=이미 일어난 과거를 되짚어 봄(연구·회고) / prospective=전향적인(앞으로 일어날 일을 미리 계획해 추적) — 연구에서 정반대 짝. hindsight=때늦은 깨달음(돌이켜 보니 알게 됨) / reminiscent=회상시키는. 반의어: prospective(전향적), forward-looking(미래지향적). retrospective study는 데이터 편향 위험이 크고 비용은 낮음, prospective는 그 반대."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 retro-(뒤로) + specere(보다) → retrospicere(뒤돌아보다) + -ive. 어근 spec-/spect-(보다)를 공유: inspect(살피다), respect(존중=다시 봄), prospect(전망), spectator(관중), perspective(관점), spectacle(볼거리)."
+        },
+        {
+          "h": "활용",
+          "t": "retrospective study/analysis/review(후향적 연구·분석·고찰), retrospective cohort(후향적 코호트), in retrospect(돌이켜보면 — 관용구), retrospective exhibition(회고전), retrospective effect(소급 효과). 임상·역학 논문에서 연구 설계를 밝힐 때 필수어."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "prospective와 짝으로 외우면 좋음: retro-(뒤)=이미 있는 과거 데이터, pro-(앞)=미래를 향해 새로 수집. 강세 -spec-에. 법·계약에서 retrospective/retroactive는 \"소급 적용되는\"이라는 별개 뜻."
+        }
+      ],
+      "id": "retrospective",
+      "added": "2026-08-26",
+      "audioUrl": "audio/retrospective.mp3"
     }
   ]
 }
