@@ -1723,6 +1723,35 @@
       "id": "climb",
       "added": "2026-08-26",
       "audioUrl": "audio/climb.mp3"
+    },
+    {
+      "word": "plateau",
+      "pos": "n./v.",
+      "ipa": "/plæˈtoʊ/",
+      "meaning": "고원; (성장·수치가 멈춘) 정체기·안정기; (동사) 정체 상태에 이르다·평평해지다",
+      "example": "The survival curve plateaus after five years, suggesting long-term remission.",
+      "exampleKo": "생존 곡선은 5년 이후 정체되며, 이는 장기 관해를 시사한다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "plateau=오르다가 평평해져 더 안 변하는 상태(정체기, 흔히 곡선의 편평한 구간) / stagnation=정체(부정적, 고여 썩는 느낌) / standstill=완전 정지(멈춤) / saturation=포화(더 담을 수 없는 한계) / level off(동사구)=평평해지다(plateau의 일상적 표현). plateau는 \"높은 수준에서의 안정\"일 수도, \"성장 멈춤\"일 수도 있어 중립~약간 부정적."
+        },
+        {
+          "h": "어원",
+          "t": "프랑스어 plateau(평평한 것, 쟁반) ← plat(평평한, 라틴어 plattus). 동원어: plate(접시·판), plateau, plat, flat(평평한 — 게르만 사촌), platform(플랫폼=평평한 대), plain(평원)."
+        },
+        {
+          "h": "활용",
+          "t": "reach/hit a plateau(정체기에 이르다), plateau phase(정체기·평탄기), a learning plateau(학습 정체기), the curve plateaus(곡선이 편평해지다), plateau in growth/performance. 약리학 dose-response, 생존곡선, 학습곡선 등에서 \"더 이상 증가하지 않는 구간\"을 묘사할 때 핵심어."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "복수형은 plateaus 또는 plateaux(프랑스식) 둘 다 가능. 발음: 미국식은 뒤에 강세 /plæ-ˈTOH/, 영국식은 앞에 강세. 동사로 쓸 때 과거형 plateaued(\"플래토드\"). 접시 plate와 어원은 같지만 뜻은 분리해 기억."
+        }
+      ],
+      "id": "plateau",
+      "added": "2026-08-26",
+      "audioUrl": "audio/plateau.mp3"
     }
   ]
 }
