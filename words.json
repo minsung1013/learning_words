@@ -1665,6 +1665,35 @@
       "id": "breadth",
       "added": "2026-08-26",
       "audioUrl": "audio/breadth.mp3"
+    },
+    {
+      "word": "ancestry",
+      "pos": "n.",
+      "ipa": "/ˈænsɛstri/",
+      "meaning": "조상, 가계, 혈통; (유전학) 조상 계통·집단 기원",
+      "example": "The cohort included patients of diverse genetic ancestry.",
+      "exampleKo": "그 코호트에는 다양한 유전적 조상을 가진 환자들이 포함되었다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "ancestry=조상·가계(어디서 유래했는가, 유전·집단 기원 강조) / lineage=계통·혈통(조상에서 직선으로 이어진 계보를 강조) / descent=혈통(내려온 유래, of Korean descent) / heritage=유산(물려받은 문화·전통) / pedigree=(기록된) 족보·혈통서. ancestry는 특히 유전체학에서 \"어느 조상 집단에서 왔는가\"를 가리키는 표준어. [[lineage]]와 비교."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 antecessor(먼저 간 사람) = ante-(앞) + cedere(가다) → 고대 프랑스어 ancestre(조상) + -ry(집합·상태 명사화). 어근 ced-/cess-(가다): precede(앞서다), ancestor(조상), access(접근), proceed(나아가다), concede(양보하다)."
+        },
+        {
+          "h": "활용",
+          "t": "of European/African/Asian ancestry(~계 혈통의), genetic ancestry(유전적 조상), ancestry inference/estimation(조상 추정 — 유전체 분석), shared ancestry(공통 조상), trace ones ancestry(가계를 추적하다). 집단유전학·GWAS·정밀의학 논문 빈출."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "ancestor(조상, 사람 하나하나)는 셀 수 있는 명사, ancestry(조상 전체·혈통·계통)는 추상 집합명사. 발음 강세는 앞 /ˈAN-ses-tri/. race/ethnicity(인종·민족, 사회적 범주)와 ancestry(유전적 유래)는 개념이 다름 — 논문에서 구분해 씀."
+        }
+      ],
+      "id": "ancestry",
+      "added": "2026-08-26",
+      "audioUrl": "audio/ancestry.mp3"
     }
   ]
 }
