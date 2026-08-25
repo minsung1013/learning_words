@@ -1462,6 +1462,35 @@
       "id": "gastroesophageal-junction",
       "added": "2026-08-26",
       "audioUrl": "audio/gastroesophageal-junction.mp3"
+    },
+    {
+      "word": "endoscopic",
+      "pos": "adj.",
+      "ipa": "/ˌɛndəˈskɒpɪk/",
+      "meaning": "내시경의, 내시경을 이용한(몸속을 들여다보는 검사·시술 관련)",
+      "example": "The lesion was removed by endoscopic resection.",
+      "exampleKo": "그 병변은 내시경적 절제술로 제거되었다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "endoscopic=내시경(관을 몸속에 넣어 직접 봄) 전반 / laparoscopic=복강경의(배에 작은 구멍을 뚫어 봄, 최소침습 수술) / arthroscopic=관절경의 / minimally invasive=최소침습(상위 개념, 내시경·복강경 등을 포괄) / percutaneous=경피적(피부를 통해). 내시경은 자연 구멍(입·항문 등)으로 넣는 경우가 많고, 복강경은 절개해 넣는다는 차이."
+        },
+        {
+          "h": "어원",
+          "t": "그리스어 endon(안, 내부) + skopein(보다, 살피다) + -ic(형용사화). 어근 skop-(보다)를 공유하는 동원어: microscope(현미경), telescope(망원경), scope(범위·시야), periscope(잠망경)."
+        },
+        {
+          "h": "활용",
+          "t": "endoscopic biopsy(내시경 생검), endoscopic resection/EMR(내시경 점막절제술), ESD(endoscopic submucosal dissection, 내시경 점막하박리술), endoscopic ultrasound(EUS, 초음파내시경), endoscopic findings(내시경 소견). 소화기·병리 논문에서 매우 빈번."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "명사형 endoscopy(/ɛnˈdɒskəpi/, 내시경 검사)와 기구 endoscope(/ˈɛndəskoʊp/, 내시경 장비)를 구분. 강세도 다름: 형용사 endoscopic은 -scop-에, 명사 endoscopy는 -dos-에 강세."
+        }
+      ],
+      "id": "endoscopic",
+      "added": "2026-08-26",
+      "audioUrl": "audio/endoscopic.mp3"
     }
   ]
 }
