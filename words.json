@@ -1752,6 +1752,35 @@
       "id": "plateau",
       "added": "2026-08-26",
       "audioUrl": "audio/plateau.mp3"
+    },
+    {
+      "word": "assertion",
+      "pos": "n.",
+      "ipa": "/əˈsɜːrʃən/",
+      "meaning": "주장, 단언; (권리·권위의) 행사·확립; (전산) 어서션(조건 참 여부 검증)",
+      "example": "The authors provide little evidence to support their central assertion.",
+      "exampleKo": "저자들은 그들의 핵심 주장을 뒷받침할 증거를 거의 제시하지 않는다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "assertion=(자신 있게) 단언·주장(근거 유무와 무관하게 강하게 내세움) / claim=주장(사실이라고 내세움, 검증 필요 함의) / statement=진술(중립적 언급) / allegation=(증거 없는) 혐의 주장(주로 부정적) / declaration=선언(공식·공개적). assertion은 \"확신에 찬 단정\"이라 때로 \"증거 없이 우긴다\"는 뉘앙스도. 반의어 성격: denial(부인)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 asserere(주장하다, 자기 것이라 선언하다) = ad-(~쪽으로) + serere(엮다, 잇다) → assertio. 동원어: assert(단언하다), series(연속·엮인 것), insert(끼워 넣다), desert(버리다←연을 끊다)도 serere 계열."
+        },
+        {
+          "h": "활용",
+          "t": "make an assertion(주장을 하다), support/back up an assertion(주장을 뒷받침하다), a bold/unsupported/sweeping assertion(대담한/근거 없는/포괄적 주장), the assertion of ones rights(권리의 행사). 논문에서 \"근거 없는 주장\"을 비판할 때 unsupported assertion으로 자주 씀. 전산: assert 문(assertion error)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "assertion(주장, 명사) ↔ assertive(단정적·적극적인, 형용사, 대인관계에서 자기 주장이 분명한 긍정적 뉘앙스). aggressive(공격적)와 assertive는 다름 — assertive는 당당함, aggressive는 지나침. 발음 강세는 -ser-에."
+        }
+      ],
+      "id": "assertion",
+      "added": "2026-08-26",
+      "audioUrl": "audio/assertion.mp3"
     }
   ]
 }
