@@ -1694,6 +1694,35 @@
       "id": "ancestry",
       "added": "2026-08-26",
       "audioUrl": "audio/ancestry.mp3"
+    },
+    {
+      "word": "climb",
+      "pos": "v./n.",
+      "ipa": "/klaɪm/",
+      "meaning": "오르다, 등반하다; (수치·정도·순위가) 상승하다; (명사) 오름·등반",
+      "example": "The stock price climbed steadily after the trial results were announced.",
+      "exampleKo": "임상 결과가 발표된 뒤 주가가 꾸준히 상승했다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "climb=(손발로 힘들여) 기어오르다 / 서서히 오르다(등반·상승 모두) / ascend=(격식) 오르다·상승하다(부드럽게) / scale=(높고 험한 것을) 오르다(scale a cliff) / soar=치솟다(급격히 위로) / rise=오르다(가장 일반적, 노력 함의 없음). 반의어: descend(내려가다), drop/fall(하락하다). climb은 \"노력이 드는 오름\" 또는 \"꾸준한 상승\"의 뉘앙스."
+        },
+        {
+          "h": "어원",
+          "t": "고대 영어 climban(붙잡고 오르다), 게르만어 계열로 clamber(기어오르다)·cling(달라붙다)·clamp(죔쇠)과 뿌리를 공유(무언가를 꽉 붙잡는다는 의미). 묵음 b는 이 게르만 어원의 흔적."
+        },
+        {
+          "h": "활용",
+          "t": "climb up/down(오르다/내려오다), climb a mountain/stairs/ladder(산·계단·사다리를 오르다), climb the ranks/ladder(지위가 오르다·출세하다), prices/rates climb(가격·비율이 오르다), a steep climb(가파른 오르막). 경제·통계 문맥에서 \"상승\" 동사로 흔함."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음 함정: b는 묵음, /klaɪm/(\"클라임\")으로 climate 앞부분과 다름. 동음이의 climb(오르다) vs clime(기후·지방, 드묾). climb down은 문자 그대로 \"내려오다\" 외에 \"(주장을) 굽히다\"라는 관용 뜻도 있음."
+        }
+      ],
+      "id": "climb",
+      "added": "2026-08-26",
+      "audioUrl": "audio/climb.mp3"
     }
   ]
 }
