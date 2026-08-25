@@ -1578,6 +1578,35 @@
       "id": "registrational",
       "added": "2026-08-26",
       "audioUrl": "audio/registrational.mp3"
+    },
+    {
+      "word": "jurisdiction",
+      "pos": "n.",
+      "ipa": "/ˌdʒʊərɪsˈdɪkʃən/",
+      "meaning": "관할권, 사법권; (법·권한이 미치는) 관할 구역·지역",
+      "example": "The drug has been approved in several jurisdictions, including the US and EU.",
+      "exampleKo": "그 약물은 미국과 EU를 포함한 여러 관할 지역에서 승인되었다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "jurisdiction=법적 권한이 미치는 범위 또는 그 지역(가장 표준·중립) / authority=권한(무언가를 할 수 있는 힘, 더 넓음) / dominion=지배권(주권적 통치) / purview=(권한·관심의) 범위(within the purview of ~의 소관) / venue=(재판) 관할지(장소 개념). jurisdiction은 \"누가 결정·통제할 권한이 있는가\"와 \"그 경계(지역)\"를 동시에 함의."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 jus/juris(법, 권리) + dicere(말하다, 선언하다) → jurisdictio(법을 선언함=재판권). 어근 jur-(법·권리): justice(정의), jury(배심), judge(재판관), perjury(위증); dic-(말하다): dictate, verdict, predict, contradict."
+        },
+        {
+          "h": "활용",
+          "t": "in this/that jurisdiction(이/그 관할권에서), have jurisdiction over ~(~에 대한 관할권을 갖다), fall under the jurisdiction of ~(~의 관할에 속하다), federal/state jurisdiction, multiple jurisdictions(여러 국가·규제권). 규제·법률·제약 승인 문서에서 \"국가/규제권\"의 뜻으로 자주 쓰임."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음: /ˌdʒʊər-ɪs-ˈDIK-shən/, -dic-에 강세. 단순 \"지역\"(region/area)이 아니라 \"법·권한이 적용되는\" 지역이라는 뉘앙스가 핵심 — 제약 문맥의 jurisdiction은 대개 \"규제 관할국\"을 의미."
+        }
+      ],
+      "id": "jurisdiction",
+      "added": "2026-08-26",
+      "audioUrl": "audio/jurisdiction.mp3"
     }
   ]
 }
