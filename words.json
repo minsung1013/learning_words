@@ -1404,6 +1404,35 @@
       "id": "impede",
       "added": "2026-08-14",
       "audioUrl": "audio/impede.mp3"
+    },
+    {
+      "word": "rationale",
+      "pos": "n.",
+      "ipa": "/ˌræʃəˈnæl/",
+      "meaning": "(결정·행동·주장의) 논리적 근거, 이론적 이유·논거",
+      "example": "The authors clearly explain the rationale behind their experimental design.",
+      "exampleKo": "저자들은 자신들의 실험 설계 뒤에 있는 근거를 명확히 설명한다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "reason=일반적인 이유(가장 넓게 씀) / rationale=여러 이유를 엮은 체계적·논리적 근거(격식) / justification=정당화하는 근거(옳음을 방어) / basis=바탕·토대(무엇 위에 세워졌는가) / grounds=(주로 결정·주장의) 근거·사유. rationale은 단순 이유 하나가 아니라 \"전체를 관통하는 논리\"라는 뉘앙스가 강하다."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 ratio(계산·이성·비율)에서 온 rationalis(이성의)의 중성형 rationale. 어근 rat-/ratio-(reason)를 공유하는 동원어: rational(이성적인), ratio(비율), ratify(비준하다), reason(이성·이유 자체도 여기서 파생)."
+        },
+        {
+          "h": "활용",
+          "t": "the rationale behind/for ~ (~의 근거), provide/give/explain the rationale, the underlying rationale(밑바탕 논리), a clear/sound/scientific rationale. 논문·보고서에서 서론이나 Methods에서 \"왜 이 방법·설계를 택했는가\"를 설명할 때 핵심 단어."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음 함정: 끝을 /-næl/(라잉ㄹ이 아니라 \"-낼\")로 읽는다. rational(형용사, /ˈræʃənəl/, 이성적인)과 철자·의미가 다르니 주의 — rationale은 명사 \"근거\"."
+        }
+      ],
+      "id": "rationale",
+      "added": "2026-08-26",
+      "audioUrl": "audio/rationale.mp3"
     }
   ]
 }
