@@ -1810,6 +1810,35 @@
       "id": "versatility",
       "added": "2026-08-28",
       "audioUrl": "audio/versatility.mp3"
+    },
+    {
+      "word": "discern",
+      "pos": "v.",
+      "ipa": "/dɪˈsɜːrn/",
+      "meaning": "(희미·미묘한 것을) 알아차리다, 식별하다, 분간하다; (차이·본질을) 판단해 구별하다",
+      "example": "It was hard to discern any meaningful difference between the two treatment groups.",
+      "exampleKo": "두 치료군 사이에서 의미 있는 차이를 분간하기가 어려웠다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "perceive=감각으로 지각하다(가장 일반적) / discern=희미하거나 미묘해서 노력해야 알아차리다(격식·지각+판단) / distinguish=둘 이상을 서로 구별해내다(차이에 초점) / detect=숨은 것을 찾아내다(존재 감지) / make out=(구어) 겨우 알아보다. 반의어는 overlook(간과하다), confuse/conflate(뒤섞다)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 discernere = dis-(=apart, 따로) + cernere(=to separate/sift, 체로 거르다·분간하다). 즉 \"따로 걸러 나누다\"→식별하다. cernere 뿌리 동원어: discreet/discrete(구분된→신중한·개별의), certain(가려내어 확실한), concern(함께 체질하다→관계·관심), secret(따로 분리된→비밀)."
+        },
+        {
+          "h": "활용",
+          "t": "자주 쓰는 패턴: discern a difference/pattern/trend(차이·패턴·경향을 알아차리다), hard/difficult to discern(분간하기 어렵다), discern between A and B(A와 B를 구별하다), discernible(형용사, 알아볼 수 있는)·discernment(명사, 통찰·안목). 논문에서 데이터에서 뚜렷한 신호·차이가 있는지 논할 때 자주 등장."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "discern(알아차리다·구별하다) ↔ discrete(개별적인) ↔ discreet(신중한)은 어원은 같지만 뜻·철자가 다르니 주의. 발음은 \"디-썬\"으로 강세가 뒤 음절(sern)에 오고, 앞의 s는 /s/가 아니라 뒤 c가 /s/ 소리."
+        }
+      ],
+      "id": "discern",
+      "added": "2026-08-28",
+      "audioUrl": "audio/discern.mp3"
     }
   ]
 }
