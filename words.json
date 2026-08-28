@@ -1868,6 +1868,35 @@
       "id": "covenant",
       "added": "2026-08-29",
       "audioUrl": "audio/covenant.mp3"
+    },
+    {
+      "word": "preamble",
+      "pos": "n.",
+      "ipa": "/ˈpriːæmbl/",
+      "meaning": "서문, 머리말, (헌법·조약·계약의) 전문(前文); 본론에 앞선 도입부",
+      "example": "The preamble to the constitution sets out its guiding principles.",
+      "exampleKo": "그 헌법의 전문(前文)은 그것의 지도 원리를 밝히고 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "introduction=가장 일반적인 서론(책·글의 도입) / foreword=책 앞의 서문(대개 저자 아닌 타인이 씀) / preface=저자가 쓴 머리말(집필 배경·감사) / prologue=(소설·희곡의) 프롤로그·서막 / preamble=특히 법·공식 문서의 전문, 또는 본론 전 격식 있는 서두. 반의어는 conclusion/epilogue."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 prae-(앞서) + ambulare(걷다) → \"앞서 걷다=먼저 나오는 것\". 같은 어근 ambulare의 동원어: ambulance(원래 이동식 야전병원), ambulatory(보행의), amble(느긋이 걷다), somnambulist(몽유병자)."
+        },
+        {
+          "h": "활용",
+          "t": "연어: the preamble to something(~의 전문/서두), without preamble(서두 없이 곧바로 본론으로). 법률·정치 문맥에서 the Preamble=헌법·조약의 전문. 통신·공학에서 preamble=데이터 프레임 맨 앞의 동기화용 신호 비트열을 뜻하기도 함."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "preamble(문서 전체의 공식 전문) vs preface(저자의 머리말) vs foreword(제3자의 서문)는 자주 혼동됨. \"without further preamble\"은 \"더 뜸 들이지 않고 바로\"라는 관용 표현. 발음은 pre-AM-ble이 아니라 앞에 강세 PRE-amble."
+        }
+      ],
+      "id": "preamble",
+      "added": "2026-08-29",
+      "audioUrl": "audio/preamble.mp3"
     }
   ]
 }
