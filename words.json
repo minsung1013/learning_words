@@ -2216,6 +2216,35 @@
       "id": "remedy",
       "added": "2026-08-31",
       "audioUrl": "audio/remedy.mp3"
+    },
+    {
+      "word": "interleave",
+      "pos": "v.",
+      "ipa": "/ˌɪntərˈliːv/",
+      "meaning": "(둘 이상을) 번갈아 끼워 넣다, 교차 배치하다; 엇갈려 겹치다",
+      "example": "Rather than compressing features first, the model interleaves feature-axis attention with item-axis attention at every layer.",
+      "exampleKo": "특징을 먼저 압축하는 대신, 이 모델은 매 층에서 특징축 어텐션과 아이템축 어텐션을 번갈아 짜 넣는다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "alternate=A-B-A-B로 규칙적으로 번갈다(가장 가까움) / intersperse=사이사이에 드문드문 끼워 넣다(간격이 불규칙해도 됨) / interweave=실을 짜듯 서로 얽어 하나로 엮다 / interlace=깍지 끼듯 맞물려 겹치다 / stagger=시간·위치를 어긋나게 배치하다. interleave는 특히 두 계열을 한 단위씩 교대로 층층이 배치하는 뉘앙스. 반의어는 separate/segregate(따로 분리하다), concatenate(그냥 죽 이어 붙이다)."
+        },
+        {
+          "h": "어원",
+          "t": "inter-(사이에, between) + leave. 여기서 leave는 잎을 뜻하는 leaf의 동사형으로, 원래 책에 빈 종이(잎)를 사이사이 끼워 넣던 제본 관행에서 왔다. 같은 inter- 뿌리: interject(사이에 던져 넣다), intersect(가로질러 교차하다), interpose(사이에 놓다). leaf 뿌리: leaflet, foliage(라틴 folium)."
+        },
+        {
+          "h": "활용",
+          "t": "연어: interleave A with B / interleave A and B. CS·ML에서 특히 자주 쓰인다 — interleaved memory(메모리 뱅크 교차 배치), interleaved execution/scheduling(작업 교대 실행), interleaved attention layers(어텐션 층 교대 구성). 학습과학에서 interleaving은 여러 유형 문제를 섞어 푸는 학습법(반대는 blocked practice)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "interleave vs interweave: interleave는 낱장·블록을 통째로 교대 배치(원본 단위가 유지됨), interweave는 실처럼 서로 관통해 얽힘(원본 경계가 사라짐). 명사형은 interleaving(과정)·interleaf(끼워 넣는 낱장) 둘 다 있으니 문맥 주의."
+        }
+      ],
+      "id": "interleave",
+      "added": "2026-08-31",
+      "audioUrl": "audio/interleave.mp3"
     }
   ]
 }
