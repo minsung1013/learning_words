@@ -2042,6 +2042,35 @@
       "id": "subject-to",
       "added": "2026-08-31",
       "audioUrl": "audio/subject-to.mp3"
+    },
+    {
+      "word": "lien",
+      "pos": "n.",
+      "ipa": "/liːn/",
+      "meaning": "유치권·선취특권·(담보)저당권. 채무가 변제될 때까지 채권자가 채무자의 재산에 대해 갖는 법적 담보권. 빚을 안 갚으면 그 재산을 처분해 변제받을 수 있음. 예: a lien on the property(부동산에 설정된 담보권), tax lien(조세 우선징수권).",
+      "example": "The bank placed a lien on the house until the loan is fully repaid.",
+      "exampleKo": "은행은 대출이 완전히 상환될 때까지 그 집에 담보권(유치권)을 설정했다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "lien(변제 전까지 재산에 붙는 담보권, 포괄적) / mortgage(부동산 담보 대출·저당권, 부동산 한정) / charge(영국식: 재산에 대한 담보 설정) / encumbrance(재산에 붙은 부담·권리제한 전반, lien보다 넓은 상위 개념) / pledge(동산을 직접 인도해 잡히는 질권) / security interest(담보권 일반, 미국 UCC 용어). 반대 상태: unencumbered(아무 부담·담보 없는 깨끗한 소유)."
+        },
+        {
+          "h": "어원",
+          "t": "프랑스어 lien(끈, 유대) ← 라틴어 ligamen(묶는 것) ← ligare(묶다). 즉 재산을 채무에 \"묶어 두는\" 끈이라는 이미지. ligare(묶다) 동원어: ligament(인대, 뼈를 묶는 것), oblige(의무로 묶다), ally/alliance(동맹, 함께 묶임), rely(다시 묶다→의지하다), religion(다시 묶는 것→종교), liable."
+        },
+        {
+          "h": "활용",
+          "t": "자주 쓰는 연어: place/put/impose a lien on(~에 담보권을 설정하다), release/lift a lien(담보권을 해제하다), lien holder(담보권자), tax lien(조세 담보권), mechanic's lien(공사·수리 대금 미지급 시 그 물건·건물에 붙는 유치권), first/prior lien(선순위 담보권). 계약서에서 \"free and clear of all liens\"(모든 담보·부담이 없는 상태로)라는 표현이 자산·IP 양도 조항에 자주 나옴."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음 함정: \"라이언(lion)\"이 아니라 /liːn/ \"린\"(또는 두 음절 \"리-언\") — 철자 ie가 [iː]. lien(담보권)과 lean(기대다/야윈)은 발음이 같거나 비슷해 문맥으로 구분. 뜻으로는 lien(재산에 붙는 담보권)과 debt(빚 자체)는 다름 — 빚을 담보하기 위한 권리가 lien."
+        }
+      ],
+      "id": "lien",
+      "added": "2026-08-31",
+      "audioUrl": "audio/lien.mp3"
     }
   ]
 }
