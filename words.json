@@ -2187,6 +2187,35 @@
       "id": "insofar",
       "added": "2026-08-31",
       "audioUrl": "audio/insofar.mp3"
+    },
+    {
+      "word": "remedy",
+      "pos": "n./v.",
+      "ipa": "/ˈremədi/",
+      "meaning": "(명) 법률: 구제(수단)·배상책임 — 계약 위반·권리 침해 시 법이 인정하는 구제 방법(손해배상·계약 해지·이행강제 등). 일반: 해결책, 치료제. (동) 바로잡다, 시정하다, 치료하다. 예: remedies for breach(위반에 대한 구제수단), remedy the defect(하자를 시정하다).",
+      "example": "If either party breaches the agreement, the other party may pursue any remedy available at law or in equity.",
+      "exampleKo": "어느 쪽이든 계약을 위반하면, 상대방은 보통법 또는 형평법상 이용 가능한 모든 구제수단을 취할 수 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "법률 명사: remedy(권리 침해에 대한 법적 구제 총칭) ↔ 구체 유형 damages(금전 손해배상), injunction(금지명령), specific performance(이행강제), rescission(계약 취소). 일반 명사: remedy ≈ solution(해결책) / cure(치료·근본 해결) / fix(임시·실용적 수정). 동사: remedy ≈ rectify(바로잡다) / redress(부당을 시정·보상) / cure(계약상 하자를 치유). 반의어: aggravate·worsen(악화시키다)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 remedium = re-(다시, 되돌려) + mederi(치료하다, 돌보다) → \"다시 낫게 하는 것\". mederi(치료·돌봄) 동원어: medicine(약·의학), medical(의학의), remediation(개선·정화, 환경 오염 remediation), meditate(원래 \"돌보다·재다\"→명상하다). 즉 remedy는 어원상 \"치료\"에서 \"법적 치유(구제)\"로 뜻이 확장됨."
+        },
+        {
+          "h": "활용",
+          "t": "계약 빈출: remedies for breach(위반 구제), legal/equitable remedy(보통법상·형평법상 구제), remedies are cumulative(구제수단은 병존적 — 하나 골라도 다른 것 포기 아님), sole and exclusive remedy(유일·배타적 구제수단, 책임 제한 조항), no adequate remedy at law(금전배상으로 충분치 않음→injunction 근거). 동사: remedy a breach/defect within 30 days(30일 내 시정), a cure period와 함께 쓰임."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "remedy(구제수단 = 침해에 대한 사후 해결책)와 right(권리 자체)는 다름 — 권리가 침해됐을 때 발동하는 게 remedy. 법률의 remedy(구제)와 일상의 remedy(치료제·해결책)는 같은 단어가 문맥에 따라 갈림. 동사 remedy는 remedied/remedying으로 변화(y→ie). \"remediation\"은 주로 환경 정화·교정 교육 맥락으로 갈라져 나간 파생어."
+        }
+      ],
+      "id": "remedy",
+      "added": "2026-08-31",
+      "audioUrl": "audio/remedy.mp3"
     }
   ]
 }
