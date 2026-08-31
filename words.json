@@ -2071,6 +2071,64 @@
       "id": "lien",
       "added": "2026-08-31",
       "audioUrl": "audio/lien.mp3"
+    },
+    {
+      "word": "vest",
+      "pos": "v.",
+      "ipa": "/vest/",
+      "meaning": "(동) (권리·권한·재산을) 부여하다, 귀속시키다. 스톡옵션·지분에서 vest = 일정 조건(근속 등)을 채워 권리가 확정되어 실제 내 것이 되다(베스팅). 예: options vest over four years(옵션이 4년에 걸쳐 베스팅됨), rights vest in the company(권리가 회사에 귀속됨).",
+      "example": "The stock options vest over four years, with 25% vesting after the first year.",
+      "exampleKo": "그 스톡옵션은 4년에 걸쳐 베스팅되며, 첫 해가 지나면 25%가 확정된다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "vest(권리를 정식으로 부여·귀속, 법률 어감; 자동사로는 권리가 확정됨) ≈ confer(격식 있게 수여) / grant(부여·승인) / bestow(하사하듯 베풀다) / entrust(믿고 맡기다). 스톡옵션 문맥의 반대: forfeit(조건 미충족으로 권리를 상실하다). vested(이미 확정된) ↔ unvested(아직 확정 안 된)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 vestire(옷을 입히다) ← vestis(옷). 권한을 \"입혀 준다\"는 이미지에서 \"권리를 부여하다\"로 발전. 동원어: vest(조끼, 명사), invest(안에 옷을 입히다→자본을 넣다·투자하다), divest(옷을 벗기다→매각·박탈하다), vestment(제의·예복), travesty(옷을 바꿔 입힘→우스꽝스러운 모방)."
+        },
+        {
+          "h": "활용",
+          "t": "자주 쓰는 연어: vest in(권리가 ~에게 귀속되다, 예: authority vests in the board), be vested with(~을 부여받다), vesting schedule/period(베스팅 일정·기간), vesting cliff(클리프: 최소 근속 전엔 0%였다가 한꺼번에 확정되는 시점), fully vested(전부 확정됨), vested interest(기득권익). HR·스타트업 지분·연금(pension vesting)에서 핵심 용어."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "명사 vest(미국=조끼, 영국=속옷 러닝셔츠)와 동사 vest(귀속·부여)를 문맥으로 구분. invest(투자)·divest(매각·박탈)와 어근은 같지만 뜻이 갈림. 스타트업에서 \"내 옵션이 vest됐다\"는 \"권리가 확정되어 이제 행사·소유 가능\"이라는 뜻이지 \"돈을 받았다\"는 게 아님(행사·매도는 별개)."
+        }
+      ],
+      "id": "vest",
+      "added": "2026-08-31",
+      "audioUrl": "audio/vest.mp3"
+    },
+    {
+      "word": "remuneration",
+      "pos": "n.",
+      "ipa": "/rɪˌmjuːnəˈreɪʃən/",
+      "meaning": "보수, 급여, 대가. 일·서비스에 대해 지급하는 금전적 보상을 가리키는 격식어(salary보다 포괄적 — 급여·상여·수당·현물 포함). 예: remuneration for services(서비스에 대한 보수), executive remuneration(임원 보수).",
+      "example": "The consultant is entitled to fair remuneration for the services rendered under this agreement.",
+      "exampleKo": "그 컨설턴트는 본 계약에 따라 제공한 서비스에 대해 정당한 보수를 받을 권리가 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "remuneration(제공한 일·서비스 전체에 대한 총보상, 매우 격식·계약 용어) / salary(정기적으로 받는 고정 급여) / wage(시급·일급 등 시간·작업량 기반 임금) / compensation(보상, 미국에서 보수 전반을 폭넓게 지칭) / pay(일반적·구어) / fee(전문 서비스 수임료) / reward(성과·공로에 대한 보상). 뉘앙스상 remuneration이 가장 포괄적이고 격식 있음."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 remunerari = re-(도로, 답례로) + munus(선물, 봉사, 직무) → \"봉사에 답례하다\". munus(선물·직무) 동원어: municipal(직무를 맡은→시의), immune(직무·부담이 면제된→면역의), community(선물을 나누는→공동체), munificent(선물을 많이 주는→후한), common."
+        },
+        {
+          "h": "활용",
+          "t": "자주 쓰는 연어: remuneration package(급여 패키지, 총보상), executive/director remuneration(임원 보수), remuneration committee(보수위원회, 영국 상장사 지배구조), total remuneration(총보수), in remuneration for(~에 대한 대가로). 동사 remunerate(보수를 주다), 형용사 remunerative(수익성 있는, 돈이 되는). 영국·영연방·법률·회계 문서에서 특히 자주 씀(미국은 compensation 선호)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "철자·발음 함정: renumeration이 아니라 reMUNeration — 어근이 number(numer-)가 아니라 munus(선물)라서 흔히 철자를 re-numer-로 잘못 씀·잘못 발음함. 강세는 -RA-에 /rɪˌmjuːnəˈreɪʃən/. 뜻으로는 remuneration(대가로 받는 보수)과 reimbursement(실비의 되갚음·환급)는 다름 — 전자는 노동의 보상, 후자는 쓴 돈을 돌려받는 것."
+        }
+      ],
+      "id": "remuneration",
+      "added": "2026-08-31",
+      "audioUrl": "audio/remuneration.mp3"
     }
   ]
 }
