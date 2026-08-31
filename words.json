@@ -2013,6 +2013,35 @@
       "id": "irrevocable",
       "added": "2026-08-31",
       "audioUrl": "audio/irrevocable.mp3"
+    },
+    {
+      "word": "subject to",
+      "pos": "phr./adj.",
+      "ipa": "/ˈsʌbdʒɪkt tuː/",
+      "meaning": "(구) ~을 조건으로 하는, ~에 따라 좌우되는; ~의 적용·지배를 받는; ~에 취약한. 앞의 것이 뒤의 조건·규정·영향력 아래 놓임을 뜻함. 예: subject to approval(승인을 조건으로), subject to change(변경될 수 있음), subject to tax(과세 대상).",
+      "example": "All prices are subject to change without notice, and any order is subject to approval by management.",
+      "exampleKo": "모든 가격은 통보 없이 변경될 수 있으며, 모든 주문은 경영진의 승인을 조건으로 한다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "subject to(조건 뜻) ≈ conditional on / contingent on / dependent on(~에 달려 있는). 적용받는 뜻 ≈ governed by / bound by / liable to(~의 지배·의무를 받는). 취약 뜻 ≈ prone to / susceptible to / liable to(~하기 쉬운). 반대: exempt from(~에서 면제된), independent of(~와 무관한), immune to(~에 영향받지 않는)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 subjectus = sub-(아래) + jacere/jactus(던지다) → \"아래에 던져진, 밑에 놓인\". 무언가의 밑에 놓여 그 지배·조건을 받는다는 이미지. jacere(던지다) 동원어: project(앞으로 던지다), reject(뒤로 던지다→거부), inject(안으로 던지다→주입), eject(밖으로 내던지다), object(맞은편에 던지다→반대·대상)."
+        },
+        {
+          "h": "활용",
+          "t": "계약·법률 빈출: subject to approval/availability/change/terms/conditions/tax/law. 문장 앞에 놓여 단서를 다는 용법: \"Subject to Section 5, the party may…\"(제5조에 따라). be동사와 결합(are subject to)하거나 명사 뒤 후치 수식(prices subject to change). \"subject to\"와 헷갈리는 \"subject of\"(~의 주제/대상)는 완전히 다른 뜻."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "subject to(~의 적용·조건을 받는) vs subject of(~의 주제·대상)를 전치사로 구분. 또 명사 subject(주제·과목·피험자)·형용사 subject(종속된)·동사 subject[səbˈdʒekt](~을 겪게 하다, 강세 이동)와 구별. \"subject to change\"는 \"바뀔 예정\"이 아니라 \"바뀔 수도 있음(변경 가능성)\"이라는 유보·면책 표현."
+        }
+      ],
+      "id": "subject-to",
+      "added": "2026-08-31",
+      "audioUrl": "audio/subject-to.mp3"
     }
   ]
 }
