@@ -1984,6 +1984,35 @@
       "id": "perpetual",
       "added": "2026-08-31",
       "audioUrl": "audio/perpetual.mp3"
+    },
+    {
+      "word": "irrevocable",
+      "pos": "adj.",
+      "ipa": "/ɪˈrevəkəbl/",
+      "meaning": "취소·철회할 수 없는, 돌이킬 수 없는. 한 번 정해지면 되돌리거나 무를 수 없음. 계약·라이선스에서 irrevocable license(철회 불가 라이선스)처럼 자주 씀.",
+      "example": "By signing, you grant an irrevocable license that cannot be withdrawn once the work is published.",
+      "exampleKo": "서명함으로써, 저작물이 공개되고 나면 철회할 수 없는(취소 불가) 라이선스를 부여하게 된다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "irrevocable(공식적으로 취소·철회 불가, 법률·계약 어감) / irreversible(물리적·상태적으로 되돌릴 수 없음, 예: irreversible damage) / final(더 이상 바꿀 수 없는 최종) / binding(구속력 있는, 지켜야 하는) / unconditional(무조건적). 반의어: revocable(취소 가능한), reversible(되돌릴 수 있는)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 revocare = re-(다시, 뒤로) + vocare(부르다) → \"다시 불러들이다\" = 철회하다. 여기에 부정 접두사 ir-(=in-, ~아닌)이 붙어 \"다시 불러들일 수 없는\". vocare(부르다) 동원어: revoke(철회하다), vocation(소명→직업), invoke(불러내다), advocate(대변하다), vocal(목소리의), provoke(불러일으키다→도발하다)."
+        },
+        {
+          "h": "활용",
+          "t": "자주 쓰는 연어: irrevocable license/grant/right(철회 불가 권리·라이선스), irrevocable trust(철회 불능 신탁), irrevocable letter of credit(취소불능 신용장, 무역), an irrevocable decision/commitment(돌이킬 수 없는 결정·약속). 부사 irrevocably(돌이킬 수 없게). 계약서에서 흔히 perpetual, irrevocable이 짝지어 등장(영구적이고 철회 불가한)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "발음 주의: 강세가 두 번째 음절 -REV-에 있음 /ɪˈrevəkəbl/, \"이리보커블\"이 아니라 \"이-레-버-커블\". irrevocable(철회 불가, 주로 법적·계약적 결정)과 irreversible(되돌릴 수 없음, 물리적·과정적 변화)는 문맥이 다름: 계약은 irrevocable, 화학반응·손상은 irreversible."
+        }
+      ],
+      "id": "irrevocable",
+      "added": "2026-08-31",
+      "audioUrl": "audio/irrevocable.mp3"
     }
   ]
 }
