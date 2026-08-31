@@ -1897,6 +1897,35 @@
       "id": "preamble",
       "added": "2026-08-29",
       "audioUrl": "audio/preamble.mp3"
+    },
+    {
+      "word": "provision",
+      "pos": "n./v.",
+      "ipa": "/prəˈvɪʒən/",
+      "meaning": "(명) 공급·준비·대비; (계약·법률의) 조항·규정; (복수 provisions) 식량·물자. (동) 물자를 공급하다 — IT에서는 자원을 할당·설정하다(프로비저닝).",
+      "example": "The contract contains a provision that allows either party to cancel with 30 days notice.",
+      "exampleKo": "그 계약에는 어느 쪽이든 30일 전 통보로 해지할 수 있다는 조항이 들어 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "공급 뜻: supply(일반적 공급) / provision(필요를 내다보고 미리 마련해 둠, 다소 격식) / procurement(조달·구매 절차). 조항 뜻: clause(계약의 개별 조항, 가장 일반적) / stipulation(특별히 명시·요구된 조건) / term(계약 조건 전반) / proviso(단서 조항). 반의어는 상황에 따라 shortage(공급 부족)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 providere = pro-(미리, 앞서) + videre(보다) → \"미리 내다보다\". 즉 앞을 내다보고 마련해 둔다는 뜻. 동원어: provide(제공하다), provident(앞날에 대비하는), providence(선견지명·섭리), vision·video(videre 계열)."
+        },
+        {
+          "h": "활용",
+          "t": "자주 쓰는 연어: make provision for(~에 대비하다), the provision of services(서비스 제공), a legal/statutory provision(법 조항), provisions of the treaty(조약 조항들). IT/클라우드에서 provision a server/resource = 서버·자원을 프로비저닝(할당·초기 설정)하다. 회계에서 provision = 충당금(손실 대비 적립)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "provision(대비·조항)과 revision(개정)·vision을 발음·철자로 혼동 주의. 복수형 provisions는 문맥상 \"식량·물자\"(예: 원정대의 provisions)와 \"여러 조항\" 둘 다 되므로 문맥으로 구분. 형용사 provisional(임시의)은 어원은 같지만 뜻이 완전히 달라짐 — \"미리 임시로 둔\"에서 파생."
+        }
+      ],
+      "id": "provision",
+      "added": "2026-08-31",
+      "audioUrl": "audio/provision.mp3"
     }
   ]
 }
