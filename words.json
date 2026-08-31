@@ -2129,6 +2129,35 @@
       "id": "remuneration",
       "added": "2026-08-31",
       "audioUrl": "audio/remuneration.mp3"
+    },
+    {
+      "word": "intellectual",
+      "pos": "adj./n.",
+      "ipa": "/ˌɪntəˈlektʃuəl/",
+      "meaning": "(형) 지적인, 지성의, 머리를 쓰는. (명) 지식인. 계약에서 intellectual property(IP)=지식재산(권): 특허·상표·저작권·영업비밀 등 창작·발명 결과물에 대한 권리. (사용자가 적은 interllectual은 철자 오류 — 올바른 철자는 intellectual, l 하나·r 없음.)",
+      "example": "All intellectual property created under this agreement shall vest in the company.",
+      "exampleKo": "본 계약에 따라 창출된 모든 지식재산은 회사에 귀속된다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "형용사: intellectual(지성·논리·학문적 사고의) / cerebral(냉철하고 이지적인, 감정보다 머리) / academic(학문적인, 때로 실용성 없는 뉘앙스) / cognitive(인지적, 심리·과학 용어) / brainy(머리 좋은, 구어). 명사 intellectual(지식인) ≈ scholar(학자) / thinker / highbrow(고상한 지성인, 다소 비꼬는). 반의어: instinctive·emotional(감성적), anti-intellectual(반지성적)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 intellectus(이해, 지성) ← intelligere = inter-(사이에) + legere(고르다, 읽다) → \"사이에서 골라내다\" = 분별·이해하다. legere(고르다·읽다) 동원어: intelligent(총명한), lecture(읽어 주는 것→강의), legible(읽을 수 있는), elect(골라내다→선출하다), collect(모으다), select, legend(읽혀야 할 것)."
+        },
+        {
+          "h": "활용",
+          "t": "핵심 연어: intellectual property(IP, 지식재산권) — patent(특허)·trademark(상표)·copyright(저작권)·trade secret(영업비밀)을 포괄. IP rights(지재권), intellectual property assignment(IP 양도), intellectual capital(지적 자본). 그 외 intellectual honesty(지적 정직성), intellectual curiosity(지적 호기심), intellectual disability(지적 장애). 계약에서는 대개 IP가 vest·assign·license 동사와 결합."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "철자 주의: intellectual (intel-lect-ual) — l이 두 번(intel+lect)이지만 r은 없음. 사용자가 쓴 \"interllectual\"은 흔한 오타. 또 intellectual(지성적, 사고 활동)과 intelligent(똑똑한, 능력)은 구별: 전자는 활동·성향, 후자는 지능 수준. 명사·형용사 형태가 같으니 문맥으로 구분(an intellectual = 지식인)."
+        }
+      ],
+      "id": "intellectual",
+      "added": "2026-08-31",
+      "audioUrl": "audio/intellectual.mp3"
     }
   ]
 }
