@@ -1955,6 +1955,35 @@
       "id": "pass-through",
       "added": "2026-08-31",
       "audioUrl": "audio/pass-through.mp3"
+    },
+    {
+      "word": "perpetual",
+      "pos": "adj.",
+      "ipa": "/pərˈpetʃuəl/",
+      "meaning": "끊임없이 계속되는, 영구적인, 종신의. 끝없이 반복되거나 영원히 지속되는 상태를 나타냄. 예: perpetual license(영구 라이선스), perpetual motion(영구 운동).",
+      "example": "The software comes with a perpetual license, so you pay once and use it forever without renewal.",
+      "exampleKo": "그 소프트웨어는 영구 라이선스로 제공되어, 한 번만 지불하면 갱신 없이 영원히 사용할 수 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "perpetual(끝없이 지속·반복, 종종 지겨울 정도로) / eternal(시간을 초월한 영원, 종교·추상적) / everlasting(영원히 지속되는, 다소 문학적) / permanent(변하지 않고 고정된, 일시적의 반대) / continual(계속 반복되는, 중간에 끊김 있음) vs continuous(끊김 없이 이어짐). 반의어: temporary(일시적), transient(덧없는), fleeting(순간적)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 perpetuus = per-(내내, 통틀어) + petere(향하다, 나아가다) → \"끝까지 쭉 나아가는\". petere(구하다·향하다) 동원어: compete(함께 겨루다), appetite(~로 향하는 욕구→식욕), petition(청원), repeat(다시 향하다). per- 계열: permanent, persist, perennial."
+        },
+        {
+          "h": "활용",
+          "t": "자주 쓰는 연어: perpetual license(영구 라이선스), perpetual motion machine(영구기관), perpetual calendar(만세력), perpetual bond/annuity(금융: 만기 없는 영구채·영구연금), in perpetuity(법률: 영구히). 부사 perpetually(끊임없이). 부정적 뉘앙스로 \"perpetual complaints\"(끊임없는 불평)처럼 지겨운 반복을 강조하기도."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "perpetual vs perennial: perennial은 원래 \"여러 해 사는(식물)\"→매년 되풀이되는(perennial problem), perpetual은 쉬지 않고 죽 이어지는. continual(반복되며 끊김 있음)과 continuous(완전히 연속)의 구분도 함께 알아두면 좋음. 금융의 perpetual은 \"만기가 없다\"는 기술적 의미."
+        }
+      ],
+      "id": "perpetual",
+      "added": "2026-08-31",
+      "audioUrl": "audio/perpetual.mp3"
     }
   ]
 }
