@@ -1926,6 +1926,35 @@
       "id": "provision",
       "added": "2026-08-31",
       "audioUrl": "audio/provision.mp3"
+    },
+    {
+      "word": "pass-through",
+      "pos": "adj./n.",
+      "ipa": "/ˈpæsˌθruː/",
+      "meaning": "(형/명) 통과형의; 비용·세금 등을 자기가 부담하지 않고 그대로 다음 단계(고객)로 전가하는 것. pass-through cost = 마진 없이 실비로 전가되는 비용. 세법에서 pass-through entity = 법인세를 안 내고 이익이 주주 개인에게 바로 넘어가 과세되는 사업체(예: S-corp, LLC).",
+      "example": "Shipping is treated as a pass-through cost, so we bill it to the client at exactly what the carrier charges.",
+      "exampleKo": "배송비는 패스스루 비용으로 처리되어, 운송사가 청구한 금액 그대로 고객에게 청구된다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "pass-through cost ≈ pass-along cost(둘 다 전가). 관련: markup(원가에 얹는 마진, pass-through는 이 마진이 0)과 대비됨. cost pass-through(경제학 용어: 원가 변동이 소비자 가격에 반영되는 정도) / reimbursable expense(고객이 되갚아 주는 실비, 개념 유사). 반대 개념은 absorbed cost(기업이 스스로 흡수·부담하는 비용)."
+        },
+        {
+          "h": "어원",
+          "t": "pass(라틴 passus, 걸음→통과하다) + through(관통하여)의 합성어. \"뚫고 지나가게 하다\" → 비용이 회사에 머물지 않고 그대로 통과해 고객에게 도달한다는 이미지. 동사구 pass through(통과하다)에서 형용사·명사로 굳어진 표현."
+        },
+        {
+          "h": "활용",
+          "t": "자주 쓰는 연어: pass-through cost/expense/charge(전가 비용), pass-through entity/business(세법상 도관 과세 사업체), pass-through rate(전가율), pass-through inflation(원가 상승이 소비자물가로 전가). 회계·세무·에너지(연료비 전가)·계약서에서 빈출. 동사로 쓰면 \"pass the cost through to consumers\"(비용을 소비자에게 전가하다)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "하이픈 pass-through(형용사·명사)와 동사구 pass through(띄어 씀)를 구분: \"a pass-through cost\" vs \"we pass the cost through.\" 또 pass-through entity는 \"세금이 통과한다\"는 뜻이지 \"세금이 없다\"는 뜻이 아님 — 법인 단계를 건너뛰고 개인 단계에서 과세됨."
+        }
+      ],
+      "id": "pass-through",
+      "added": "2026-08-31",
+      "audioUrl": "audio/pass-through.mp3"
     }
   ]
 }
