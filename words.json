@@ -2158,6 +2158,35 @@
       "id": "intellectual",
       "added": "2026-08-31",
       "audioUrl": "audio/intellectual.mp3"
+    },
+    {
+      "word": "insofar",
+      "pos": "adv./conj.",
+      "ipa": "/ˌɪnsoʊˈfɑːr/",
+      "meaning": "(거의 항상 insofar as 형태) ~하는 한, ~하는 범위 내에서, ~인 한도에서. 어떤 진술·규정이 적용되는 범위·한계를 한정하는 격식체 표현. 계약·법률·학술 글에 자주 등장. (영국식 철자 in so far as로도 씀.)",
+      "example": "This clause applies insofar as it does not conflict with local law.",
+      "exampleKo": "이 조항은 현지법과 충돌하지 않는 한도에서 적용된다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "insofar as ≈ to the extent that(~하는 범위까지, 가장 가까운 동의어) / inasmuch as(~이므로/~하는 한, 이유+범위 뉘앙스) / to the degree that / as far as(~하는 한, 더 구어적) / provided that(~라는 조건이라면, 조건 강조). insofar as는 \"범위·정도의 한정\"에 초점(전부가 아니라 딱 그만큼만). 반대 어감: regardless of / irrespective of(~와 상관없이)."
+        },
+        {
+          "h": "어원",
+          "t": "in + so + far가 굳어진 합성 부사. 문자 그대로 \"그만큼 멀리(far) 미치는 정도(so) 안에서(in)\" → 적용 범위를 물리적 거리에 비유한 표현. 영국식은 네 단어로 띄어 in so far as, 미국식은 붙여 insofar as로 씀. as가 뒤따라 종속절을 이끎."
+        },
+        {
+          "h": "활용",
+          "t": "거의 항상 insofar as + 절(주어+동사) 형태: \"insofar as it is possible\"(가능한 한), \"insofar as the law permits\"(법이 허용하는 한). 문장 앞·중간 모두 가능. 계약서 면책·준거법 조항, 학술 논문에서 주장의 적용 범위를 좁힐 때 빈출. 단독 insofar만 쓰는 경우는 드묾 — as를 잊지 말 것."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "insofar as(범위·정도의 한정: 그만큼만)와 as long as(조건·기간: ~하기만 하면/~하는 동안)를 혼동 주의 — 전자는 \"어느 정도까지\", 후자는 \"~라는 조건이면\". insofar as(범위)와 because/since(이유)도 구분. 철자: insofar as는 세 요소가 붙지만 뒤의 as는 반드시 띄움. \"in so far as\"(영국)도 같은 뜻으로 맞는 표기."
+        }
+      ],
+      "id": "insofar",
+      "added": "2026-08-31",
+      "audioUrl": "audio/insofar.mp3"
     }
   ]
 }
