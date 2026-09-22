@@ -2245,6 +2245,35 @@
       "id": "interleave",
       "added": "2026-08-31",
       "audioUrl": "audio/interleave.mp3"
+    },
+    {
+      "word": "pursuant",
+      "pos": "adj./adv.",
+      "ipa": "/pərˈsuːənt/",
+      "meaning": "~에 따른, ~에 의거한 (거의 항상 pursuant to 형태로 \"~에 따라, ~에 의거하여\")",
+      "example": "Pursuant to the agreement, both parties must submit a report each quarter.",
+      "exampleKo": "계약에 따라, 양측은 분기마다 보고서를 제출해야 한다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "in accordance with(가장 흔한 일반 격식, ~에 부합하여) / under(법·조항 아래에서, pursuant to보다 짧고 실무적) / in compliance with(규정 준수를 강조) / as per(구어·비즈니스체, 다소 진부) / according to(가장 중립적·일상적). pursuant to는 이들 중 가장 법률 문서 특유의 딱딱한 표현이다."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 prosequi(pro- \"앞으로\" + sequi \"따르다, 뒤쫓다\")에서 온 pursue의 현재분사형. 즉 \"뒤따르는\"이 원뜻. 같은 sequi 뿌리: sequence(연속), consequence(따라오는 결과), sequel(속편), pursue(추구하다)."
+        },
+        {
+          "h": "활용",
+          "t": "거의 예외 없이 전치사 to와 함께 pursuant to X 형태로 쓴다: pursuant to the contract/statute/section 5/regulations. 계약서·판결문·규정·특허 문서에서 조항을 인용할 때 표준 표현. 형용사 단독(a pursuant clause)이나 부사 용법은 드물다."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "pursuant to ≠ pursuing(추구하는 중). 발음도 \"퍼-수-언트\"로 pursue(퍼-수)와 다르게 t까지 살려 읽는다. 일상 글에서는 과하게 격식적이므로 in accordance with나 under로 바꾸는 편이 자연스럽다."
+        }
+      ],
+      "id": "pursuant",
+      "added": "2026-09-22",
+      "audioUrl": "audio/pursuant.mp3"
     }
   ]
 }
