@@ -2274,6 +2274,35 @@
       "id": "pursuant",
       "added": "2026-09-22",
       "audioUrl": "audio/pursuant.mp3"
+    },
+    {
+      "word": "proprietary",
+      "pos": "adj./n.",
+      "ipa": "/prəˈpraɪəˌtɛri/",
+      "meaning": "독점의, 독자(사유)의 · 특정 회사가 특허·영업비밀 등으로 소유해 외부가 자유롭게 쓰거나 볼 수 없는. (명사로는 소유주·독점권)",
+      "example": "The company refused to share its proprietary algorithm with the research community.",
+      "exampleKo": "그 회사는 자사의 독자 알고리즘을 연구 커뮤니티와 공유하기를 거부했다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "private=단순히 비공개 / confidential=기밀로 지정돼 유출 금지 / patented=특허로 법적 보호 / exclusive=독점적 사용권. proprietary는 이 중 \"법적 소유권에 근거해 그 주체만 쓸 수 있고 공개하지 않는\"이라는 뉘앙스가 핵심이다. 반의어는 open-source, public, generic(비독점·범용)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 proprietas(소유, 고유함)에서 왔고, 그 뿌리는 proprius(=ones own, 자기 자신의). 같은 뿌리의 동원어: property(재산), proper(고유의·적절한), appropriate(자기 것으로 삼다→전유하다), proprietor(소유주)."
+        },
+        {
+          "h": "활용",
+          "t": "연어: proprietary technology/software/data/algorithm/format/blend, proprietary rights(소유권). 제약·바이오에서는 proprietary compound(독자 화합물), proprietary platform(자사 플랫폼 기술)처럼 쓰여 \"공개 안 된 자사만의 자산\"을 뜻한다. 반대 개념인 open-source와 자주 대비된다."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "proprietary(독점·독자의) vs propriety(예의·적절함)는 철자가 비슷하지만 전혀 다른 단어다. 또 proprietary는 \"내가 가진\"이 아니라 \"소유권에 묶여 외부가 못 쓰는\"에 방점이 있다 — 그래서 proprietary format은 호환성이 떨어진다는 부정적 함의로도 쓰인다."
+        }
+      ],
+      "id": "proprietary",
+      "added": "2026-10-07",
+      "audioUrl": "audio/proprietary.mp3"
     }
   ]
 }
