@@ -2303,6 +2303,35 @@
       "id": "proprietary",
       "added": "2026-10-07",
       "audioUrl": "audio/proprietary.mp3"
+    },
+    {
+      "word": "delegation",
+      "pos": "n.",
+      "ipa": "/ˌdɛlɪˈɡeɪʃ(ə)n/",
+      "meaning": "① 위임 — 권한·업무·책임을 남에게 맡겨 넘기는 것 ② 대표단 — 집단을 대표해 파견된 사람들. (복수 delegations: 위임된 권한/작업들, 또는 여러 대표단)",
+      "example": "Effective delegation of tasks lets a manager focus on strategic decisions rather than routine work.",
+      "exampleKo": "업무를 효과적으로 위임하면 관리자는 일상적인 일 대신 전략적 의사결정에 집중할 수 있다.",
+      "detail": [
+        {
+          "h": "유의어·뉘앙스",
+          "t": "① 위임 뜻: assignment=일을 배정 / entrustment=믿고 맡김 / handover=인계 / devolution=(권력을) 하부로 이양. delegation은 \"권한까지 함께 넘겨 대신 수행하게 함\"이 핵심. ② 대표단 뜻: deputation, mission, contingent과 유의어. 반대 개념은 centralization(중앙집권), micromanagement(일일이 간섭)."
+        },
+        {
+          "h": "어원",
+          "t": "라틴어 delegare(= de-(아래로) + legare(파견하다, 맡기다))에서 왔다. legare의 뿌리 leg-(법·보냄)에서 나온 동원어: legate(교황 특사), legacy(유산), legislate(입법하다), relegate(강등시키다), colleague(동료)."
+        },
+        {
+          "h": "활용",
+          "t": "연어: delegation of authority/power/responsibility/tasks, lead a delegation(대표단을 이끌다). IT·보안에서 \"delegation\"은 권한 위임 메커니즘(예: OAuth delegated access, Kerberos delegation)을 뜻하고, 프로그래밍에서는 한 객체가 작업을 다른 객체에 넘기는 \"delegation pattern\"으로 쓰인다. 동사형은 delegate(위임하다), 명사 delegate(대표·대리인)."
+        },
+        {
+          "h": "헷갈림·구분",
+          "t": "delegate는 명사(대표, /ˈdɛlɪɡət/)와 동사(위임하다, /ˈdɛlɪɡeɪt/)로 발음이 다르니 주의. 또 delegation(위임·대표단) vs relegation(강등)을 혼동하지 말 것 — 뿌리는 같지만 의미가 반대쪽이다."
+        }
+      ],
+      "id": "delegation",
+      "added": "2026-10-07",
+      "audioUrl": "audio/delegation.mp3"
     }
   ]
 }
